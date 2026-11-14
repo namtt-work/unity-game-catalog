@@ -1,0 +1,9165 @@
+window.GAMES_DATA = [
+  {
+    "id": 1,
+    "name": "Castle Clash",
+    "key": "com.igg.castleclash",
+    "publisher": "IGG",
+    "year": "2013",
+    "category": "Xây căn cứ & đột kích",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn xây lâu đài, đặt tháp và tường phòng thủ, triệu hồi anh hùng có kỹ năng riêng. Đem quân và anh hùng đi đánh căn cứ người khác để cướp tài nguyên. Có nhiều chế độ như thủ ngục tối, đấu bang hội và săn trùm.",
+    "icon_url": "https://hitask.io/uploads/b7363b42-be8c-4cf1-9e48-5723c2c27210.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.igg.castleclash",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=LLPf20k0pVI",
+      "apkpure": "https://apkpure.com/castle-clash/com.igg.castleclash"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Castle Clash + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Castle Clash + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Castle Clash + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Hustle Castle",
+    "key": "com.my.hc.rpg.kingdom.simulator",
+    "publisher": "MY.GAMES",
+    "year": "2017",
+    "category": "Xây căn cứ & đột kích",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Lâu đài của bạn là một tòa nhà nhiều phòng, xếp dân vào từng phòng để sản xuất, luyện quân. Trang bị cho dân để thành lính rồi đánh quái theo cốt truyện và đột kích lâu đài người khác. Nâng cấp phòng và mở tầng mới để lâu đài lớn dần.",
+    "icon_url": "https://hitask.io/uploads/4d02998c-fac4-45ad-8000-b223034e7bdb.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.my.hc.rpg.kingdom.simulator",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=OFKVxo1XZV8",
+      "apkpure": "https://apkpure.com/hustle-castle/com.my.hc.rpg.kingdom.simulator"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Hustle Castle + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Hustle Castle + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Hustle Castle + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Frag Pro Shooter",
+    "key": "com.ohbibi.fps",
+    "publisher": "Oh BiBi",
+    "year": "2019",
+    "category": "PvP bắn súng 3v3",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn súng góc nhìn sau lưng, đội 1v1 hoặc 2v2, chiếm điểm và phá tháp đối thủ. Bạn mang đội 5 nhân vật và đổi qua lại ngay trong trận. Mỗi nhân vật có súng, kỹ năng và vai trò khác nhau.",
+    "icon_url": "https://hitask.io/uploads/b594c54a-1ecd-40f1-8161-e43d8f08a625.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.ohbibi.fps",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=OZKVakB9U5Q",
+      "apkpure": "https://apkpure.com/frag-pro-shooter/com.ohbibi.fps"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Frag Pro Shooter + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Frag Pro Shooter + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Frag Pro Shooter + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Castle Crush",
+    "key": "com.tfgco.games.strategy.free.castlecrush",
+    "publisher": "Wildlife Studios",
+    "year": "2016",
+    "category": "Thẻ bài PvP theo làn",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Đấu 1v1 thời gian thực: mỗi bên có lâu đài và một bộ thẻ quân, phép. Thả quân xuống sân bằng năng lượng hồi theo thời gian, quân tự tiến lên đánh lâu đài địch. Trận ngắn khoảng 3 phút, leo hạng để mở thẻ mới.",
+    "icon_url": "https://hitask.io/uploads/17cec23e-6a97-40c3-9fa6-4e79ae6ab58a.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.tfgco.games.strategy.free.castlecrush",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=GSuZ3fVaOrc",
+      "apkpure": "https://apkpure.com/castle-crush/com.tfgco.games.strategy.free.castlecrush"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Castle Crush + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Castle Crush + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Castle Crush + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Warcraft Rumble",
+    "key": "com.blizzard.arc",
+    "publisher": "Blizzard",
+    "year": "2023",
+    "category": "Thẻ bài PvP theo làn",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Bạn chọn một thủ lĩnh và bộ 6 quân tí hon trong thế giới Warcraft. Thả quân tốn vàng lên bản đồ, quân tự đi theo đường để phá tháp và đánh trùm. Có chiến dịch PvE dài và đấu PvP, nâng cấp quân bằng cách sưu tập và lên cấp.",
+    "icon_url": "https://hitask.io/uploads/0aa602e6-7444-4f2e-abff-76d811b749e8.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.blizzard.arc",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=UdclbAxIQnY",
+      "apkpure": "https://apkpure.com/warcraft-rumble/com.blizzard.arc"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Warcraft Rumble + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Warcraft Rumble + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Warcraft Rumble + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Stormbound",
+    "key": "com.kongregate.mobile.stormbound.google",
+    "publisher": "Paladin Studios / Kongregate",
+    "year": "2017",
+    "category": "Thẻ bài PvP theo làn",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Bàn cờ 4 cột, mỗi lượt bạn đặt quân và công trình ở hàng phía trước của mình. Quân tự tiến lên mỗi lượt, đẩy được tới cuối bàn là trừ máu căn cứ địch. Vừa đánh bài vừa phải giữ tiền tuyến để có chỗ đặt quân.",
+    "icon_url": "https://hitask.io/uploads/d5428cdb-f84f-45a7-84e1-ac1dc8f5e959.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.kongregate.mobile.stormbound.google",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=TODb92_djOA",
+      "apkpure": "https://apkpure.com/stormbound/com.kongregate.mobile.stormbound.google"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Stormbound + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Stormbound + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Stormbound + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Dark War Survival",
+    "key": "com.readygo.dark.gp",
+    "publisher": "Florere (Omnilojo)",
+    "year": "2024",
+    "category": "4X sinh tồn quản lý dân",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn dựng nơi trú ẩn giữa thế giới zombie, giao việc cho người sống sót và mở rộng khu trại. Lập đội anh hùng đi dọn zombie, lấy tài nguyên trên bản đồ mở. Chơi theo liên minh để đánh boss, chiếm lãnh thổ và đấu server.",
+    "icon_url": "https://hitask.io/uploads/01275f1d-3eee-48f4-9cbd-520f1bd97222.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.readygo.dark.gp",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=ti8gcnNC9Aw",
+      "apkpure": "https://apkpure.com/dark-war-survival/com.readygo.dark.gp"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Dark War Survival + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Dark War Survival + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Dark War Survival + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Last War: Survival",
+    "key": "com.fun.lastwar.gp",
+    "publisher": "FUNFLY",
+    "year": "2023",
+    "category": "4X mở đầu bằng minigame",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Mở đầu bằng minigame lái xe chạy qua các cổng nhân lính và bắn zombie trên đường. Sau đó bạn xây căn cứ, nâng cấp xe, đội hình anh hùng và quân lính. Phần chính là bản đồ 4X: lập liên minh, đánh chiếm thành và đấu với các server khác.",
+    "icon_url": "https://hitask.io/uploads/dff93641-2a39-432a-adb2-0f926d5f1e7d.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.fun.lastwar.gp",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=vqdlxOGSldc",
+      "apkpure": "https://apkpure.com/last-war-survival/com.fun.lastwar.gp"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Last War: Survival + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Last War: Survival + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Last War: Survival + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Evony: The King's Return",
+    "key": "com.topgamesinc.evony",
+    "publisher": "TG Inc.",
+    "year": "2016",
+    "category": "4X mở đầu bằng minigame",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Trước khi vào game chính bạn giải các màn puzzle nhỏ như kéo chốt, chọn cửa. Sau đó xây thành, phát triển kinh tế, chiêu mộ tướng và huấn luyện quân. Bản đồ thế giới có liên minh, đánh chiếm thành và chiến tranh server.",
+    "icon_url": "https://hitask.io/uploads/c948cb63-6935-4e3c-9f34-5906b4698eca.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.topgamesinc.evony",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=dmndMz1tfnI",
+      "apkpure": "https://apkpure.com/evony-the-king-s-return/com.topgamesinc.evony"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Evony: The King's Return + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Evony: The King's Return + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Evony: The King's Return + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Mushroom Wars 2",
+    "key": "com.zillionwhales.mushroomwars2",
+    "publisher": "Zillion Whales",
+    "year": "2017",
+    "category": "Kéo quân chiếm thành",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bản đồ có nhiều ngôi nhà nấm, mỗi nhà tự sinh quân theo thời gian. Bạn kéo quân từ nhà này sang nhà khác để chiếm, biến nhà thành trại lính, tháp bắn hoặc lò rèn. Có anh hùng với kỹ năng riêng và chế độ PvP 1v1, 2v2 trong vài phút.",
+    "icon_url": "https://hitask.io/uploads/d008f044-a8da-4bab-9326-504c3ea4178b.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.zillionwhales.mushroomwars2",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=5VmgiTDUG_M",
+      "apkpure": "https://apkpure.com/mushroom-wars-2/com.zillionwhales.mushroomwars2"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Mushroom Wars 2 + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Mushroom Wars 2 + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Mushroom Wars 2 + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Crowd City",
+    "key": "io.voodoo.crowdcity",
+    "publisher": "VOODOO",
+    "year": "2018",
+    "category": "Gom đội hình loạn đấu",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn chạy qua thành phố, đi ngang người đứng lẻ thì họ nhập vào đám đông của bạn. Đám đông lớn hơn thì nuốt được đám nhỏ hơn của người khác. Hết giờ ai có đám đông lớn nhất thì thắng.",
+    "icon_url": "https://hitask.io/uploads/54a351c5-229c-45a6-b1fc-8f005b8b39a8.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=io.voodoo.crowdcity",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=RgSZEOLLZiY",
+      "apkpure": "https://apkpure.com/crowd-city/io.voodoo.crowdcity"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Crowd City + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Crowd City + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Crowd City + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "War Robots",
+    "key": "com.pixonic.wwr",
+    "publisher": "MY.GAMES (Pixonic)",
+    "year": "2014",
+    "category": "Đánh robot PvP",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Đánh đội 6v6 bằng robot khổng lồ trên bản đồ có nhà cửa che chắn. Bạn mang tới 5 robot vào trận, robot bị phá thì gọi con tiếp theo. Chế độ chính là chiếm cờ; ngoài trận lắp vũ khí, module và phi công cho từng robot.",
+    "icon_url": "https://hitask.io/uploads/00fe6b8d-baa4-437e-af58-33f833a3a712.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.pixonic.wwr",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=wyVOqaMe4ds",
+      "apkpure": "https://apkpure.com/war-robots/com.pixonic.wwr"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "War Robots + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "War Robots + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "War Robots + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Mech Arena",
+    "key": "com.plarium.mechlegion",
+    "publisher": "Plarium",
+    "year": "2021",
+    "category": "Đánh robot PvP",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Đấu 5v5 bằng robot trên các bản đồ nhỏ, trận chỉ vài phút. Mỗi robot có vũ khí và kỹ năng như khiên, nhảy, tàng hình. Ngoài trận mở và lắp vũ khí, nâng cấp robot và phi công.",
+    "icon_url": "https://hitask.io/uploads/94ab91c5-d3f6-43b5-94f6-52c63ba4010f.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.plarium.mechlegion",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=1iNhcljH1bs",
+      "apkpure": "https://apkpure.com/mech-arena/com.plarium.mechlegion"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Mech Arena + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Mech Arena + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Mech Arena + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Zooba",
+    "key": "com.wildlife.games.battle.royale.free.zooba",
+    "publisher": "Wildlife Studios",
+    "year": "2019",
+    "category": "Bắn súng chiến thuật top-down",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Battle royale nhìn từ trên xuống với các nhân vật thú. Rơi xuống bản đồ, nhặt súng và đồ, tránh vùng độc đang thu hẹp. Mỗi con thú có kỹ năng riêng, người sống sót cuối cùng thắng.",
+    "icon_url": "https://hitask.io/uploads/da48d479-8e82-4fc2-87be-1382af622bbf.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.wildlife.games.battle.royale.free.zooba",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=wlXWkmMBuKI",
+      "apkpure": "https://apkpure.com/zooba/com.wildlife.games.battle.royale.free.zooba"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Zooba + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Zooba + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Zooba + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Bullet Echo",
+    "key": "com.zeptolab.bulletecho.google",
+    "publisher": "ZeptoLab",
+    "year": "2020",
+    "category": "Bắn súng chiến thuật top-down",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Nhìn từ trên xuống, bạn chỉ thấy kẻ địch trong vùng đèn pin phía trước và nghe tiếng bước chân của chúng. Đánh đội 3v3 hoặc battle royale, mỗi anh hùng có súng và kỹ năng riêng. Trận ngắn, chú trọng phục kích và phối hợp.",
+    "icon_url": "https://hitask.io/uploads/a7158002-2287-47c7-b61f-9abff9677c4c.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.zeptolab.bulletecho.google",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=5ohhvYS3Mmc",
+      "apkpure": "https://apkpure.com/bullet-echo/com.zeptolab.bulletecho.google"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Bullet Echo + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Bullet Echo + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Bullet Echo + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Tacticool",
+    "key": "com.panzerdog.tacticool",
+    "publisher": "Panzerdog",
+    "year": "2019",
+    "category": "Bắn súng chiến thuật top-down",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Bắn súng 5v5 nhìn từ trên xuống trong bản đồ nhỏ, tường và đồ vật có thể phá. Mỗi nhân vật có súng và kỹ năng như lựu đạn, khiên, drone. Trận khoảng 3 phút với các chế độ chiếm điểm và đặt bom.",
+    "icon_url": "https://hitask.io/uploads/102eb420-87a1-45e4-b80c-a0cc3e416581.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.panzerdog.tacticool",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=GWqL0QXntTk",
+      "apkpure": "https://apkpure.com/tacticool/com.panzerdog.tacticool"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Tacticool + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Tacticool + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Tacticool + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Brawlhalla",
+    "key": "air.com.ubisoft.brawl.halla.platform.fighting.action.pvp",
+    "publisher": "Ubisoft",
+    "year": "2020",
+    "category": "Đối kháng 2D",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Đối kháng nền tảng: đánh để tăng phần trăm sát thương rồi hất văng đối thủ ra khỏi sàn. Có hơn 50 nhân vật, mỗi người dùng 2 loại vũ khí nhặt trên sân. Chơi online đến 8 người, có đấu hạng.",
+    "icon_url": "https://hitask.io/uploads/dde75cf6-c68f-4b15-a6bc-c9769960d6b5.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=air.com.ubisoft.brawl.halla.platform.fighting.action.pvp",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=wW_RFmSWiJk",
+      "apkpure": "https://apkpure.com/brawlhalla/air.com.ubisoft.brawl.halla.platform.fighting.action.pvp"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Brawlhalla + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Brawlhalla + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Brawlhalla + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Skullgirls Mobile",
+    "key": "com.autumn.skullgirls",
+    "publisher": "Autumn Games",
+    "year": "2017",
+    "category": "Đối kháng 2D",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Đối kháng 2D vẽ tay, bạn chạm và vuốt để đấm, đá, ra chiêu và combo. Sưu tập nhân vật và biến thể, xếp đội 3 người. Có cốt truyện, sự kiện và đấu với đội của người chơi khác.",
+    "icon_url": "https://hitask.io/uploads/f0650b52-f232-4648-993a-3b56a96ded48.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.autumn.skullgirls",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=ZYnv-0FpKEw",
+      "apkpure": "https://apkpure.com/skullgirls-mobile/com.autumn.skullgirls"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Skullgirls Mobile + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Skullgirls Mobile + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Skullgirls Mobile + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Paper.io 2",
+    "key": "io.voodoo.paper2",
+    "publisher": "VOODOO",
+    "year": "2018",
+    "category": "Chiếm lãnh thổ bằng thẻ",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn điều khiển một khối màu chạy ra ngoài vùng của mình và vẽ đường để bao thêm đất. Quay về vùng cũ thì phần đất bao được thành của bạn. Bị đối thủ cắt ngang đường đang vẽ là thua, ai chiếm nhiều đất nhất thì thắng.",
+    "icon_url": "https://hitask.io/uploads/531fee69-aab8-457e-8ef3-cf093c89b9ed.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=io.voodoo.paper2",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=nlS8oFNuCwM",
+      "apkpure": "https://apkpure.com/paper-io-2/io.voodoo.paper2"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Paper.io 2 + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Paper.io 2 + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Paper.io 2 + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Stick War: Legacy",
+    "key": "com.maxgames.stickwarlegacy",
+    "publisher": "Max Games Studios",
+    "year": "2016",
+    "category": "RTS người que",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Bạn đào vàng bằng thợ mỏ, rồi huấn luyện kiếm sĩ, cung thủ, pháp sư và khổng lồ người que. Ra lệnh cho cả đội tấn công, phòng thủ hoặc rút về, hoặc tự điều khiển một lính. Phá tượng của phe địch là thắng.",
+    "icon_url": "https://hitask.io/uploads/6234ffaf-5a4b-41ce-a2e7-e5950479da46.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.maxgames.stickwarlegacy",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=wdmDL89Ix8c",
+      "apkpure": "https://apkpure.com/stick-war-legacy/com.maxgames.stickwarlegacy"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Stick War: Legacy + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Stick War: Legacy + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Stick War: Legacy + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Stick War: Saga",
+    "key": "com.maxgames.stickwar3",
+    "publisher": "Max Games Studios",
+    "year": "2023",
+    "category": "RTS người que",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Phần mới của Stick War (trước gọi là Stick War 3) có PvP: bạn xây bộ bài quân và phép rồi đấu với người chơi khác. Đào vàng, ra lính và ra lệnh cho cả đội, hoặc tự điều khiển một lính. Có chiến dịch, chế độ co-op và tùy biến quân.",
+    "icon_url": "https://hitask.io/uploads/a6e26d79-2aef-4af5-8ec7-773d75fdffb9.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.maxgames.stickwar3",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=eZeKGP6rpO0",
+      "apkpure": "https://apkpure.com/stick-war-saga/com.maxgames.stickwar3"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Stick War: Saga + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Stick War: Saga + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Stick War: Saga + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Lumi Master",
+    "key": "com.bilibili.lumi",
+    "publisher": "Bilibili",
+    "year": "2026",
+    "category": "Coin-pusher + sưu tập sinh vật",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắt sinh vật Lumi bằng máy đẩy xu giống máy ở khu trò chơi, mỗi phiên chơi khoảng 5 phút bằng một tay. Dùng Lumi để xây thị trấn và tăng năng lượng. Có PvP cướp tài nguyên của người chơi khác.",
+    "icon_url": "https://hitask.io/uploads/8d5a3f8b-75e7-4519-9991-2af5e7f1f739.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.bilibili.lumi",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=tf2cmVGNsmU",
+      "apkpure": "https://apkpure.com/lumi-master/com.bilibili.lumi"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Lumi Master + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Lumi Master + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Lumi Master + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Random Dice Defense",
+    "key": "com.percent.royaldice",
+    "publisher": "111%",
+    "year": "2019",
+    "category": "Thủ thành ghép quân PvP",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Bạn mang bộ 5 loại xúc xắc, mỗi lần bấm sẽ ra một viên ngẫu nhiên trên bàn. Kéo hai viên cùng loại và cùng số chấm vào nhau để lên cấp cao hơn. Đấu PvP xem ai chặn quái lâu hơn, hoặc co-op cùng người khác.",
+    "icon_url": "https://hitask.io/uploads/6aaa71c7-cd97-45af-b331-6c4d92afaf7e.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.percent.royaldice",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=U7rSMOi2-Mo",
+      "apkpure": "https://apkpure.com/random-dice-defense/com.percent.royaldice"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Random Dice Defense + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Random Dice Defense + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Random Dice Defense + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Top War: Battle Game",
+    "key": "com.topwar.gp",
+    "publisher": "Topwar Studio",
+    "year": "2019",
+    "category": "4X ghép quân",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn ghép hai đơn vị cùng cấp như lính, xe tăng, máy bay để ra bản mạnh hơn, ghép cả công trình trong căn cứ. Đem quân đánh quái và căn cứ người chơi khác trên bản đồ thế giới. Tham gia liên minh để đánh chiếm và chiến tranh server.",
+    "icon_url": "https://hitask.io/uploads/bde7f0d6-8918-4e40-9c0c-40df84825c78.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.topwar.gp",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=DSZJ3qV3sdg",
+      "apkpure": "https://apkpure.com/top-war-battle-game/com.topwar.gp"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Top War: Battle Game + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Top War: Battle Game + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Top War: Battle Game + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Dead Ahead: Zombie Warfare",
+    "key": "com.mobirate.DeadAheadTactics",
+    "publisher": "Mobirate",
+    "year": "2017",
+    "category": "Đẩy làn quân 2D",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Chiếc xe buýt của bạn đứng một đầu, zombie tràn tới từ đầu kia. Thả từng người sống sót có vai trò khác nhau ra đường để chặn và tiến lên phá rào chắn. Giữa các trận nâng cấp xe buýt và đội quân.",
+    "icon_url": "https://hitask.io/uploads/48340228-1a16-48bb-91a6-60c6672bcb02.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.mobirate.DeadAheadTactics",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=H5dQDwLBovk",
+      "apkpure": "https://apkpure.com/dead-ahead-zombie-warfare/com.mobirate.DeadAheadTactics"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Dead Ahead: Zombie Warfare + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Dead Ahead: Zombie Warfare + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Dead Ahead: Zombie Warfare + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Cartoon Wars 3",
+    "key": "com.gamevil.cartoonwars3.android.google.global.normal",
+    "publisher": "Gamevil",
+    "year": "2014",
+    "category": "Đẩy làn quân 2D",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Hai lâu đài ở hai đầu con đường, bạn thả quân hoạt hình tiến lên đánh. Thu vàng theo thời gian để gọi thêm quân và dùng phép từ lâu đài. Nâng cấp lâu đài, quân và anh hùng qua các màn.",
+    "icon_url": "https://hitask.io/uploads/af30ea86-8c3b-4355-946f-fe38c9299b39.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.gamevil.cartoonwars3.android.google.global.normal",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=WK5MqHOiR1g",
+      "apkpure": "https://apkpure.com/cartoon-wars-3/com.gamevil.cartoonwars3.android.google.global.normal"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Cartoon Wars 3 + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Cartoon Wars 3 + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Cartoon Wars 3 + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Arknights",
+    "key": "com.YoStarEN.Arknights",
+    "publisher": "Hypergryph / Yostar",
+    "year": "2020",
+    "category": "Tower defense cổ điển",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Tower defense kết hợp gacha nhân vật: bạn đặt các operator lên ô trên bản đồ để chặn kẻ địch đi theo đường. Mỗi operator có lớp riêng như chặn, bắn xa, hồi máu, và chỉ đặt được trên loại ô phù hợp. Nuôi và nâng cấp đội hình để qua các màn khó.",
+    "icon_url": "https://hitask.io/uploads/1ade0590-efd1-4332-8e95-e5873dd61364.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.YoStarEN.Arknights",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=TJ4ER0HCg5k",
+      "apkpure": "https://apkpure.com/arknights/com.YoStarEN.Arknights"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Arknights + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Arknights + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Arknights + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Bloons TD 6",
+    "key": "com.ninjakiwi.bloonstd6",
+    "publisher": "Ninja Kiwi",
+    "year": "2018",
+    "category": "Tower defense cổ điển",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Bóng bay đi theo đường và bạn đặt các chú khỉ để bắn nổ chúng. Mỗi loại khỉ có 3 nhánh nâng cấp, chọn nhánh nào sẽ đổi hẳn cách khỉ đó đánh. Bóng mạnh dần qua các đợt: có lớp giáp, ngụy trang, bóng khổng lồ, đòi hỏi phối hợp đúng loại tháp.",
+    "icon_url": "https://hitask.io/uploads/05f32da5-727e-40c4-853d-9749716e5e81.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.ninjakiwi.bloonstd6",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=KDUSfFEyGLE",
+      "apkpure": "https://apkpure.com/bloons-td-6/com.ninjakiwi.bloonstd6"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Bloons TD 6 + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Bloons TD 6 + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Bloons TD 6 + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Grow Castle",
+    "key": "com.raongames.growcastle",
+    "publisher": "Raon Games",
+    "year": "2016",
+    "category": "Thủ thành idle",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Lâu đài của bạn đứng một chỗ, quái tràn tới từng đợt. Bạn đặt anh hùng và cung thủ lên các tầng tháp, chạm để bắn và dùng kỹ năng. Thắng đợt nào thì lấy vàng nâng cấp lâu đài, xây thêm tầng.",
+    "icon_url": "https://hitask.io/uploads/da508382-3500-4bd1-875b-49e249e259e4.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.raongames.growcastle",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=Qy3-UNvItfU",
+      "apkpure": "https://apkpure.com/grow-castle/com.raongames.growcastle"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Grow Castle + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Grow Castle + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Grow Castle + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Castle Busters",
+    "key": "com.epicoro.castleclashers",
+    "publisher": "Voodoo",
+    "year": "2025",
+    "category": "Phá lâu đài PvP theo lượt",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn xây lâu đài, chọn đội quân rồi đấu 1v1 online với người chơi khác. Hai bên thay phiên bắn phá, tường và sàn vỡ theo vật lý mở ra góc tấn công mới. Phá sập lâu đài đối thủ trước là thắng.",
+    "icon_url": "https://hitask.io/uploads/3bfa6b6f-d912-4459-9b1c-d827d17bc722.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=U4mSlrxbHSA",
+      "apkpure": "https://apkpure.com/castle-busters/com.epicoro.castleclashers"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Castle Busters + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Castle Busters + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Castle Busters + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Palmon: Survival",
+    "key": "com.funfizz.palmon.gp",
+    "publisher": "Lilith Games",
+    "year": "2025",
+    "category": "Bắt sinh vật sinh tồn",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn đi bắt các sinh vật Palmon ngoài thế giới mở, mỗi con có khả năng riêng. Dùng Palmon để nhóm lửa, phát điện, trồng trọt và chạy nhà máy trong trang trại của mình. Chiến đấu với Palmon hoang dã và trùm để lấy nguyên liệu hiếm.",
+    "icon_url": "https://hitask.io/uploads/c1aef323-bab7-4c18-aae8-5b0ab6da2b0a.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.funfizz.palmon.gp",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=6Pvo4Lm0xS4",
+      "apkpure": "https://apkpure.com/palmon-survival/com.funfizz.palmon.gp"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Palmon: Survival + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Palmon: Survival + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Palmon: Survival + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Lucky Defense",
+    "key": "com.percent.aos.luckydefense",
+    "publisher": "111%",
+    "year": "2024",
+    "category": "Thủ thành may mắn co-op",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Hai người chơi cùng phòng thủ, mỗi người có một bàn riêng. Bấm để triệu hồi anh hùng ngẫu nhiên, ghép 3 con giống nhau để lên cấp, và quay may mắn để ra anh hùng hiếm. Trụ qua càng nhiều đợt quái càng tốt.",
+    "icon_url": "https://hitask.io/uploads/ecdb4149-31f8-482a-b2ea-5bf7abbe9bc5.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.percent.aos.luckydefense",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=qZnlwn177QQ",
+      "apkpure": "https://apkpure.com/lucky-defense/com.percent.aos.luckydefense"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Lucky Defense + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Lucky Defense + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Lucky Defense + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Worms Zone .io",
+    "key": "com.wildspike.wormszone",
+    "publisher": "Casual Azur Games",
+    "year": "2018",
+    "category": "Rắn săn mồi .io",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Con sâu bò trên bản đồ lớn, ăn thức ăn để dài ra. Đâm đầu vào thân sâu khác là chết, còn khiến đối thủ đâm vào mình thì ăn được xác của chúng. Có chế độ thời gian, chế độ vô hạn và rất nhiều skin.",
+    "icon_url": "https://hitask.io/uploads/2b9fe1e8-6590-4822-a985-0ad7bb452f48.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.wildspike.wormszone",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=JVaG11LCbcI",
+      "apkpure": "https://apkpure.com/worms-zone-io/com.wildspike.wormszone"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Worms Zone .io + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Worms Zone .io + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Worms Zone .io + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Race Master 3D",
+    "key": "com.easygames.race",
+    "publisher": "Beresnev Games",
+    "year": "2021",
+    "category": "Đua xe nâng cấp",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Đua trên các đường đua đầy chướng ngại, đường dốc và nhảy cầu với các xe khác. Bạn giữ để tăng tốc, thả để phanh và tránh văng khỏi đường. Thắng tiền để nâng cấp xe và mở xe mới.",
+    "icon_url": "https://hitask.io/uploads/fd20196f-af80-4d85-b11d-15b651ed7e20.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.easygames.race",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=vaPCW4uWNs4",
+      "apkpure": "https://apkpure.com/race-master-3d/com.easygames.race"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Race Master 3D + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Race Master 3D + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Race Master 3D + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Hill Climb Racing 2",
+    "key": "com.fingersoft.hcr2",
+    "publisher": "Fingersoft",
+    "year": "2016",
+    "category": "Đua xe nâng cấp",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Lái xe qua địa hình đồi núi theo vật lý, giữ thăng bằng để không lật. Thu xu để nâng cấp động cơ, lốp, giảm xóc và mở xe mới. Có đua online với người khác và giải đấu theo mùa.",
+    "icon_url": "https://hitask.io/uploads/aea3b1db-6863-45e6-aa53-364d351aa855.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.fingersoft.hcr2",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=CJV58TJzVPU",
+      "apkpure": "https://apkpure.com/hill-climb-racing-2/com.fingersoft.hcr2"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Hill Climb Racing 2 + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Hill Climb Racing 2 + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Hill Climb Racing 2 + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Pizza Ready!",
+    "key": "io.supercent.pizzaidle",
+    "publisher": "Supercent",
+    "year": "2023",
+    "category": "Idle arcade quản lý cửa hàng",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn chạy quanh tiệm pizza: lấy bột, nướng bánh, mang ra quầy và thu tiền. Có tiền thì mở thêm lò, bàn ghế và thuê nhân viên làm thay. Mở rộng dần thành chuỗi nhà hàng ở nhiều khu vực.",
+    "icon_url": "https://hitask.io/uploads/eedd5204-d815-46b2-a248-8b708410b643.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=io.supercent.pizzaidle",
+      "app_store": "https://apps.apple.com/us/app/id6450917563",
+      "youtube": "https://www.youtube.com/watch?v=tnrV5HjOsHU",
+      "apkpure": "https://apkpure.com/pizza-ready/io.supercent.pizzaidle"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Pizza Ready! + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Pizza Ready! + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Pizza Ready! + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Burger Please!",
+    "key": "io.supercent.burgeridle",
+    "publisher": "Supercent",
+    "year": "2023",
+    "category": "Idle arcade quản lý cửa hàng",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Tự tay nướng burger, phục vụ khách tại quầy và khu drive-thru. Dùng tiền thu được để mở thêm máy, thuê nhân viên và nâng cấp tốc độ. Mở chi nhánh mới khi tiệm đủ lớn.",
+    "icon_url": "https://hitask.io/uploads/2e93db5e-ed9a-4322-9dfd-2883c4da6f52.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=io.supercent.burgeridle",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=XF1oBEC5o8k",
+      "apkpure": "https://apkpure.com/burger-please/io.supercent.burgeridle"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Burger Please! + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Burger Please! + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Burger Please! + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "My Perfect Hotel",
+    "key": "com.master.hotelmaster",
+    "publisher": "SayGames",
+    "year": "2022",
+    "category": "Idle arcade quản lý cửa hàng",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn là quản lý khách sạn, chạy dọn phòng, nhận khách, thu tiền. Dùng tiền mở thêm phòng, quầy bar, hồ bơi và thuê nhân viên. Mở rộng dần lên các khách sạn lớn hơn.",
+    "icon_url": "https://hitask.io/uploads/85a21b99-c5e3-4962-8d3c-7d3a55057883.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.master.hotelmaster",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=v-gMCQ284aM",
+      "apkpure": "https://apkpure.com/my-perfect-hotel/com.master.hotelmaster"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "My Perfect Hotel + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "My Perfect Hotel + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "My Perfect Hotel + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Eatventure",
+    "key": "com.hwqgrhhjfd.idlefastfood",
+    "publisher": "Lessmore",
+    "year": "2022",
+    "category": "Idle arcade quản lý cửa hàng",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn quản lý nhà hàng, nâng cấp từng trạm bếp để món ăn ra nhanh và giá cao hơn. Thuê đầu bếp, phục vụ và mở món mới. Đủ chỉ tiêu thì chuyển sang thành phố và nhà hàng mới.",
+    "icon_url": "https://hitask.io/uploads/1ebb63a2-9f1b-41d6-8c71-e7257f2afb82.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.hwqgrhhjfd.idlefastfood",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=FjiTjCAeBjY",
+      "apkpure": "https://apkpure.com/eatventure/com.hwqgrhhjfd.idlefastfood"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Eatventure + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Eatventure + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Eatventure + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Count Masters",
+    "key": "freeplay.crowdrun.com",
+    "publisher": "Freeplay",
+    "year": "2021",
+    "category": "Đẩy quân qua cổng nhân",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Nhân vật chạy trên đường, đi qua cổng để nhân đôi hoặc cộng thêm người vào đám đông. Va vào đám đông đối thủ thì hai bên trừ quân lẫn nhau. Cuối màn leo bậc thang người hoặc đánh lâu đài, nâng cấp skin và chỉ số giữa các màn.",
+    "icon_url": "https://hitask.io/uploads/7dcfdc0b-de22-48dc-a854-7eb0d5ffa6a1.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=freeplay.crowdrun.com",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=2SHUFgcyE7c",
+      "apkpure": "https://apkpure.com/count-masters/freeplay.crowdrun.com"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Count Masters + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Count Masters + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Count Masters + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Join Clash 3D",
+    "key": "com.freeplay.runandfight",
+    "publisher": "Freeplay",
+    "year": "2020",
+    "category": "Đẩy quân qua cổng nhân",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn chạy trên đường, đi ngang người đứng lẻ thì họ nhập đội. Né chướng ngại để không mất quân, cuối màn đánh đội của trùm. Nâng cấp số quân ban đầu và tiền thưởng.",
+    "icon_url": "https://hitask.io/uploads/d9d990e2-4272-414f-8aff-c59b29a25371.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.freeplay.runandfight",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=VTDEELNvo_4",
+      "apkpure": "https://apkpure.com/join-clash-3d/com.freeplay.runandfight"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Join Clash 3D + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Join Clash 3D + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Join Clash 3D + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Crowd Evolution!",
+    "key": "com.longhorn.countmasterevo",
+    "publisher": "Rollic",
+    "year": "2021",
+    "category": "Đẩy quân qua cổng nhân",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Đội quân chạy qua các cổng cộng, trừ quân và cổng tăng năm tuổi. Năm tuổi tăng thì vũ khí đổi từ gậy gỗ tới súng hiện đại. Cuối màn đánh trùm bằng đội quân thu được.",
+    "icon_url": "https://hitask.io/uploads/633a40af-64f8-4ecb-8584-b0b0c350d103.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.longhorn.countmasterevo",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=HZU6N7yNoRs",
+      "apkpure": "https://apkpure.com/crowd-evolution/com.longhorn.countmasterevo"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Crowd Evolution! + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Crowd Evolution! + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Crowd Evolution! + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Cooking Fever",
+    "key": "com.nordcurrent.canteenhd",
+    "publisher": "Nordcurrent",
+    "year": "2014",
+    "category": "Nấu ăn thư giãn",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Chạm để nấu và phục vụ món theo yêu cầu khách trước khi họ mất kiên nhẫn. Qua hàng chục nhà hàng như burger, pizza, sushi. Nâng cấp bếp và nội thất để phục vụ nhanh hơn.",
+    "icon_url": "https://hitask.io/uploads/d67567ae-4926-48f8-849f-cf397f57c86d.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.nordcurrent.canteenhd",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=VyZf14mdX1k",
+      "apkpure": "https://apkpure.com/cooking-fever/com.nordcurrent.canteenhd"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Cooking Fever + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Cooking Fever + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Cooking Fever + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Good Pizza, Great Pizza",
+    "key": "com.tapblaze.pizzabusiness",
+    "publisher": "TapBlaze",
+    "year": "2018",
+    "category": "Nấu ăn thư giãn",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Khách gọi pizza bằng lời mô tả, có khi rất mơ hồ. Bạn tự tay rải sốt, phô mai, topping và nướng. Dùng tiền mua nguyên liệu mới và nâng cấp tiệm.",
+    "icon_url": "https://hitask.io/uploads/80f655bb-5564-441b-ae8f-1f12468fe791.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.tapblaze.pizzabusiness",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=qZnoDxQoXYc",
+      "apkpure": "https://apkpure.com/good-pizza-great-pizza/com.tapblaze.pizzabusiness"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Good Pizza, Great Pizza + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Good Pizza, Great Pizza + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Good Pizza, Great Pizza + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Cookingdom",
+    "key": "com.abi.cook.chill",
+    "publisher": "ABI Games",
+    "year": "2025",
+    "category": "Nấu ăn thư giãn",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Mỗi món ăn được chia thành các mini game nhỏ: thái rau, trộn, nấu, bày đĩa. Không có hẹn giờ hay khách hối, chỉ làm từng bước cho thư giãn. Mở dần công thức các món ăn từ nhiều nước trên thế giới.",
+    "icon_url": "https://hitask.io/uploads/4967f6a4-8082-4ef6-9b4f-4a5ffcbf1247.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.abi.cook.chill",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=tRXjyNBIWeE",
+      "apkpure": "https://apkpure.com/cookingdom/com.abi.cook.chill"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Cookingdom + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Cookingdom + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Cookingdom + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Galaxy Attack: Alien Shooter",
+    "key": "com.alien.shooter.galaxy.attack",
+    "publisher": "OneSoft (ABI Games)",
+    "year": "2016",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Điều khiển phi thuyền bằng một ngón tay, tự động bắn các đợt phi thuyền và trùm ngoài hành tinh. Nhặt vật phẩm để nâng cấp súng giữa màn. Mở và nâng cấp nhiều tàu với kiểu bắn khác nhau, có chế độ PvP.",
+    "icon_url": "https://hitask.io/uploads/0664daef-01ef-402a-b30e-fbdf174afce5.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.alien.shooter.galaxy.attack",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=a7iDkQziiGA",
+      "apkpure": "https://apkpure.com/galaxy-attack-alien-shooter/com.alien.shooter.galaxy.attack"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Galaxy Attack: Alien Shooter + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Galaxy Attack: Alien Shooter + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Galaxy Attack: Alien Shooter + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "1945 Air Force",
+    "key": "com.os.airforce",
+    "publisher": "OneSoft (1SOFT)",
+    "year": "2017",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay thời Thế chiến 2, né đạn và hạ trùm cuối màn. Có hàng trăm màn, nhiều máy bay và đồng đội bay kèm. Nâng cấp máy bay và đấu PvP.",
+    "icon_url": "https://hitask.io/uploads/fc8c9385-4199-40cd-a494-21746f023559.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.os.airforce",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=j1Afr4mNjks",
+      "apkpure": "https://apkpure.com/1945-air-force/com.os.airforce"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "1945 Air Force + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "1945 Air Force + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "1945 Air Force + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Mr Bullet",
+    "key": "com.lionstudios.mrbullet",
+    "publisher": "Lion Studios",
+    "year": "2019",
+    "category": "Bắn súng platform slow-motion",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Mỗi màn bạn có vài viên đạn để hạ hết kẻ địch. Ngắm và bắn, đạn nảy vào tường và đồ vật để trúng mục tiêu khuất. Có thùng nổ, đồ rơi giúp hạ nhiều địch một lúc.",
+    "icon_url": "https://hitask.io/uploads/613cd24b-da48-45bd-8a1e-041fc61bb565.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.lionstudios.mrbullet",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=GJn7nNgp5K4",
+      "apkpure": "https://apkpure.com/mr-bullet/com.lionstudios.mrbullet"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Mr Bullet + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Mr Bullet + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Mr Bullet + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Bowmasters",
+    "key": "com.playgendary.bowmasters",
+    "publisher": "Playgendary",
+    "year": "2016",
+    "category": "Đấu bắn cung/ném vật lý 1v1",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Hai nhân vật đứng hai bên, thay nhau kéo để chỉnh lực và góc ném hoặc bắn. Mỗi nhân vật có vũ khí và chiêu riêng, trúng đầu gây sát thương lớn. Đấu với máy, bạn bè hoặc online, mở hơn 60 nhân vật.",
+    "icon_url": "https://hitask.io/uploads/4c6d6b2b-ce44-4c72-a3ae-3f4c743077a5.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.playgendary.bowmasters",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=Dr0os6MIvD0",
+      "apkpure": "https://apkpure.com/bowmasters/com.playgendary.bowmasters"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Bowmasters + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Bowmasters + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Bowmasters + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Angry Birds 2",
+    "key": "com.rovio.baba",
+    "publisher": "Rovio",
+    "year": "2015",
+    "category": "Bắn đại bác vật lý",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Kéo ná bắn chim vào công trình để hạ lũ heo. Mỗi màn có nhiều phòng liên tiếp, chọn thẻ chim để bắn. Mỗi loại chim có kỹ năng riêng, nâng cấp chim và có sự kiện hằng ngày.",
+    "icon_url": "https://hitask.io/uploads/11b06a87-ef4c-4b5f-b387-08e8b96a5b26.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.rovio.baba",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=0Dj2x7zZwvU",
+      "apkpure": "https://apkpure.com/angry-birds-2/com.rovio.baba"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Angry Birds 2 + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Angry Birds 2 + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Angry Birds 2 + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Crush the Castle: Siege Master",
+    "key": "com.armorgames.ctcsm",
+    "publisher": "Armor Games",
+    "year": "2016",
+    "category": "Bắn đại bác vật lý",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn điều khiển máy bắn đá, chỉnh thời điểm thả để ném đá vào lâu đài. Công trình sụp đổ theo vật lý, phải hạ hết người trong lâu đài với số lượt ném giới hạn. Mở thêm loại đạn như bom, đá chùm, lửa qua các màn.",
+    "icon_url": "https://hitask.io/uploads/61828830-f54b-4dc5-8b2e-68a367868774.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.armorgames.ctcsm",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=mXJnOJ2GT54",
+      "apkpure": "https://apkpure.com/crush-the-castle-siege-master/com.armorgames.ctcsm"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Crush the Castle: Siege Master + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Crush the Castle: Siege Master + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Crush the Castle: Siege Master + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Smash Fest!",
+    "key": "n-smash-fest",
+    "publisher": "Flow Games",
+    "year": "2025",
+    "category": "Bắn đại bác vật lý",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Có số phát bắn giới hạn, ngắm và bắn bóng để làm đổ hết các chồng lon trên bệ xoay. Mỗi màn có cách xếp lon và chướng ngại khác nhau. Dùng coin mua thêm lượt hoặc vật phẩm hỗ trợ khi thua.",
+    "icon_url": "https://hitask.io/uploads/4c8e85f3-c838-4e8e-bc9b-4d800bab2ffb.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=n-smash-fest",
+      "app_store": "https://apps.apple.com/us/app/id6748084174",
+      "youtube": "https://www.youtube.com/watch?v=zN4sD4_iYXk",
+      "apkpure": "https://apkpure.com/smash-fest/com.flow.cannonball"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Smash Fest! + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Smash Fest! + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Smash Fest! + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Soul Knight",
+    "key": "com.ChillyRoom.DungeonShooter",
+    "publisher": "ChillyRoom",
+    "year": "2017",
+    "category": "Roguelike bắn hầm ngục",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Bạn chọn một nhân vật rồi đi qua các tầng hầm ngục ngẫu nhiên, bắn quái trong từng phòng. Nhặt được hàng trăm loại súng, vũ khí cận chiến và buff ngẫu nhiên. Chơi một mình hoặc co-op với bạn bè.",
+    "icon_url": "https://hitask.io/uploads/f08486cc-5e7c-4ead-ac78-c84762d89d7f.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.ChillyRoom.DungeonShooter",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=IBfVI077M6k",
+      "apkpure": "https://apkpure.com/soul-knight/com.ChillyRoom.DungeonShooter"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Soul Knight + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Soul Knight + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Soul Knight + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Last Day on Earth: Survival",
+    "key": "zombie.survival.craft.z",
+    "publisher": "Kefir",
+    "year": "2017",
+    "category": "Sinh tồn chế tạo",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn sống sót trong thế giới zombie: chặt cây, đập đá, nhặt đồ để chế tạo vũ khí và quần áo. Xây căn cứ có tường, rương và bàn chế tạo. Đi vào các khu nguy hiểm như hầm ngầm, căn cứ quân sự để lấy đồ hiếm.",
+    "icon_url": "https://hitask.io/uploads/d99ce7a1-df53-4117-82c1-0388298c2bc1.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=zombie.survival.craft.z",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=Rd1r-x1d2uA",
+      "apkpure": "https://apkpure.com/last-day-on-earth-survival/zombie.survival.craft.z"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Last Day on Earth: Survival + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Last Day on Earth: Survival + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Last Day on Earth: Survival + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Grim Soul",
+    "key": "fantasy.survival.game.rpg",
+    "publisher": "Brickworks Games (Kefir)",
+    "year": "2017",
+    "category": "Sinh tồn chế tạo",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Sinh tồn trong vùng đất tối kiểu Trung cổ: chặt cây, đập đá, chế tạo vũ khí và áo giáp. Xây lâu đài riêng để giữ đồ. Đi vào hầm ngục và lâu đài bỏ hoang để lấy đồ hiếm.",
+    "icon_url": "https://hitask.io/uploads/1bacf954-7524-4f0a-ab76-9eeed093e7d4.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=fantasy.survival.game.rpg",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=Jenf1sEBjMU",
+      "apkpure": "https://apkpure.com/grim-soul/fantasy.survival.game.rpg"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Grim Soul + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Grim Soul + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Grim Soul + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Don't Starve: Pocket Edition",
+    "key": "com.kleientertainment.doNotStarvePocket",
+    "publisher": "Klei Entertainment",
+    "year": "2014",
+    "category": "Sinh tồn chế tạo",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn bị thả vào một thế giới hoang dã, phải tìm thức ăn, giữ tinh thần và sống qua đêm tối. Nhặt nguyên liệu để chế công cụ, lửa trại, bẫy. Mùa đổi và quái lạ xuất hiện khiến mỗi ngày đều nguy hiểm.",
+    "icon_url": "https://hitask.io/uploads/0f291243-221f-4fd7-9d0a-8b9316558d35.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.kleientertainment.doNotStarvePocket",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=8QhXDffTjno",
+      "apkpure": "https://apkpure.com/don-t-starve-pocket-edition/com.kleientertainment.doNotStarvePocket"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Don't Starve: Pocket Edition + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Don't Starve: Pocket Edition + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Don't Starve: Pocket Edition + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Hole.io",
+    "key": "io.voodoo.holeio",
+    "publisher": "Voodoo",
+    "year": "2018",
+    "category": "Hố đen nuốt vật thể",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn điều khiển một cái hố đi khắp thành phố, nuốt mọi thứ nhỏ hơn miệng hố. Hố lớn dần theo những gì nuốt được, đủ lớn thì nuốt cả xe, nhà và hố của người khác. Hết giờ, hố to nhất thắng.",
+    "icon_url": "https://hitask.io/uploads/d8f918fd-6a4f-470d-aa39-7476f6c1b5fc.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=io.voodoo.holeio",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=My1-YKgD7y4",
+      "apkpure": "https://apkpure.com/hole-io/io.voodoo.holeio"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Hole.io + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Hole.io + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Hole.io + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Hole it!",
+    "key": "com.rocket.holeit",
+    "publisher": "Supersonic",
+    "year": "2025",
+    "category": "Hố đen nuốt vật thể",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bản puzzle của game hố đen: mỗi màn có nhiệm vụ riêng như chỉ nuốt xe đỏ hoặc chỉ ăn bánh donut. Bạn phải chọn đường đi và thứ tự nuốt trong thời gian giới hạn. Dùng booster để thêm giờ hoặc mở rộng hố.",
+    "icon_url": "https://hitask.io/uploads/d50a504a-b105-45af-92ea-58cb1a10f60d.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.rocket.holeit",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=f4rh325TVyw",
+      "apkpure": "https://apkpure.com/hole-it/com.rocket.holeit"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Hole it! + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Hole it! + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Hole it! + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Summoners War",
+    "key": "com.com2us.smon.normal.freefull.google.kr.android.common",
+    "publisher": "Com2uS",
+    "year": "2014",
+    "category": "RPG theo lượt sưu tập quái",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn triệu hồi và sưu tập hàng trăm quái vật thuộc 5 hệ. Đội 4–5 con đánh theo lượt, chọn kỹ năng và mục tiêu cho từng con. Trang bị rune để tối ưu chỉ số, đánh dungeon, đấu trường và chiến tranh guild.",
+    "icon_url": "https://hitask.io/uploads/2a8ef5c0-8460-43b2-a040-ecf24f4c2257.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.com2us.smon.normal.freefull.google.kr.android.common",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=zZqYDjMhJcU",
+      "apkpure": "https://apkpure.com/summoners-war/com.com2us.smon.normal.freefull.google.kr.android.common"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Summoners War + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Summoners War + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Summoners War + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Monster Legends",
+    "key": "es.socialpoint.MonsterLegends",
+    "publisher": "Social Point",
+    "year": "2013",
+    "category": "RPG theo lượt sưu tập quái",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn nuôi, lai tạo và sưu tập hàng trăm quái vật. Đội 3 con đánh theo lượt, chọn chiêu và mục tiêu. Xây môi trường sống cho quái và đấu PvP.",
+    "icon_url": "https://hitask.io/uploads/fed14632-f9a8-4f31-8383-35d69f63a4da.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=es.socialpoint.MonsterLegends",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=Vfta0ngmmm4",
+      "apkpure": "https://apkpure.com/monster-legends/es.socialpoint.MonsterLegends"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Monster Legends + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Monster Legends + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Monster Legends + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Survivor!.io",
+    "key": "com.dxx.firenow",
+    "publisher": "Habby",
+    "year": "2022",
+    "category": "Survivor-like bắn tự động",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Sống sót trước hàng nghìn quái trong mỗi màn, nhân vật tự đánh còn bạn điều hướng. Nhặt kinh nghiệm để chọn kỹ năng, kết hợp vũ khí với vật phẩm để tiến hoá thành chiêu cuối. Ngoài trận nâng cấp trang bị và mở chế độ mới.",
+    "icon_url": "https://hitask.io/uploads/c3adf474-b5c3-4926-a450-a8386308d6c5.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.dxx.firenow",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=JtEhMbz2YFg",
+      "apkpure": "https://apkpure.com/survivor-io/com.dxx.firenow"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Survivor!.io + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Survivor!.io + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Survivor!.io + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Brotato",
+    "key": "com.brotato.shooting.survivors.action.roguelike",
+    "publisher": "Blobfish / Erabit Studios",
+    "year": "2023",
+    "category": "Survivor-like bắn tự động",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Một củ khoai tây cầm tới 6 vũ khí cùng lúc, tự bắn quái trong đấu trường. Mỗi đợt kéo dài khoảng một phút, xong thì vào cửa hàng mua vũ khí và vật phẩm ngẫu nhiên. Mỗi nhân vật có điểm mạnh, điểm yếu riêng nên cách xây đồ rất khác nhau.",
+    "icon_url": "https://hitask.io/uploads/3a29d7d8-a399-4130-be8d-2a37e477af8e.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.brotato.shooting.survivors.action.roguelike",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=0uNLRbbABY0",
+      "apkpure": "https://apkpure.com/brotato/com.brotato.shooting.survivors.action.roguelike"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Brotato + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Brotato + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Brotato + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Vampire Survivors",
+    "key": "com.poncle.vampiresurvivors",
+    "publisher": "poncle",
+    "year": "2022",
+    "category": "Survivor-like bắn tự động",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Bạn chỉ di chuyển, vũ khí tự tấn công hàng nghìn quái tràn tới. Nhặt ngọc kinh nghiệm để lên cấp và chọn thêm vũ khí, phụ kiện. Ghép đúng cặp vũ khí và phụ kiện thì vũ khí tiến hoá thành bản mạnh hơn; mỗi màn kéo dài 30 phút.",
+    "icon_url": "https://hitask.io/uploads/dc519ff4-5403-4bc7-9b47-635c94e7f594.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.poncle.vampiresurvivors",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=1uyx5UFpnFg",
+      "apkpure": "https://apkpure.com/vampire-survivors/com.poncle.vampiresurvivors"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Vampire Survivors + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Vampire Survivors + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Vampire Survivors + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Fallout Shelter",
+    "key": "com.bethsoft.falloutshelter",
+    "publisher": "Bethesda",
+    "year": "2015",
+    "category": "Quản lý trại sinh tồn",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn quản lý một hầm trú ẩn dưới lòng đất. Xây phòng điện, nước, thức ăn và xếp dân vào làm theo chỉ số. Đưa dân ra vùng hoang mạc nhặt đồ và chống các đợt tấn công.",
+    "icon_url": "https://hitask.io/uploads/97ce1700-7861-4670-b07e-b84e5bb4ab93.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.bethsoft.falloutshelter",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=49dFe5XYEOc",
+      "apkpure": "https://apkpure.com/fallout-shelter/com.bethsoft.falloutshelter"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Fallout Shelter + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Fallout Shelter + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Fallout Shelter + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Last Stronghold: Idle Survival",
+    "key": "com.cww.laststronghold",
+    "publisher": "SayGames",
+    "year": "2024",
+    "category": "Quản lý trại sinh tồn",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Xây căn cứ giữa thế giới zombie, rồi tự tay ra ngoài đập zombie và nhặt tài nguyên. Cứu thêm người sống sót, giao việc để căn cứ tự vận hành. Nâng cấp phòng thủ để chặn các đợt zombie kéo tới.",
+    "icon_url": "https://hitask.io/uploads/b57c16a5-ba21-4964-8bea-f9c6722b431d.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.cww.laststronghold",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=nUAcYyZScn8",
+      "apkpure": "https://apkpure.com/last-stronghold-idle-survival/com.cww.laststronghold"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Last Stronghold: Idle Survival + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Last Stronghold: Idle Survival + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Last Stronghold: Idle Survival + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Frozen City",
+    "key": "com.fct.global",
+    "publisher": "Century Games",
+    "year": "2022",
+    "category": "Quản lý trại sinh tồn",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Một thị trấn giữa băng giá, bạn giao dân đi chặt gỗ, săn bắn, nấu ăn để giữ ấm và đủ ăn. Xây thêm nhà, lò sưởi và công trình mới. Theo dõi sức khỏe, tinh thần của dân và mở khu vực mới.",
+    "icon_url": "https://hitask.io/uploads/cff5bb29-7240-47f8-9e96-c0b3ac5cd926.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.fct.global",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=42xjDf_XlS4",
+      "apkpure": "https://apkpure.com/frozen-city/com.fct.global"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Frozen City + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Frozen City + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Frozen City + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Archero",
+    "key": "com.habby.archero",
+    "publisher": "HABBY",
+    "year": "2019",
+    "category": "Hành động theo màn",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Cung thủ chỉ bắn khi đứng yên, di chuyển để né đạn. Qua từng phòng quái, lên cấp thì chọn 1 trong 3 kỹ năng ngẫu nhiên. Ngoài màn nâng trang bị, mở anh hùng và chương mới.",
+    "icon_url": "https://hitask.io/uploads/b6837a33-36e3-4cc4-9b14-fb886149865a.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.habby.archero",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=cpOYYoN4a_k",
+      "apkpure": "https://apkpure.com/archero/com.habby.archero"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Archero + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Archero + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Archero + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Empires & Puzzles",
+    "key": "com.smallgiantgames.empires",
+    "publisher": "Small Giant Games",
+    "year": "2017",
+    "category": "Match-3 chiến đấu",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Mỗi trận là một bàn ghép 3 viên ngọc màu, ghép màu nào thì anh hùng màu đó tấn công kẻ địch. Đủ năng lượng thì anh hùng tung kỹ năng đặc biệt. Ngoài trận xây thành, triệu hồi và nâng cấp anh hùng, đánh liên minh.",
+    "icon_url": "https://hitask.io/uploads/6b6b13fd-92d2-4ee5-9e9b-565577054f2c.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.smallgiantgames.empires",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=EfWwfXFSHLI",
+      "apkpure": "https://apkpure.com/empires-puzzles/com.smallgiantgames.empires"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Empires & Puzzles + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Empires & Puzzles + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Empires & Puzzles + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Puzzle & Dragons",
+    "key": "jp.gungho.padEN",
+    "publisher": "GungHo",
+    "year": "2012",
+    "category": "Match-3 chiến đấu",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bàn ngọc 6x5, bạn kéo một viên ngọc đi khắp bàn để xếp nhiều hàng cùng lúc. Mỗi màu cho quái cùng màu tấn công. Sưu tập, tiến hóa quái và lập đội có kỹ năng thủ lĩnh.",
+    "icon_url": "https://hitask.io/uploads/5e4c6290-1f2a-4505-b420-a16d9b3e6683.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=jp.gungho.padEN",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=gc00vcRNYsc",
+      "apkpure": "https://apkpure.com/puzzle-dragons/jp.gungho.padEN"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Puzzle & Dragons + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Puzzle & Dragons + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Puzzle & Dragons + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Art of War: Legions",
+    "key": "com.addictive.strategy.army",
+    "publisher": "Fastone Games",
+    "year": "2020",
+    "category": "Auto battler xếp đội hình",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Trước trận bạn đặt các đội quân lên nửa sân của mình: lính khiên, cung thủ, kỵ binh, pháp sư. Bấm bắt đầu thì hai bên tự đánh nhau, thắng thua do cách xếp. Thắng thì nâng cấp quân và mở loại lính mới; có chế độ PvP.",
+    "icon_url": "https://hitask.io/uploads/4770865c-195e-4011-916b-f9eb26d9a673.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.addictive.strategy.army",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=DaXLuUL6Unc",
+      "apkpure": "https://apkpure.com/art-of-war-legions/com.addictive.strategy.army"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Art of War: Legions + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Art of War: Legions + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Art of War: Legions + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "TFT: Teamfight Tactics",
+    "key": "com.riotgames.league.teamfighttactics",
+    "publisher": "Riot Games",
+    "year": "2020",
+    "category": "Auto battler xếp đội hình",
+    "genre_group": "Action, .io & Shmup",
+    "description": "8 người chơi, mỗi vòng mua tướng từ cửa hàng chung và xếp lên bàn cờ. Ghép 3 tướng giống nhau để lên sao, ghép tướng cùng tộc, hệ để kích hoạt sức mạnh. Hai bên tự đánh, ai trụ lại cuối cùng thắng.",
+    "icon_url": "https://hitask.io/uploads/39492846-4b18-48a6-b751-246edd3524a3.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.riotgames.league.teamfighttactics",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=Kbju4OqJGzA",
+      "apkpure": "https://apkpure.com/tft-teamfight-tactics/com.riotgames.league.teamfighttactics"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "TFT: Teamfight Tactics + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "TFT: Teamfight Tactics + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "TFT: Teamfight Tactics + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "AFK Arena",
+    "key": "com.lilithgame.hgame.gp",
+    "publisher": "Lilith Games",
+    "year": "2018",
+    "category": "Gacha đội hình idle",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn sưu tập anh hùng, xếp đội 5 người theo hàng trước và sau. Trận đánh tự động, bạn chỉ bấm tung chiêu cuối đúng lúc. Phần thưởng tích luỹ cả khi không chơi; có nhiều chế độ như leo tháp, mê cung và đấu trường.",
+    "icon_url": "https://hitask.io/uploads/1349fa99-7803-4d5e-afd2-afea9a4350e5.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.lilithgame.hgame.gp",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=oROhePn5g28",
+      "apkpure": "https://apkpure.com/afk-arena/com.lilithgame.hgame.gp"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "AFK Arena + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "AFK Arena + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "AFK Arena + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Idle Heroes",
+    "key": "com.droidhang.ad",
+    "publisher": "DH Games",
+    "year": "2016",
+    "category": "Gacha đội hình idle",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn triệu hồi anh hùng, xếp đội 6 người theo hàng trước và sau. Trận tự đánh, tài nguyên tích lũy cả khi offline. Nhiều chế độ như leo tháp, mê cung và đấu bang hội.",
+    "icon_url": "https://hitask.io/uploads/6c48484e-819d-42d5-93dd-8fe85bae5157.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.droidhang.ad",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=UEX5OI6jX-o",
+      "apkpure": "https://apkpure.com/idle-heroes/com.droidhang.ad"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Idle Heroes + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Idle Heroes + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Idle Heroes + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Legend of Slime: Idle RPG",
+    "key": "com.loadcomplete.slimeidle",
+    "publisher": "LoadComplete",
+    "year": "2023",
+    "category": "Idle RPG",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn là một con slime tự đánh qua các màn, càng đánh càng thu vàng. Dùng vàng nâng chỉ số, mở đồng đội và kỹ năng. Slime có thể triệu hồi cả đội quân slime nhỏ để đánh cùng.",
+    "icon_url": "https://hitask.io/uploads/d9922592-a42f-4ad3-9015-1dc9dddd536b.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.loadcomplete.slimeidle",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=oQyivhpciag",
+      "apkpure": "https://apkpure.com/legend-of-slime-idle-rpg/com.loadcomplete.slimeidle"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Legend of Slime: Idle RPG + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Legend of Slime: Idle RPG + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Legend of Slime: Idle RPG + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Legend of Mushroom",
+    "key": "com.mxdzzus.google",
+    "publisher": "Joy Nice Games",
+    "year": "2024",
+    "category": "Idle RPG",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Nhân vật nấm tự đánh quái và nhận đồ kể cả khi bạn không chơi. Bạn chọn nghề, mở trang bị ngẫu nhiên, nuôi thú cưng và kỹ năng để tăng lực chiến. Có leo tháp, đánh trùm guild và đấu xếp hạng.",
+    "icon_url": "https://hitask.io/uploads/1b359b29-c6b3-46ec-9045-4927d15604ab.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.mxdzzus.google",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=B8Y8lndIXCI",
+      "apkpure": "https://apkpure.com/legend-of-mushroom/com.mxdzzus.google"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Legend of Mushroom + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Legend of Mushroom + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Legend of Mushroom + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Forge Master",
+    "key": "com.hariwn.legendofcivilizations",
+    "publisher": "Lessmore",
+    "year": "2025",
+    "category": "Idle RPG",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn bấm lò rèn để ra ngẫu nhiên vũ khí, giáp, phụ kiện, món nào tốt hơn thì mặc, không thì bán. Nhân vật tự đánh qua các đợt quái trên đường. Nâng cấp lò để ra đồ hiếm hơn, thêm kỹ năng, thú cưng và đấu trường PvP.",
+    "icon_url": "https://hitask.io/uploads/b3470853-719a-45ca-a857-ba49729eb55.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.hariwn.legendofcivilizations",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=H-GXDHqu0Qg",
+      "apkpure": "https://apkpure.com/forge-master/com.hariwn.legendofcivilizations"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Forge Master + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Forge Master + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Forge Master + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Backpack Brawl",
+    "key": "com.rapidfiregames.backpackbrawl",
+    "publisher": "Rapidfire (Azur)",
+    "year": "2024",
+    "category": "Xếp đồ trong balo",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Mỗi vòng bạn mua đồ trong cửa hàng rồi xếp vào balo dạng lưới, một số món đặt cạnh nhau sẽ cộng hiệu ứng. Sau đó nhân vật tự đánh với bộ đồ của người chơi khác. Thắng đủ trận để đi tiếp, thua 5 lần là hết lượt.",
+    "icon_url": "https://hitask.io/uploads/3b2fc694-344e-4661-ad87-a811f4ba3427.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.rapidfiregames.backpackbrawl",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=G6RW3fYdoU4",
+      "apkpure": "https://apkpure.com/backpack-brawl/com.rapidfiregames.backpackbrawl"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Backpack Brawl + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Backpack Brawl + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Backpack Brawl + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Heroll: Dice Roguelike",
+    "key": "com.percent.aos.rollinghero",
+    "publisher": "111%",
+    "year": "2025",
+    "category": "RPG bàn cờ tung xúc xắc",
+    "genre_group": "Action, .io & Shmup",
+    "description": "RPG bàn cờ roguelike: anh hùng đi vòng quanh bàn cờ theo số xúc xắc tung ra. Mỗi ô có thể là quái, rương, cửa hàng hay sự kiện, đi qua là kích hoạt. Mỗi lượt chơi nhặt kỹ năng và trang bị ngẫu nhiên để đánh trùm cuối tầng.",
+    "icon_url": "https://hitask.io/uploads/2343e42b-9698-4102-b569-d54f36716568.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.percent.aos.rollinghero",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=Dumy480jCpc",
+      "apkpure": "https://apkpure.com/heroll-dice-roguelike/com.percent.aos.rollinghero"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Heroll: Dice Roguelike + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Heroll: Dice Roguelike + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Heroll: Dice Roguelike + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Slash & Roll: Dice Heroes",
+    "key": "com.gamesture.team.guild.raids.pvp.multiplayer",
+    "publisher": "Gamesture",
+    "year": "2025",
+    "category": "RPG bàn cờ tung xúc xắc",
+    "genre_group": "Action, .io & Shmup",
+    "description": "RPG tung xúc xắc theo đội: mỗi lượt bạn tung xúc xắc để quyết định sát thương và kỹ năng của anh hùng. Có trận PvP đội 20 người đối 20 người thời gian thực và đánh trùm cùng bang hội. Sưu tập, nâng cấp anh hùng và bộ xúc xắc.",
+    "icon_url": "https://hitask.io/uploads/e3c85e5e-b704-4300-a4c1-12e4a19a3024.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.gamesture.team.guild.raids.pvp.multiplayer",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=hg_C_DWXo-s",
+      "apkpure": "https://apkpure.com/slash-roll-dice-heroes/com.gamesture.team.guild.raids.pvp.multiplayer"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Slash & Roll: Dice Heroes + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Slash & Roll: Dice Heroes + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Slash & Roll: Dice Heroes + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Vampire Crawlers",
+    "key": "com.poncle.vampirecrawlers",
+    "publisher": "poncle",
+    "year": "2026",
+    "category": "Roguelike deckbuilder",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Khám phá hầm ngục góc nhìn thứ nhất theo kiểu Vampire Survivors. Gặp quái thì đánh bằng bộ bài, mỗi lá tốn mana và có thể nối thành combo. Nhặt bài, vũ khí và bảo vật mới để xây bộ bài mạnh qua mỗi lượt.",
+    "icon_url": "https://hitask.io/uploads/d95ae8fd-1561-448e-9287-59d1507174b6.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.poncle.vampirecrawlers",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=KLLI1OI8ojM",
+      "apkpure": "https://apkpure.com/vampire-crawlers/com.poncle.vampirecrawlers"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Vampire Crawlers + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Vampire Crawlers + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Vampire Crawlers + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Block Blast!",
+    "key": "com.block.juggle",
+    "publisher": "Hungry Studio",
+    "year": "2022",
+    "category": "Block puzzle xếp khối",
+    "genre_group": "Smart Puzzle",
+    "description": "Mỗi lượt được 3 khối hình ngẫu nhiên, kéo thả vào bảng 8x8. Lấp đầy một hàng hoặc cột thì hàng đó biến mất và cộng điểm, xoá nhiều hàng cùng lúc được combo. Hết chỗ đặt khối là thua, chơi để phá kỷ lục điểm.",
+    "icon_url": "https://hitask.io/uploads/7fb31d92-57d2-4bd3-b1a2-0e6576266ce7.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.block.juggle",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=06IQW7FqZMY",
+      "apkpure": "https://apkpure.com/block-blast/com.block.juggle"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Block Blast! + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Block Blast!.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Block Blast! + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Block Blast! + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Color Block: Combo Blast",
+    "key": "com.puzzlegames.puzzlebrickslegend",
+    "publisher": "IVYMOBILE (Ivy)",
+    "year": "2026",
+    "category": "Block puzzle xếp khối",
+    "genre_group": "Smart Puzzle",
+    "description": "Block puzzle lọt top 10 lượt tải tháng 9/2026: đặt khối lên bàn, lấp đầy hàng hoặc cột để xóa, xóa nhiều hàng liên tiếp thì ra combo nhân điểm.",
+    "icon_url": "https://hitask.io/uploads/43090432-84e6-4d7d-9b50-b32c4557aaa2.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.puzzlegames.puzzlebrickslegend",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=YFTIPUIh60A",
+      "apkpure": "https://apkpure.com/color-block-combo-blast/com.puzzlegames.puzzlebrickslegend"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Color Block: Combo Blast + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Color Block: Combo Blast.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Color Block: Combo Blast + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Color Block: Combo Blast + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Arrows – Puzzle Escape",
+    "key": "com.ecffri.arrows",
+    "publisher": "Lessmore",
+    "year": "2025",
+    "category": "Arrow puzzle",
+    "genre_group": "Smart Puzzle",
+    "description": "Bảng có nhiều mũi tên chắn nhau. Chạm vào một mũi tên để nó trượt thẳng ra ngoài theo hướng chỉ. Phải tìm đúng thứ tự để rút hết mũi tên mà không bị kẹt.",
+    "icon_url": "https://hitask.io/uploads/fb5190a3-e08c-4375-ba8c-dba075566952.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.ecffri.arrows",
+      "app_store": "https://apps.apple.com/us/app/id6748397500",
+      "youtube": "https://www.youtube.com/watch?v=DgcxFT5Qe1Q",
+      "apkpure": "https://apkpure.com/arrows-puzzle-escape/com.ecffri.arrows"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Arrows – Puzzle Escape + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Arrows – Puzzle Escape.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Arrows – Puzzle Escape + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Arrows – Puzzle Escape + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Maze Out!",
+    "key": "com.grandgames.arrowjam",
+    "publisher": "Grand Games",
+    "year": "2026",
+    "category": "Arrow puzzle",
+    "genre_group": "Smart Puzzle",
+    "description": "Chạm các mũi tên theo đúng thứ tự để rút khỏi bảng đông đúc trước khi hết giờ. Mỗi màn có chướng ngại mới như khoá, băng, ô cố định. Dùng booster khi bí.",
+    "icon_url": "https://hitask.io/uploads/78a190ed-1a4c-4746-8395-7f111746edc5.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.grandgames.arrowjam",
+      "app_store": "https://apps.apple.com/us/app/id6762192889",
+      "youtube": "https://www.youtube.com/watch?v=e45Uv_THi6A",
+      "apkpure": "https://apkpure.com/maze-out/com.grandgames.arrowjam"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Maze Out! + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Maze Out!.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Maze Out! + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Maze Out! + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Travel Town",
+    "key": "io.randomco.travel",
+    "publisher": "Moon Active (Magmatic)",
+    "year": "2021",
+    "category": "Merge-2 có cốt truyện",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Ghép đồ để tạo hàng hoá, giao cho người dân trong thị trấn ven biển. Mỗi đơn hoàn thành giúp sửa lại cửa hàng và mở rộng thị trấn. Năng lượng có hạn, có nhiều sự kiện theo mùa và mini game ghép đồ.",
+    "icon_url": "https://hitask.io/uploads/7d924f07-5593-45cd-908e-c341047f12a0.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=io.randomco.travel",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=GcYM3ZTa8k0",
+      "apkpure": "https://apkpure.com/travel-town/io.randomco.travel"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Travel Town + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Travel Town + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Travel Town + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Tasty Travels: Merge Game",
+    "key": "com.fatmerge.global",
+    "publisher": "Century Games",
+    "year": "2024",
+    "category": "Merge-2 có cốt truyện",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Ghép 2 món giống nhau để ra món cao cấp hơn, rồi giao cho khách theo đơn. Kiếm tiền để trang trí lại nhà hàng qua các thành phố. Có cốt truyện du lịch và sự kiện theo mùa.",
+    "icon_url": "https://hitask.io/uploads/e4d5cfc8-e317-4a4f-bd17-27601c102790.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.fatmerge.global",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=RDU61nkqMc0",
+      "apkpure": "https://apkpure.com/tasty-travels-merge-game/com.fatmerge.global"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Tasty Travels: Merge Game + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Tasty Travels: Merge Game + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Tasty Travels: Merge Game + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Merge Mansion",
+    "key": "com.everywear.game5",
+    "publisher": "Metacore",
+    "year": "2020",
+    "category": "Merge-2 có cốt truyện",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Ghép đồ trên bảng để có vật liệu, dùng nó sửa sang dinh thự của bà. Mỗi khu vực sửa xong mở thêm tình tiết về bí mật gia đình. Năng lượng giới hạn, có sự kiện và nhiệm vụ hằng ngày.",
+    "icon_url": "https://hitask.io/uploads/2cfcf12d-9d94-42c4-bdc4-0354040238b7.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.everywear.game5",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=b823cuRtmtc",
+      "apkpure": "https://apkpure.com/merge-mansion/com.everywear.game5"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Merge Mansion + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Merge Mansion + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Merge Mansion + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Water Sort Puzzle",
+    "key": "water.sort.puzzle.game.color.sorting.free",
+    "publisher": "Guru Puzzle Game",
+    "year": "2020",
+    "category": "Sort khối / nước",
+    "genre_group": "Smart Puzzle",
+    "description": "Các ống nghiệm chứa nước nhiều màu xếp lẫn lộn. Đổ nước từ ống này sang ống khác, chỉ đổ được khi màu trên cùng giống nhau và còn chỗ. Xếp mỗi ống một màu là qua màn.",
+    "icon_url": "https://hitask.io/uploads/ce3314f2-0f4f-42a2-9783-07518fc72b5f.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=water.sort.puzzle.game.color.sorting.free",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=Gf2G9vs6oaU",
+      "apkpure": "https://apkpure.com/water-sort-puzzle/water.sort.puzzle.game.color.sorting.free"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Water Sort Puzzle + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Water Sort Puzzle.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Water Sort Puzzle + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Water Sort Puzzle + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Magic Sort!",
+    "key": "com.grandgames.magicsort",
+    "publisher": "Grand Games",
+    "year": "2024",
+    "category": "Sort khối / nước",
+    "genre_group": "Smart Puzzle",
+    "description": "Đổ nước màu giữa các ống nghiệm cho tới khi mỗi ống chỉ còn một màu. Chỉ được đổ lên màu giống hoặc ống trống. Màn sau có ống ẩn màu và thêm ống phụ khi bí.",
+    "icon_url": "https://hitask.io/uploads/bb14c925-27c5-413e-9548-e2e882d3c757.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=3IJTEpZVRvo",
+      "apkpure": "https://apkpure.com/magic-sort/com.grandgames.magicsort"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Magic Sort! + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Magic Sort!.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Magic Sort! + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Magic Sort! + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Block Out!",
+    "key": "com.grandgames.catblockjam",
+    "publisher": "Grand Games",
+    "year": "2025",
+    "category": "Sort khối / nước",
+    "genre_group": "Smart Puzzle",
+    "description": "Kéo các khối màu trượt trên bảng để đưa chúng ra đúng cửa cùng màu. Khối chắn nhau nên phải dọn đường theo thứ tự. Màn khó có thêm khoá, khối nhiều lớp và giới hạn thời gian.",
+    "icon_url": "https://hitask.io/uploads/c30d6b04-820d-4a1d-acdb-f3d0dd216e97.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.grandgames.catblockjam",
+      "app_store": "https://apps.apple.com/us/app/id6752672568",
+      "youtube": "https://www.youtube.com/watch?v=QJDAu15vVM0",
+      "apkpure": "https://apkpure.com/block-out/com.grandgames.catblockjam"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Block Out! + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Block Out!.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Block Out! + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Block Out! + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Meowdoku!",
+    "key": "com.oakever.meowdoku",
+    "publisher": "Oakever Games",
+    "year": "2026",
+    "category": "Logic puzzle",
+    "genre_group": "Smart Puzzle",
+    "description": "Mỗi màn là một bảng logic ngắn kết hợp Sudoku và dò mìn, đặt mèo vào đúng ô theo luật. Mỗi hàng, cột và vùng màu chỉ có một con mèo, các con mèo không được đứng sát nhau. Sai thì phải chờ một lúc mới chơi tiếp.",
+    "icon_url": "https://hitask.io/uploads/ccae1ed2-f0f9-4655-b84d-1e49abdab242.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.oakever.meowdoku",
+      "app_store": "https://apps.apple.com/us/app/id6761760135",
+      "youtube": "https://www.youtube.com/watch?v=5GBnoLymxZs",
+      "apkpure": "https://apkpure.com/meowdoku/com.oakever.meowdoku"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Meowdoku! + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Meowdoku!.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Meowdoku! + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Meowdoku! + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Bus Fever Party!",
+    "key": "gridplus.busjam.carpuzzle",
+    "publisher": "Lumi Games",
+    "year": "2025",
+    "category": "Bus jam",
+    "genre_group": "Smart Puzzle",
+    "description": "Bãi đỗ chật kín xe buýt nhiều màu, khách xếp hàng chờ đúng màu xe. Chạm xe để chạy ra, nhưng xe chỉ đi được nếu đường thẳng phía trước trống. Chở hết khách là qua màn.",
+    "icon_url": "https://hitask.io/uploads/917520cb-8262-418b-8419-8611d38e390e.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=gridplus.busjam.carpuzzle",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=q8GK0DiD8hk",
+      "apkpure": "https://apkpure.com/bus-fever-party/gridplus.busjam.carpuzzle"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Bus Fever Party! + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Bus Fever Party!.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Bus Fever Party! + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Bus Fever Party! + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Bus Traffic Fever!",
+    "key": "jp.co.goodroid.hyper.busflow",
+    "publisher": "GOODROID (CyberAgent)",
+    "year": "2026",
+    "category": "Bus jam",
+    "genre_group": "Smart Puzzle",
+    "description": "Bus jam mới đang vào top tải toàn cầu: các xe buýt màu kẹt trong bãi, chạm để cho xe chạy ra đón hành khách cùng màu. Xe chỉ đi được khi đường phía trước trống.",
+    "icon_url": "https://hitask.io/uploads/546aabab-f4bc-499d-a2f3-d7a7b8cd145f.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.busflow",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=dEnxCN2RgPQ",
+      "apkpure": "https://apkpure.com/bus-traffic-fever/jp.co.goodroid.hyper.busflow"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Bus Traffic Fever! + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Bus Traffic Fever!.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Bus Traffic Fever! + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Bus Traffic Fever! + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Jam Bus: Sandfall",
+    "key": "bus.sand.fall.jam.loop.traffic.flow",
+    "publisher": "Nova Games",
+    "year": "2026",
+    "category": "Bus jam",
+    "genre_group": "Smart Puzzle",
+    "description": "Cát màu xếp thành nhiều lớp, mỗi xe buýt có màu và hướng chạy riêng. Chạm đúng xe để nó chạy đi gom cát cùng màu. Có xe chắn đường nhau và lớp cát dưới chỉ mở khi lớp trên đã hết.",
+    "icon_url": "https://hitask.io/uploads/db044ff6-eb38-4abc-a43e-3f34141162fa.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=bus.sand.fall.jam.loop.traffic.flow",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=q0uTLGCinvw",
+      "apkpure": "https://apkpure.com/jam-bus-sandfall/bus.sand.fall.jam.loop.traffic.flow"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Jam Bus: Sandfall + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Jam Bus: Sandfall.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Jam Bus: Sandfall + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Jam Bus: Sandfall + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Rotate Rings",
+    "key": "com.nebula.rotaterings",
+    "publisher": "Nebula Studio",
+    "year": "2026",
+    "category": "Xoay vòng logic 3D",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Nhiều vòng tròn 3D lồng vào nhau, mỗi vòng có khe hở. Bạn xoay từng vòng để các khe thẳng hàng và mở khoá lớp tiếp theo. Càng về sau càng nhiều vòng đan chéo nên phải tính thứ tự xoay.",
+    "icon_url": "https://hitask.io/uploads/ba1bfe11-8256-4cc6-9bfe-b3340ab5ec00.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.nebula.rotaterings",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=tJ0kVDFUmQU",
+      "apkpure": "https://apkpure.com/rotate-rings/com.nebula.rotaterings"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Rotate Rings + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Rotate Rings + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Rotate Rings + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Color Rings Puzzle",
+    "key": "com.puzzle.rings",
+    "publisher": "AIM TOP GAME",
+    "year": "2017",
+    "category": "Xoay vòng logic 3D",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Mỗi lượt bạn nhận một bộ vòng tròn nhiều cỡ và màu, đặt vào một trong 9 ô. Ba vòng cùng màu nằm thẳng hàng hoặc trong cùng ô thì biến mất. Hết chỗ đặt là thua.",
+    "icon_url": "https://hitask.io/uploads/f7b172c9-3fc9-4482-933d-97d09216dae8.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.puzzle.rings",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=n9VlZdUvYkY",
+      "apkpure": "https://apkpure.com/color-rings-puzzle/com.puzzle.rings"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Color Rings Puzzle + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Color Rings Puzzle + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Color Rings Puzzle + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Hexa Sort",
+    "key": "com.gamebrain.hexasort",
+    "publisher": "Lion Studios Plus",
+    "year": "2023",
+    "category": "Xếp chồng ô lục giác",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Mỗi lượt bạn nhận các chồng ô lục giác nhiều màu và đặt chúng lên bàn. Các ô cùng màu ở chồng kề nhau sẽ tự nhảy về một chồng. Gom đủ 10 ô cùng màu thì chồng đó biến mất, đạt đủ số ô để qua màn.",
+    "icon_url": "https://hitask.io/uploads/4f76535c-32d6-4704-b038-ba2ad0dc991e.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.gamebrain.hexasort",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=VFBcGxEnEow",
+      "apkpure": "https://apkpure.com/hexa-sort/com.gamebrain.hexasort"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Hexa Sort + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Hexa Sort + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Hexa Sort + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Hexa Color: Sorting Puzzle",
+    "key": "com.fc.hexa.sort.color.sorting.brain.puzzle",
+    "publisher": "FALCON GAMES",
+    "year": "2023",
+    "category": "Xếp chồng ô lục giác",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Đặt các chồng ô lục giác nhiều màu lên bàn, ô cùng màu ở chồng kề nhau tự dồn về một chồng. Gom đủ số ô cùng màu thì chồng đó biến mất và ghi điểm. Bàn đầy là thua.",
+    "icon_url": "https://hitask.io/uploads/6885aea2-070a-4e45-b273-35f66e1af336.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.fc.hexa.sort.color.sorting.brain.puzzle",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=1QALe-pGdAQ",
+      "apkpure": "https://apkpure.com/hexa-color-sorting-puzzle/com.fc.hexa.sort.color.sorting.brain.puzzle"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Hexa Color: Sorting Puzzle + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Hexa Color: Sorting Puzzle + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Hexa Color: Sorting Puzzle + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Goods Puzzle: 3D Sorting Games",
+    "key": "sorting.games.goods.sort.triple.match3d.puzzle.stuff",
+    "publisher": "Guru Puzzle Game",
+    "year": "2023",
+    "category": "Sort ghép 3",
+    "genre_group": "Smart Puzzle",
+    "description": "Các kệ hàng chứa đồ lẫn lộn, mỗi ngăn có nhiều lớp phía sau. Kéo đồ sang ngăn khác để gom đủ 3 món giống nhau trên một ngăn thì biến mất. Dọn sạch kệ trước khi hết giờ.",
+    "icon_url": "https://hitask.io/uploads/2019656b-6333-4b64-b5d8-101c3a764250.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=sorting.games.goods.sort.triple.match3d.puzzle.stuff",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=NbyHrdlVsew",
+      "apkpure": "https://apkpure.com/goods-puzzle-3d-sorting-games/sorting.games.goods.sort.triple.match3d.puzzle.stuff"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Goods Puzzle: 3D Sorting Games + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Goods Puzzle: 3D Sorting Games.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Goods Puzzle: 3D Sorting Games + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Goods Puzzle: 3D Sorting Games + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Fish Sort Puzzle",
+    "key": "triple.sorting.bubble.fish.match",
+    "publisher": "Shycheese",
+    "year": "2026",
+    "category": "Sort ghép 3",
+    "genre_group": "Smart Puzzle",
+    "description": "Bể cá có nhiều ngăn, mỗi ngăn chứa vài con cá khác loại. Chạm để chuyển cá sao cho mỗi ngăn gom đủ 3 con giống nhau thì biến mất. Dọn hết cá để mở rộng và trang trí bể.",
+    "icon_url": "https://hitask.io/uploads/e44b1812-7ad5-424c-a2b0-4de6bbe1b8b0.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=triple.sorting.bubble.fish.match",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=v5Xu2OxZpUk",
+      "apkpure": "https://apkpure.com/fish-sort-puzzle/triple.sorting.bubble.fish.match"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Fish Sort Puzzle + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Fish Sort Puzzle.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Fish Sort Puzzle + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Fish Sort Puzzle + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Cube Land Puzzle Game",
+    "key": "com.rotatelab.cubeblast",
+    "publisher": "Rotatelab",
+    "year": "2026",
+    "category": "Bắn khối voxel",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Mỗi màn là một mô hình dựng bằng khối voxel nhiều màu. Bạn có một số khẩu bắn màu, chọn đúng khẩu để phá các khối cùng màu. Dọn hết mô hình bằng số khẩu bắn có hạn là qua màn.",
+    "icon_url": "https://hitask.io/uploads/775d9215-9951-46e3-9a19-fa5378787e65.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.rotatelab.cubeblast",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=XgOrQEoF1r0",
+      "apkpure": "https://apkpure.com/cube-land-puzzle-game/com.rotatelab.cubeblast"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Cube Land Puzzle Game + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Cube Land Puzzle Game + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Cube Land Puzzle Game + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Wall Brawl - Tower Defense TD",
+    "key": "com.homagames.studio.wallbrawl",
+    "publisher": "Homa",
+    "year": "Soft launch",
+    "category": "Soft launch / sắp ra mắt",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Thủ thành có yếu tố RPG và roguelike: giữ bức tường, triệu hồi anh hùng và chọn nâng cấp ngẫu nhiên qua từng đợt.",
+    "icon_url": "https://hitask.io/uploads/803d2209-8d68-47dc-b8c0-f19c922670e8.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.homagames.studio.wallbrawl",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=XIHbqFe-Kg4",
+      "apkpure": "https://apkpure.com/wall-brawl-tower-defense-td/com.homagames.studio.wallbrawl"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Wall Brawl - Tower Defense TD + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Wall Brawl - Tower Defense TD + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Wall Brawl - Tower Defense TD + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Pixel Shelter",
+    "key": "com.nimblebit.pixelshelter",
+    "publisher": "NimbleBit",
+    "year": "Soft launch",
+    "category": "Soft launch / sắp ra mắt",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Xây hầm trú ẩn dưới lòng đất kiểu pixel, xếp người sống sót vào phòng và chống zombie, từ studio làm Tiny Tower.",
+    "icon_url": "https://hitask.io/uploads/bef79a14-7fea-4ff7-beae-3f9291f8bf44.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.nimblebit.pixelshelter",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=AQEPyIxNt5w",
+      "apkpure": "https://apkpure.com/pixel-shelter/com.nimblebit.pixelshelter"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Pixel Shelter + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Pixel Shelter + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Pixel Shelter + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Rival Nations",
+    "key": "com.greenhorsegames.rivalnations",
+    "publisher": "Miniclip (Green Horse Games)",
+    "year": "Soft launch",
+    "category": "Soft launch / sắp ra mắt",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Game chiến tranh nhiều người chơi theo nhóm: lật thẻ để lấy thưởng, xây lại đất nước, huấn luyện quân rồi cùng đồng minh giữ mặt trận phòng thủ và tấn công chiếm lãnh thổ của người chơi khác.",
+    "icon_url": "https://hitask.io/uploads/a49f6635-be60-4cd7-81a8-5d1beb6540dc.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.greenhorsegames.rivalnations",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/results?search_query=Rival Nations+gameplay",
+      "apkpure": "https://apkpure.com/rival-nations/com.greenhorsegames.rivalnations"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Rival Nations + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Rival Nations + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Rival Nations + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Dice Strikers: Roll to Glory",
+    "key": "jp.konami.dicestrikers",
+    "publisher": "KONAMI",
+    "year": "Soft launch",
+    "category": "Soft launch / sắp ra mắt",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Board game tung xúc xắc kiểu Monopoly GO có co-op và PvP, cướp tiền của người chơi khác để xây khu của mình.",
+    "icon_url": "https://hitask.io/uploads/d60634e7-f608-4f69-9c52-70ea1b6d5b93.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=jp.konami.dicestrikers",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=PPwA5GSqwKg",
+      "apkpure": "https://apkpure.com/dice-strikers-roll-to-glory/jp.konami.dicestrikers"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Dice Strikers: Roll to Glory + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Dice Strikers: Roll to Glory + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Dice Strikers: Roll to Glory + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Hill Climb Racing 3",
+    "key": "com.fingersoft.hillclimbracing3",
+    "publisher": "Fingersoft",
+    "year": "Soft launch",
+    "category": "Soft launch / sắp ra mắt",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Đua xe vật lý 3D có PvP thời gian thực và đồ chơi phá đối thủ.",
+    "icon_url": "https://hitask.io/uploads/5c57a804-a828-42f9-94aa-5d2543510a24.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.fingersoft.hillclimbracing3",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=eP-IcvY1a8w",
+      "apkpure": "https://apkpure.com/hill-climb-racing-3/com.fingersoft.hillclimbracing3"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Hill Climb Racing 3 + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Hill Climb Racing 3 + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Hill Climb Racing 3 + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Palworld Online",
+    "key": "n-palworld-online",
+    "publisher": "Garena / Pocketpair",
+    "year": "Sắp ra",
+    "category": "Soft launch / sắp ra mắt",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bản MMO di động của Palworld: bắt Pal, sinh tồn, xây trại và làm nông cùng bạn bè.",
+    "icon_url": "https://hitask.io/uploads/8afe8a53-78a6-477b-a10a-f5915663ef45.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=n-palworld-online",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=76tG_5PAurA",
+      "apkpure": ""
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Palworld Online + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Palworld Online + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Palworld Online + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Hero Wars: Alliance RPG Legend",
+    "key": "com.nexters.herowars",
+    "publisher": "NEXTERS GLOBAL LTD",
+    "year": "2016",
+    "category": "Gacha đội hình idle",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn sưu tập anh hùng, xếp đội 5 người rồi đánh qua bản đồ chiến dịch; trận đấu tự động, bạn chỉ bấm tung chiêu cuối khi đầy năng lượng. Nâng cấp anh hùng bằng trang bị, sao và kỹ năng. Có đấu trường PvP, bang hội và boss bang.",
+    "icon_url": "https://hitask.io/uploads/b2fc3ef4-65ed-475a-9dd8-317ce7bdf4ae.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.nexters.herowars",
+      "app_store": "https://apps.apple.com/us/app/id1158967485",
+      "youtube": "https://www.youtube.com/watch?v=ip8Tgie5jg0",
+      "apkpure": "https://apkpure.com/hero-wars-alliance-rpg-legend/com.nexters.herowars"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Hero Wars: Alliance RPG Legend + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Hero Wars: Alliance RPG Legend + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Hero Wars: Alliance RPG Legend + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Top Lords",
+    "key": "com.gamespark.topking.gp",
+    "publisher": "GAME SPARK",
+    "year": "2026",
+    "category": "4X mở đầu bằng minigame",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Mở đầu bằng các màn vuốt để dẫn đoàn quân chạy qua cổng nhân số rồi đánh vào thành địch. Ngoài màn bạn xây thành, nâng cấp anh hùng và quân lính. Bản đồ chung có liên minh và chiếm lãnh thổ.",
+    "icon_url": "https://hitask.io/uploads/8dd69219-0b4d-4a16-a4dd-385c3cb68e58.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.gamespark.topking.gp",
+      "app_store": "https://apps.apple.com/us/app/id6767834940",
+      "youtube": "https://www.youtube.com/watch?v=IDBoxkxmdfU",
+      "apkpure": "https://apkpure.com/top-lords/com.gamespark.topking.gp"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Top Lords + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Top Lords + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Top Lords + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Tiny Cat Assemble: Survivors",
+    "key": "com.superrabbitgames.globalminicrafts",
+    "publisher": "Veroplay",
+    "year": "2026",
+    "category": "Survivor-like bắn tự động",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Bạn mở hộp giao hàng để ra các chú mèo chiến đấu, ghép hai mèo giống nhau để tiến hóa mạnh hơn. Đội mèo tự đánh các đợt quái kéo tới trên bản đồ, bạn di chuyển và chọn kỹ năng khi lên cấp. Ngoài màn triệu hồi và nâng cấp mèo.",
+    "icon_url": "https://hitask.io/uploads/f106316a-507d-4efb-be28-19a130b0388f.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.superrabbitgames.globalminicrafts",
+      "app_store": "https://apps.apple.com/us/app/id6803396660",
+      "youtube": "https://www.youtube.com/watch?v=Euwy6euagCI",
+      "apkpure": "https://apkpure.com/tiny-cat-assemble-survivors/com.superrabbitgames.globalminicrafts"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Tiny Cat Assemble: Survivors + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Tiny Cat Assemble: Survivors + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Tiny Cat Assemble: Survivors + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "X-Clash: Survival Challenge",
+    "key": "com.xman.na.gp",
+    "publisher": "Glaciers Game",
+    "year": "2025",
+    "category": "4X mở đầu bằng minigame",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Mở đầu bằng các màn giải đố cứu chó: vẽ tường che chắn, chọn đường đi đúng. Sau đó là game 4X sinh tồn: xây thành, chiêu mộ anh hùng, đánh zombie và quân Void trên bản đồ. Liên minh để chiếm lãnh thổ.",
+    "icon_url": "https://hitask.io/uploads/c0d545c3-b576-4872-b49e-ebba88da6b1d.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.xman.na.gp",
+      "app_store": "https://apps.apple.com/us/app/id6744812012",
+      "youtube": "https://www.youtube.com/watch?v=oFBI2n9q3G0",
+      "apkpure": "https://apkpure.com/x-clash-survival-challenge/com.xman.na.gp"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "X-Clash: Survival Challenge + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "X-Clash: Survival Challenge + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "X-Clash: Survival Challenge + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Random Dice 2",
+    "key": "com.percent.aos.randomdice2",
+    "publisher": "111%",
+    "year": "2026",
+    "category": "Thủ thành ghép quân PvP",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Trận PvP thủ thành: mỗi người có một bàn ô, bấm triệu hồi để ra xúc xắc ngẫu nhiên và ghép hai xúc xắc cùng loại, cùng số chấm để lên cấp. Xúc xắc tự bắn quái đi qua đường của mình. Không có gacha: mọi người bắt đầu ngang nhau, chỉ chọn bộ xúc xắc trước trận.",
+    "icon_url": "https://hitask.io/uploads/b7981f40-1a7b-40a9-8ad2-175dce05131d.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.percent.aos.randomdice2",
+      "app_store": "https://apps.apple.com/us/app/id6748432502",
+      "youtube": "https://www.youtube.com/watch?v=5UzaSsE_qfQ",
+      "apkpure": "https://apkpure.com/random-dice-2/com.percent.aos.randomdice2"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Random Dice 2 + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Random Dice 2 + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Random Dice 2 + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "FORTBLOX: Mobile Fortress GO!",
+    "key": "global.hyperrise.wl",
+    "publisher": "하이퍼라이즈",
+    "year": "2026",
+    "category": "Pháo đài di động",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Pháo đài di động lăn qua vùng đất hoang, tự bắn vào quái vật chặn đường. Giữa các đợt chọn thẻ để gắn thêm vũ khí, khối giáp lên pháo đài và nâng cấp. Ngoài màn triệu hồi vũ khí và mở rộng pháo đài.",
+    "icon_url": "https://hitask.io/uploads/7dee34ce-afc1-440e-a3de-0b05a460afe4.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=global.hyperrise.wl",
+      "app_store": "https://apps.apple.com/us/app/id6761804867",
+      "youtube": "https://www.youtube.com/watch?v=fSyQWJZyBIE",
+      "apkpure": "https://apkpure.com/fortblox-mobile-fortress-go/global.hyperrise.wl"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "FORTBLOX: Mobile Fortress GO! + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "FORTBLOX: Mobile Fortress GO! + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "FORTBLOX: Mobile Fortress GO! + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Wild Water World",
+    "key": "com.iyagames.flotshelter",
+    "publisher": "Hong Kong Just Game Technology Limited",
+    "year": "2026",
+    "category": "4X sinh tồn quản lý dân",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Thế giới ngập nước, bạn sống trên một chiếc bè: vớt đồ trôi, mở rộng bè thành căn cứ nổi và giao việc cho người sống sót. Chiêu mộ anh hùng chống cá mập và cướp biển. Có bản đồ chung và liên minh như game 4X.",
+    "icon_url": "https://hitask.io/uploads/873236f6-15ad-425e-a423-a7c85c00bb24.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.iyagames.flotshelter",
+      "app_store": "https://apps.apple.com/us/app/id6780387121",
+      "youtube": "https://www.youtube.com/watch?v=5BcBWQUixFM",
+      "apkpure": "https://apkpure.com/wild-water-world/com.iyagames.flotshelter"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Wild Water World + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Wild Water World + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Wild Water World + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Cell Survivor - Shoot Defense",
+    "key": "defense.roguelike.cell.shoot.survivor",
+    "publisher": "Snap Brain Games",
+    "year": "2025",
+    "category": "Survivor-like bắn tự động",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Bạn điều khiển một tế bào chiến đấu trong cơ thể, tự bắn vào đàn virus và vi khuẩn tràn xuống. Lên cấp chọn kỹ năng ngẫu nhiên để xây combo hỏa lực, cuối màn đánh boss virus. Ngoài màn nâng cấp vũ khí và trang bị.",
+    "icon_url": "https://hitask.io/uploads/2b9bb5e4-ac11-48d8-a8e5-eefd46003427.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=defense.roguelike.cell.shoot.survivor",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=GIgrFVp4fiA",
+      "apkpure": "https://apkpure.com/cell-survivor-shoot-defense/defense.roguelike.cell.shoot.survivor"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Cell Survivor - Shoot Defense + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Cell Survivor - Shoot Defense + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Cell Survivor - Shoot Defense + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Titan Rush",
+    "key": "com.ratinghope.gplay",
+    "publisher": "RATING GAME",
+    "year": "2026",
+    "category": "4X sinh tồn quản lý dân",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Game chiến thuật hậu tận thế: bạn chỉ huy anh hùng và mecha đi giải cứu người sống sót khỏi tổ quái Chimera, hoặc giữ quân để bảo vệ nơi trú ẩn. Xây và nâng cấp căn cứ, chiêu mộ anh hùng, đánh các màn viễn chinh. Có liên minh và PvP.",
+    "icon_url": "https://hitask.io/uploads/ac3fcdc2-efb0-46fa-9419-e02d1936322c.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.ratinghope.gplay",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=mugDPqgtJNo",
+      "apkpure": "https://apkpure.com/titan-rush/com.ratinghope.gplay"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Titan Rush + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Titan Rush + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Titan Rush + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Call of Dragons",
+    "key": "com.farlightgames.samo.gp",
+    "publisher": "FARLIGHT",
+    "year": "2023",
+    "category": "4X đội hình anh hùng",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Game 4X fantasy: xây thành, chọn phe, chiêu mộ anh hùng và thu phục thú khổng lồ. Bản đồ mở cho phép điều quân tự do, bay qua địa hình và giao tranh theo thời gian thực. Liên minh chiếm đất, dựng công trình liên minh và đánh server.",
+    "icon_url": "https://hitask.io/uploads/6815142c-eb8d-47c0-b206-c588b7a010f5.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.farlightgames.samo.gp",
+      "app_store": "https://apps.apple.com/us/app/id1605558677",
+      "youtube": "https://www.youtube.com/watch?v=hlbRsVqYS2A",
+      "apkpure": "https://apkpure.com/call-of-dragons/com.farlightgames.samo.gp"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Call of Dragons + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Call of Dragons + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Call of Dragons + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Galaxy Defense: Fortress TD",
+    "key": "com.cyberjoy.galaxydefense",
+    "publisher": "CyberJoy Games",
+    "year": "2025",
+    "category": "Thủ thành roguelike",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Pháo đài ở cuối màn hình tự bắn vào đàn tàu ngoài hành tinh lao xuống. Mỗi lần lên cấp chọn kỹ năng ngẫu nhiên cho các tháp pháo để xây combo. Ngoài màn mở khóa và nâng cấp tháp pháo.",
+    "icon_url": "https://hitask.io/uploads/bca94573-e0b9-430c-9bb1-7df8ec478585.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.cyberjoy.galaxydefense",
+      "app_store": "https://apps.apple.com/us/app/id6740189002",
+      "youtube": "https://www.youtube.com/watch?v=EJtSWciaLvg",
+      "apkpure": "https://apkpure.com/galaxy-defense-fortress-td/com.cyberjoy.galaxydefense"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Galaxy Defense: Fortress TD + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Galaxy Defense: Fortress TD + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Galaxy Defense: Fortress TD + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Thronefall",
+    "key": "com.doghowlgames.thronefall",
+    "publisher": "Doghowl Games Ltd",
+    "year": "2025",
+    "category": "Xây & thủ thành ngày–đêm",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Ban ngày bạn cưỡi ngựa đi xây nhà, ruộng để kiếm vàng và dựng tường, tháp, doanh trại. Ban đêm quân địch kéo đến từ nhiều hướng, bạn tự cầm vũ khí đánh cùng lính và tháp. Mỗi màn chỉ vài đêm; chọn kỹ năng, vũ khí và độ khó để lấy điểm cao. Bản PC ra năm 2023, bản mobile năm 2025.",
+    "icon_url": "https://hitask.io/uploads/89b4e77c-d9c1-4705-aa54-f9e7ac5ebc7b.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.doghowlgames.thronefall",
+      "app_store": "https://apps.apple.com/us/app/id6744029320",
+      "youtube": "https://www.youtube.com/watch?v=2GRG4lNcbJU",
+      "apkpure": "https://apkpure.com/thronefall/com.doghowlgames.thronefall"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Thronefall + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Thronefall + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Thronefall + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Infinity Kingdom",
+    "key": "com.gtarcade.ioe.global",
+    "publisher": "Yoozoo (Singapore) Pte. Ltd",
+    "year": "2021",
+    "category": "4X đội hình anh hùng",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Game 4X phong cách hoạt hình: xây thành, chiêu mộ các Bất Tử (anh hùng) và xếp đội ba người. Đánh gnome và quái trên bản đồ, chiếm thành, giao tranh thời gian thực. Liên minh để chiếm đất và tham gia chiến tranh server.",
+    "icon_url": "https://hitask.io/uploads/a8b1db28-df15-411f-9cc5-17bf514dcbbd.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.gtarcade.ioe.global",
+      "app_store": "https://apps.apple.com/us/app/id1487451427",
+      "youtube": "https://www.youtube.com/watch?v=_Zfs8OcrLhg",
+      "apkpure": "https://apkpure.com/infinity-kingdom/com.gtarcade.ioe.global"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Infinity Kingdom + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Infinity Kingdom + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Infinity Kingdom + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Merge Master: Dinosaur Monster",
+    "key": "com.fusee.MergeMaster",
+    "publisher": "Homa",
+    "year": "2022",
+    "category": "Auto battler xếp đội hình",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Mỗi màn bạn mua khủng long hoặc chiến binh đặt lên bàn, ghép hai con giống nhau thành con mạnh hơn. Bấm đánh thì hai bên tự lao vào nhau; thắng nhận vàng để mua thêm quân cho màn sau.",
+    "icon_url": "https://hitask.io/uploads/b709cb16-1a8e-4e50-8452-808353bd56bc.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.fusee.MergeMaster",
+      "app_store": "https://apps.apple.com/us/app/id1604225544",
+      "youtube": "https://www.youtube.com/watch?v=7kOQFrsMtes",
+      "apkpure": "https://apkpure.com/merge-master-dinosaur-monster/com.fusee.MergeMaster"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Merge Master: Dinosaur Monster + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Merge Master: Dinosaur Monster + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Merge Master: Dinosaur Monster + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Gun Hero: Cat Survival Shooter",
+    "key": "com.BMGames.GunHero",
+    "publisher": "Freeplay Inc",
+    "year": "2025",
+    "category": "Xếp đồ trong balo",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Một chú mèo cầm súng đứng giữ vị trí, tự bắn các đợt quái kéo tới. Giữa các đợt xếp và ghép súng, phụ kiện trong lưới trang bị để tăng hỏa lực, rồi chọn hướng tiến hóa vũ khí. Qua chương thì mở vũ khí mới.",
+    "icon_url": "https://hitask.io/uploads/5f7aa885-f0ce-4218-b983-c5057d6d992e.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.BMGames.GunHero",
+      "app_store": "https://apps.apple.com/us/app/id6751321179",
+      "youtube": "https://www.youtube.com/watch?v=VOfPhoUQRro",
+      "apkpure": "https://apkpure.com/gun-hero-cat-survival-shooter/com.BMGames.GunHero"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Gun Hero: Cat Survival Shooter + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Gun Hero: Cat Survival Shooter + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Gun Hero: Cat Survival Shooter + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Siege Arena: Build & Fight",
+    "key": "com.havystudio.siegearena",
+    "publisher": "VOODOO",
+    "year": "2025",
+    "category": "Thủ thành ghép quân PvP",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Trận PvP 1v1: bạn đặt các công trình lên lưới, mỗi công trình sinh ra một loại quân (cận chiến, bắn xa…), ghép công trình giống nhau để lên cấp. Quân tự lao vào đánh làng đối thủ, phá được trước là thắng.",
+    "icon_url": "https://hitask.io/uploads/feaf2ddc-8a6e-474a-bb98-1b23074b28d5.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.havystudio.siegearena",
+      "app_store": "https://apps.apple.com/us/app/id6745400318",
+      "youtube": "https://www.youtube.com/watch?v=OTjlsGCzTDY",
+      "apkpure": "https://apkpure.com/siege-arena-build-fight/com.havystudio.siegearena"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Siege Arena: Build & Fight + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Siege Arena: Build & Fight + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Siege Arena: Build & Fight + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Dice Lords",
+    "key": "com.oxvgames.dicelords",
+    "publisher": "VOODOO",
+    "year": "2025",
+    "category": "Roguelite xúc xắc / bài",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Đi qua các tầng hầm ngục, mỗi trận tung xúc xắc để gây sát thương lên quái. Dùng bụi phép để đổi mặt xúc xắc và trang bị bùa để tăng hiệu ứng combo. Thắng boss để xuống tầng sâu hơn.",
+    "icon_url": "https://hitask.io/uploads/825671b3-73ad-4cd4-ac9e-9f6758f6daa5.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.oxvgames.dicelords",
+      "app_store": "https://apps.apple.com/us/app/id6743435206",
+      "youtube": "https://www.youtube.com/watch?v=gdb-wPC6P4Y",
+      "apkpure": "https://apkpure.com/dice-lords/com.oxvgames.dicelords"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Dice Lords + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Dice Lords + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Dice Lords + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Epic Trio: Roguelike Clash",
+    "key": "com.inwave.herobase",
+    "publisher": "INWAVE GLOBAL",
+    "year": "2026",
+    "category": "Hành động theo màn",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn dẫn đội 3 anh hùng di chuyển bằng cần điều khiển qua các màn, đội tự đánh quái và phá công trình trên đường. Sau mỗi đợt chọn kỹ năng ngẫu nhiên, kết hợp kỹ năng của ba anh hùng để tạo combo. Cuối màn đánh boss; ngoài màn nâng cấp anh hùng và trang bị.",
+    "icon_url": "https://hitask.io/uploads/22edc1ed-0552-4f6b-91c6-3cc0c8e6208b.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.inwave.herobase",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=yW0NwAw-K84",
+      "apkpure": "https://apkpure.com/epic-trio-roguelike-clash/com.inwave.herobase"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Epic Trio: Roguelike Clash + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Epic Trio: Roguelike Clash + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Epic Trio: Roguelike Clash + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Prison Life: Idle Game",
+    "key": "io.supercent.prison",
+    "publisher": "Supercent, Inc.",
+    "year": "2023",
+    "category": "Idle arcade quản lý cửa hàng",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn chạy quanh nhà tù để nhận tù nhân, phát đồ ăn, dọn dẹp và thu tiền. Dùng tiền mở rộng phòng giam, nhà ăn, khu sinh hoạt và thuê nhân viên làm thay. Nhà tù càng lớn càng tự vận hành.",
+    "icon_url": "https://hitask.io/uploads/e7113dd0-0cb6-4aac-8b90-108cd4e30a09.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=io.supercent.prison",
+      "app_store": "https://apps.apple.com/us/app/id6472412918",
+      "youtube": "https://www.youtube.com/watch?v=MgspY0uplQg",
+      "apkpure": "https://apkpure.com/prison-life-idle-game/io.supercent.prison"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Prison Life: Idle Game + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Prison Life: Idle Game + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Prison Life: Idle Game + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Downhill Racer",
+    "key": "io.supercent.downhill",
+    "publisher": "Supercent, Inc.",
+    "year": "2023",
+    "category": "Đua xe nâng cấp",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn cưỡi ván trượt lao xuống dốc, vuốt để đổi làn né chướng ngại, nhặt xu và vượt đối thủ. Về đích nhận thưởng để nâng tốc độ, gia tốc và đổi ván, trang phục trong gara.",
+    "icon_url": "https://hitask.io/uploads/af1fd224-4536-4089-b4e6-28d51058682c.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=io.supercent.downhill",
+      "app_store": "https://apps.apple.com/us/app/id6467385765",
+      "youtube": "https://www.youtube.com/watch?v=ORugcmJY6hE",
+      "apkpure": "https://apkpure.com/downhill-racer/io.supercent.downhill"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Downhill Racer + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Downhill Racer + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Downhill Racer + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Shark Universe: Survival World",
+    "key": "io.supercent.sharkuniverse2",
+    "publisher": "Supercent, Inc.",
+    "year": "2025",
+    "category": "Săn mồi lớn dần",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Điều khiển cá mập bơi khắp đại dương, ăn cá, sinh vật biển và cả người để lớn dần. Tránh hoặc đánh các sinh vật lớn hơn, hoàn thành nhiệm vụ săn mồi. Nâng cấp sát thương, máu, tốc độ và mở loài cá mập mới.",
+    "icon_url": "https://hitask.io/uploads/8545f736-bae2-4277-9e7f-9633e103f1e2.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=io.supercent.sharkuniverse2",
+      "app_store": "https://apps.apple.com/us/app/id6742216032",
+      "youtube": "https://www.youtube.com/watch?v=R_KD3TJiT5Q",
+      "apkpure": "https://apkpure.com/shark-universe-survival-world/io.supercent.sharkuniverse2"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Shark Universe: Survival World + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Shark Universe: Survival World + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Shark Universe: Survival World + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Stumble Guys",
+    "key": "com.kitkagames.fallbuddies",
+    "publisher": "Scopely",
+    "year": "2021",
+    "category": "Party game loại trừ",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Party game loại trừ: tối đa 32 người chạy qua các màn chướng ngại vật, chỉ một số suất đầu tiên được đi tiếp. Qua đủ các vòng để thắng chung cuộc. Mở trang phục và biểu cảm qua thẻ thưởng.",
+    "icon_url": "https://hitask.io/uploads/216d3ca3-e0cf-4f84-b415-cdc792e282d4.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.kitkagames.fallbuddies",
+      "app_store": "https://apps.apple.com/us/app/id1541153375",
+      "youtube": "https://www.youtube.com/watch?v=TayVDrKp1y0",
+      "apkpure": "https://apkpure.com/stumble-guys/com.kitkagames.fallbuddies"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Stumble Guys + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Stumble Guys + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Stumble Guys + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Magic Chess: Go Go",
+    "key": "com.mobilechess.gp",
+    "publisher": "Vizta Games",
+    "year": "2025",
+    "category": "Auto battler xếp đội hình",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Auto chess 8 người: mỗi vòng mua anh hùng từ cửa hàng, ghép 3 con giống nhau để lên sao và xếp lên bàn cờ. Kích hoạt hiệu ứng phe, nghề để đội mạnh hơn; hai bên tự đánh. Trụ lại cuối cùng là thắng.",
+    "icon_url": "https://hitask.io/uploads/56b04688-6eb6-4a1e-9fdc-19e01d4f985d.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.mobilechess.gp",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=l3ZgLYWE-Nc",
+      "apkpure": "https://apkpure.com/magic-chess-go-go/com.mobilechess.gp"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Magic Chess: Go Go + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Magic Chess: Go Go + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Magic Chess: Go Go + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "AFK Journey",
+    "key": "com.farlightgames.igame.gp",
+    "publisher": "FARLIGHT",
+    "year": "2024",
+    "category": "Gacha đội hình idle",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Khám phá thế giới mở vẽ như sách truyện, nhặt đồ và giải đố trên bản đồ. Trận đấu: đặt anh hùng lên ô lục giác trước trận, sau đó đội tự đánh. Sưu tập và nâng cấp anh hùng, nhận thưởng AFK, có PvP và guild.",
+    "icon_url": "https://hitask.io/uploads/3cde3ba7-1e89-447b-a7d9-cbfb6eceddd2.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.farlightgames.igame.gp",
+      "app_store": "https://apps.apple.com/us/app/id1628970855",
+      "youtube": "https://www.youtube.com/watch?v=PLJgBJRpc0w",
+      "apkpure": "https://apkpure.com/afk-journey/com.farlightgames.igame.gp"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "AFK Journey + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "AFK Journey + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "AFK Journey + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "RAID: Shadow Legends",
+    "key": "com.plarium.raidlegends",
+    "publisher": "Plarium Global Ltd",
+    "year": "2019",
+    "category": "RPG theo lượt sưu tập quái",
+    "genre_group": "Action, .io & Shmup",
+    "description": "RPG theo lượt sưu tập anh hùng: xếp đội 4–5 nhân vật đánh chiến dịch, dungeon và boss clan. Thu thập hàng trăm anh hùng qua triệu hồi, nâng sao, ráp bộ trang bị và artifact. Có đấu trường PvP và chế độ tự đánh.",
+    "icon_url": "https://hitask.io/uploads/3d89008d-cef8-4ab6-9f2e-03d2ab13e4ac.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.plarium.raidlegends",
+      "app_store": "https://apps.apple.com/us/app/id1371565796",
+      "youtube": "https://www.youtube.com/watch?v=_8l6JX9PZes",
+      "apkpure": "https://apkpure.com/raid-shadow-legends/com.plarium.raidlegends"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "RAID: Shadow Legends + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "RAID: Shadow Legends + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "RAID: Shadow Legends + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Arena Breakout",
+    "key": "com.proximabeta.mf.uamo",
+    "publisher": "Level Infinite",
+    "year": "2023",
+    "category": "Extraction (lục đồ – thoát ra)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn súng extraction góc nhìn thứ nhất: vào bản đồ với đồ mang theo, lục lấy vật phẩm giá trị, đánh người chơi khác và AI, rồi tìm điểm thoát. Chết là mất toàn bộ đồ mang vào. Đem đồ ra bán ở chợ và độ súng chi tiết.",
+    "icon_url": "https://hitask.io/uploads/7c71a7cb-22d4-4563-a10c-fa650b36cbcb.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.proximabeta.mf.uamo",
+      "app_store": "https://apps.apple.com/us/app/id1560765304",
+      "youtube": "https://www.youtube.com/watch?v=ggEqx-RRZ3k",
+      "apkpure": "https://apkpure.com/arena-breakout/com.proximabeta.mf.uamo"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Arena Breakout + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Arena Breakout + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Arena Breakout + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Idle Lumber Chopper Empire Inc",
+    "key": "dasi.prs2.lumberchopper",
+    "publisher": "Supercent, Inc.",
+    "year": "2024",
+    "category": "Idle arcade quản lý cửa hàng",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn điều khiển thợ đốn gỗ chạy quanh khu rừng chặt cây, mang gỗ về xưởng để cưa thành ván rồi bán lấy tiền. Dùng tiền mở khu rừng mới, xây thêm máy móc, nâng cấp băng chuyền và thuê công nhân làm thay. Xưởng càng lớn càng tự vận hành, kể cả khi offline.",
+    "icon_url": "https://hitask.io/uploads/35eb4c12-e2b5-4309-af92-059bd5e06e8c.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=dasi.prs2.lumberchopper",
+      "app_store": "https://apps.apple.com/us/app/id6738272884",
+      "youtube": "https://www.youtube.com/watch?v=18vPnIXDCG4",
+      "apkpure": "https://apkpure.com/idle-lumber-chopper-empire-inc/dasi.prs2.lumberchopper"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Idle Lumber Chopper Empire Inc + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Idle Lumber Chopper Empire Inc + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Idle Lumber Chopper Empire Inc + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Age of Warpath: Global Warzone",
+    "key": "com.ageofwarpath.globalwarzone",
+    "publisher": "Warfactory",
+    "year": "2024",
+    "category": "4X đội hình anh hùng",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Game 4X chiến tranh hiện đại: xây căn cứ, nghiên cứu, sản xuất xe tăng, máy bay và chiêu mộ sĩ quan. Có các màn chiến dịch điều khiển đơn vị phá căn cứ địch. Trên bản đồ thế giới, điều quân chiếm thành phố và liên minh với người chơi khác để tranh lãnh thổ.",
+    "icon_url": "https://hitask.io/uploads/e67389da-e394-4fe8-93ef-9f1cd4eb0f57.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.ageofwarpath.globalwarzone",
+      "app_store": "https://apps.apple.com/us/app/id6476187530",
+      "youtube": "https://www.youtube.com/watch?v=RIFiC24ojxA",
+      "apkpure": "https://apkpure.com/age-of-warpath-global-warzone/com.ageofwarpath.globalwarzone"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Age of Warpath: Global Warzone + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Age of Warpath: Global Warzone + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Age of Warpath: Global Warzone + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Goods Sort - Goods Sorting",
+    "key": "closet.match.pair.matching.games",
+    "publisher": "Shinrays Games",
+    "year": "2022",
+    "category": "Sort ghép 3",
+    "genre_group": "Smart Puzzle",
+    "description": "Các kệ hàng chứa đồ vật xếp nhiều lớp; bạn kéo từng món sang ngăn khác sao cho đủ 3 món giống nhau trong một ngăn thì chúng biến mất. Dọn sạch kệ trước khi hết giờ để qua màn. Có vật phẩm trợ giúp và sự kiện theo mùa.",
+    "icon_url": "https://hitask.io/uploads/50896acd-e4ac-4e39-abbf-e8818e34ce18.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=closet.match.pair.matching.games",
+      "app_store": "https://apps.apple.com/us/app/id1658958534",
+      "youtube": "https://www.youtube.com/watch?v=pdNEKQKGJ1o",
+      "apkpure": "https://apkpure.com/goods-sort/closet.match.pair.matching.games"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Goods Sort - Goods Sorting + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Goods Sort - Goods Sorting.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Goods Sort - Goods Sorting + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Goods Sort - Goods Sorting + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Wing Fighter",
+    "key": "com.minigame.wszj.android.gp",
+    "publisher": "MINIGAME ENTERTAINMENT LIMITED",
+    "year": "2022",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay dọc màn hình kiểu bullet hell: máy bay tự bắn, bạn kéo để né làn đạn dày và hạ boss cuối màn. Ngoài màn ghép trang bị, nâng cấp phi cơ và chọn phi công có kỹ năng riêng. Có các chế độ thử thách và hoạt động quân đoàn.",
+    "icon_url": "https://hitask.io/uploads/e4b9764b-398d-4121-b64c-6b739a937e40.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.minigame.wszj.android.gp",
+      "app_store": "https://apps.apple.com/us/app/id1562065271",
+      "youtube": "https://www.youtube.com/watch?v=Ec-_7dae_uM",
+      "apkpure": "https://apkpure.com/wing-fighter/com.minigame.wszj.android.gp"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Wing Fighter + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Wing Fighter + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Wing Fighter + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "name": "WindWings: Galaxy Attack",
+    "key": "com.Wind.wings.Space.Shooter",
+    "publisher": "GCenter",
+    "year": "2020",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay dọc màn hình: phi thuyền tự bắn, bạn kéo để né đạn và tiêu diệt các đợt quái ngoài hành tinh, cuối màn đánh boss. Nhặt vật phẩm để tăng hỏa lực trong màn. Ngoài màn mở và nâng cấp nhiều phi thuyền, thú hỗ trợ; có chế độ PvP và boss sự kiện.",
+    "icon_url": "https://hitask.io/uploads/31b44ffa-5a7c-4b85-8ee1-e9d51d8be271.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.Wind.wings.Space.Shooter",
+      "app_store": "https://apps.apple.com/us/app/id1498160180",
+      "youtube": "https://www.youtube.com/watch?v=vDmyytmfmtM",
+      "apkpure": "https://apkpure.com/windwings-galaxy-attack/com.Wind.wings.Space.Shooter"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "WindWings: Galaxy Attack + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "WindWings: Galaxy Attack + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "WindWings: Galaxy Attack + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Bulldozer Master: Crush & Mine",
+    "key": "io.supercent.bulldozermasters",
+    "publisher": "Supercent, Inc.",
+    "year": "2025",
+    "category": "Idle arcade quản lý cửa hàng",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn lái máy ủi đi phá các khối đá trên công trường để lấy quặng, vàng và đá quý, rồi mang về bán. Dùng tiền mua máy mới, nâng cấp sức phá và mở thêm khu mỏ, cơ sở chế biến. Mỏ tiếp tục kiếm tiền khi offline.",
+    "icon_url": "https://hitask.io/uploads/65fff01a-a963-4980-bf94-0d1919fad66b.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=io.supercent.bulldozermasters",
+      "app_store": "https://apps.apple.com/us/app/id6747710694",
+      "youtube": "https://www.youtube.com/watch?v=Xc362PF7IUE",
+      "apkpure": "https://apkpure.com/bulldozer-master-crush-mine/io.supercent.bulldozermasters"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Bulldozer Master: Crush & Mine + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Bulldozer Master: Crush & Mine + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Bulldozer Master: Crush & Mine + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Last Beacon: Survival",
+    "key": "com.hnhs.endlesssea.gp",
+    "publisher": "YG Technology FZ-LLC",
+    "year": "2026",
+    "category": "4X sinh tồn quản lý dân",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Thế giới ngập nước, bạn chỉ huy một nơi trú ẩn nổi trên biển: giao việc cho người sống sót, xây công trình, nghiên cứu công nghệ. Chiêu mộ anh hùng xếp đội để đánh quái biển và bảo vệ căn cứ. Có bản đồ chung, liên minh và tranh tài nguyên như game 4X.",
+    "icon_url": "https://hitask.io/uploads/24b98bcd-91fb-4776-8d91-757401dbc986.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.hnhs.endlesssea.gp",
+      "app_store": "https://apps.apple.com/us/app/id6761043541",
+      "youtube": "https://www.youtube.com/watch?v=Zn0JllYK9Yc",
+      "apkpure": "https://apkpure.com/last-beacon-survival/com.hnhs.endlesssea.gp"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Last Beacon: Survival + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Last Beacon: Survival + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Last Beacon: Survival + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Rush Attack",
+    "key": "com.spellbindgames.doomsquad",
+    "publisher": "Supercent, Inc.",
+    "year": "2025",
+    "category": "Survivor-like bắn tự động",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Bắn súng top-down sinh tồn: nhân vật tự bắn vào các đợt zombie và quái đột biến, bạn di chuyển để né đòn và nhặt tài nguyên. Lên cấp chọn kỹ năng để tăng hỏa lực, cuối màn đánh boss mech. Ngoài màn nâng cấp vũ khí và trang bị.",
+    "icon_url": "https://hitask.io/uploads/f7320e4c-8089-4866-b015-e51761315d76.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.spellbindgames.doomsquad",
+      "app_store": "https://apps.apple.com/us/app/id6747569548",
+      "youtube": "https://www.youtube.com/watch?v=MvTSN8FSWEs",
+      "apkpure": "https://apkpure.com/rush-attack/com.spellbindgames.doomsquad"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Rush Attack + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Rush Attack + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Rush Attack + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "name": "CubeAway - 3DPuzzle",
+    "key": "jp.co.goodroid.hyper.puzzle.arrows3dcubepuzzle",
+    "publisher": "GOODROID,Inc.",
+    "year": "2026",
+    "category": "Arrow puzzle",
+    "genre_group": "Smart Puzzle",
+    "description": "Bảng gồm nhiều mũi tên dài uốn khúc đan vào nhau; chạm vào mũi tên nào thì nó trượt ra khỏi bảng theo hướng đầu mũi tên. Mũi tên bị chặn sẽ va vào mũi tên khác và mất lượt, nên phải chọn đúng thứ tự. Gỡ hết mũi tên để qua màn; màn sau có bảng 3D xoay được.",
+    "icon_url": "https://hitask.io/uploads/094a60f2-4086-4ef8-bae0-be9fcc42b1f0.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.puzzle.arrows3dcubepuzzle",
+      "app_store": "https://apps.apple.com/us/app/id6760325543",
+      "youtube": "https://www.youtube.com/watch?v=NY1jIYeKIOk",
+      "apkpure": "https://apkpure.com/cubeaway-3dpuzzle/jp.co.goodroid.hyper.puzzle.arrows3dcubepuzzle"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "CubeAway - 3DPuzzle + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của CubeAway - 3DPuzzle.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "CubeAway - 3DPuzzle + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "CubeAway - 3DPuzzle + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Shoot & Hide",
+    "key": "com.sniper.shoot.hide.game",
+    "publisher": "CrazyLabs LTD",
+    "year": "2025",
+    "category": "Đấu bắn tỉa nấp – ló",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Đấu bắn tỉa 1v1 theo lượt với đối thủ ở tòa nhà đối diện: đến lượt mình thì ló ra, ngắm qua ống ngắm và bắn; đến lượt địch thì nấp sau vật che chắn. Canh thời điểm ló ra và bắn chính xác để hạ máu đối thủ trước. Thắng nhận tiền để nâng cấp súng và mở vũ khí mới.",
+    "icon_url": "https://hitask.io/uploads/765af473-9ab3-4266-be90-0f584f100274.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.sniper.shoot.hide.game",
+      "app_store": "https://apps.apple.com/us/app/id6747033069",
+      "youtube": "https://www.youtube.com/watch?v=J8SAa2gdG40",
+      "apkpure": "https://apkpure.com/shoot-hide/com.sniper.shoot.hide.game"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Shoot & Hide + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Shoot & Hide + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Shoot & Hide + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Aquapark.io",
+    "key": "com.cassette.aquapark",
+    "publisher": "VOODOO",
+    "year": "2019",
+    "category": "Đua trượt .io",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn trượt xuống đường ống nước khổng lồ cùng nhiều người chơi khác, vuốt trái phải để vào cua, va văng đối thủ và đi tắt bằng cách bay khỏi ống. Về đích đầu tiên để thắng. Mở thêm trang phục, nhân vật.",
+    "icon_url": "https://hitask.io/uploads/00df7dd0-8687-4c0d-bd45-3e1bacb8be7f.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.cassette.aquapark",
+      "app_store": "https://apps.apple.com/us/app/id1453989822",
+      "youtube": "https://www.youtube.com/watch?v=4GT0UuDBscE",
+      "apkpure": "https://apkpure.com/aquapark-io/com.cassette.aquapark"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Aquapark.io + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Aquapark.io + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Aquapark.io + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Dog Escape: Puppy Pet Games",
+    "key": "gg.sunday.dog.escape.puzzle",
+    "publisher": "Sunday.gg",
+    "year": "2024",
+    "category": "Lẻn trốn tránh tầm nhìn",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Mỗi màn là một mê cung nhìn từ trên xuống: bạn kéo để dẫn chú chó lẻn đến lối ra, tránh vùng nhìn của người bắt chó, bẫy và chướng ngại. Bị phát hiện là thua màn. Cứu được chó thì mang về trại để cho ăn, chăm sóc, mở rộng trại và sưu tập nhiều giống chó.",
+    "icon_url": "https://hitask.io/uploads/6b4f5176-ed59-4ff4-9414-e76258fbd7e5.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=gg.sunday.dog.escape.puzzle",
+      "app_store": "https://apps.apple.com/us/app/id6479165492",
+      "youtube": "https://www.youtube.com/watch?v=HEitEQud6Ro",
+      "apkpure": "https://apkpure.com/dog-escape-puppy-pet-games/gg.sunday.dog.escape.puzzle"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Dog Escape: Puppy Pet Games + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Dog Escape: Puppy Pet Games + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Dog Escape: Puppy Pet Games + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Epic Plane Evolution",
+    "key": "com.WalkTalk.FlightMaster",
+    "publisher": "VOODOO",
+    "year": "2024",
+    "category": "Phóng xa nâng cấp",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn phóng máy bay từ bệ, nghiêng để điều khiển bay xa nhất có thể, nhặt xu và tránh chướng ngại trên đường. Hết nhiên liệu thì rơi, tiền thu được dùng nâng cấp động cơ, cánh và bình xăng. Máy bay tiến hóa qua nhiều đời, từ máy bay giấy đến phản lực.",
+    "icon_url": "https://hitask.io/uploads/4356a65f-87c9-4587-a607-446f3e5eee3e.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.WalkTalk.FlightMaster",
+      "app_store": "https://apps.apple.com/us/app/id6504122823",
+      "youtube": "https://www.youtube.com/watch?v=_559QP7gR9M",
+      "apkpure": "https://apkpure.com/epic-plane-evolution/com.WalkTalk.FlightMaster"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Epic Plane Evolution + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Epic Plane Evolution + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Epic Plane Evolution + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "name": "1945 WarGuard: Sky Shooter",
+    "key": "com.gcenter.war1945.towerdefense.shootinggames.td",
+    "publisher": "GCenter",
+    "year": "2025",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay dọc màn hình bối cảnh Thế chiến 2: máy bay tự bắn, bạn kéo để né đạn và hạ các phi đội, tàu chiến, xe tăng địch. Cuối màn đánh boss lớn. Ngoài màn nâng cấp máy bay, mở phi cơ và máy bay yểm trợ mới.",
+    "icon_url": "https://hitask.io/uploads/a502e055-ceb9-4764-95a0-88721284ae50.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.gcenter.war1945.towerdefense.shootinggames.td",
+      "app_store": "https://apps.apple.com/us/app/id6753198998",
+      "youtube": "https://www.youtube.com/watch?v=6jb7QQLuI8o",
+      "apkpure": "https://apkpure.com/1945-warguard-sky-shooter/com.gcenter.war1945.towerdefense.shootinggames.td"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "1945 WarGuard: Sky Shooter + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "1945 WarGuard: Sky Shooter + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "1945 WarGuard: Sky Shooter + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Car Sort: Color Puzzle",
+    "key": "com.duykanbakay.carconveyortransfer",
+    "publisher": "Rollic Games",
+    "year": "2026",
+    "category": "Bus jam",
+    "genre_group": "Smart Puzzle",
+    "description": "Các xe nhiều màu nằm trong bãi; bạn chạm để đưa xe lên đường vòng quanh bảng, xe chạy đến gara cùng màu và đỗ vào. Đường vòng có số chỗ giới hạn, nên phải chọn thứ tự để không kẹt. Dọn hết xe để qua màn.",
+    "icon_url": "https://hitask.io/uploads/46e2349f-d626-4289-92dc-df87fec96f8c.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.duykanbakay.carconveyortransfer",
+      "app_store": "https://apps.apple.com/us/app/id6758138698",
+      "youtube": "https://www.youtube.com/watch?v=QY-RPmZ1wkc",
+      "apkpure": "https://apkpure.com/car-sort-color-puzzle/com.duykanbakay.carconveyortransfer"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Car Sort: Color Puzzle + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Car Sort: Color Puzzle.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Car Sort: Color Puzzle + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Car Sort: Color Puzzle + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Color Block: Jam Puzzle 3D",
+    "key": "com.fs.block",
+    "publisher": "Flare Star LLC",
+    "year": "2025",
+    "category": "Bus jam",
+    "genre_group": "Smart Puzzle",
+    "description": "Bảng có nhiều khối màu hình dạng khác nhau; bạn trượt khối qua bảng đến cửa cùng màu để khối thoát ra. Khối chặn đường nhau nên phải tính thứ tự di chuyển. Dọn hết khối trước khi hết giờ để qua màn.",
+    "icon_url": "https://hitask.io/uploads/55c5bdec-21d8-40aa-be8f-9ffcf3fab499.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.fs.block",
+      "app_store": "https://apps.apple.com/us/app/id6742537005",
+      "youtube": "https://www.youtube.com/watch?v=aS96-vBqjvk",
+      "apkpure": "https://apkpure.com/color-block-jam-puzzle-3d/com.fs.block"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Color Block: Jam Puzzle 3D + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Color Block: Jam Puzzle 3D.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Color Block: Jam Puzzle 3D + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Color Block: Jam Puzzle 3D + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Sort Express!",
+    "key": "com.CircleGames.SortExpress",
+    "publisher": "Circle Games Teknoloji A.Ş.",
+    "year": "2025",
+    "category": "Sort ghép 3",
+    "genre_group": "Smart Puzzle",
+    "description": "Đồ vật 3D chen chúc trên các kệ; bạn kéo thả từng món vào ngăn sao cho đủ 3 món giống nhau thì chúng biến mất. Dọn sạch kệ để qua màn; màn sau có thêm kệ khóa và đồ bị che.",
+    "icon_url": "https://hitask.io/uploads/96d1d294-3333-4023-ad1f-c80d2c35cef0.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.CircleGames.SortExpress",
+      "app_store": "https://apps.apple.com/us/app/id6739867121",
+      "youtube": "https://www.youtube.com/watch?v=Jzy-OqfE1u0",
+      "apkpure": "https://apkpure.com/sort-express/com.CircleGames.SortExpress"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Sort Express! + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Sort Express!.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Sort Express! + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Sort Express! + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Happy Restaurant®3D",
+    "key": "com.dvgame.hotpottm",
+    "publisher": "DRAGONVALE LIMITED",
+    "year": "2026",
+    "category": "Ghép 3 vật thể 3D",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Khay giữa màn hình chứa đống nguyên liệu 3D lẫn lộn; bạn chạm chọn món để đưa vào thanh chờ, đủ 3 món giống nhau thì được dùng cho đơn của khách. Hoàn thành đơn hàng của các khách xếp hàng phía trên để qua màn. Thắng màn để mở công thức, nguyên liệu mới.",
+    "icon_url": "https://hitask.io/uploads/12216405-46f3-4187-b6d6-de51ccd59618.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.dvgame.hotpottm",
+      "app_store": "https://apps.apple.com/us/app/id6755166447",
+      "youtube": "https://www.youtube.com/watch?v=HATd6xcdWOY",
+      "apkpure": "https://apkpure.com/happy-restaurant-3d/com.dvgame.hotpottm"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Happy Restaurant®3D + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Happy Restaurant®3D + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Happy Restaurant®3D + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Pocket Sort: Coin Merge Puzzle",
+    "key": "com.pocket.sort.coin.puzzle.game",
+    "publisher": "SayGames Ltd",
+    "year": "2025",
+    "category": "Sort xu ghép số",
+    "genre_group": "Smart Puzzle",
+    "description": "Các cột chứa chồng xu có số; bạn chạm để chuyển nhóm xu trên cùng sang cột có cùng số ở đỉnh. Gom đủ 10 xu cùng số thì chúng gộp thành xu số lớn hơn. Bấm Drop để thả thêm xu; giải phóng chỗ trống trước khi bàn bị đầy.",
+    "icon_url": "https://hitask.io/uploads/665dbd59-b497-47f6-b62e-aed6822544e2.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.pocket.sort.coin.puzzle.game",
+      "app_store": "https://apps.apple.com/us/app/id6755425214",
+      "youtube": "https://www.youtube.com/watch?v=OhbtHHqG608",
+      "apkpure": "https://apkpure.com/pocket-sort-coin-merge-puzzle/com.pocket.sort.coin.puzzle.game"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Pocket Sort: Coin Merge Puzzle + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Pocket Sort: Coin Merge Puzzle.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Pocket Sort: Coin Merge Puzzle + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Pocket Sort: Coin Merge Puzzle + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Hole Em All: Black Hole Games",
+    "key": "and.brainworks.holeemall",
+    "publisher": "BRAINWORKS PUBLISHING PTE. LTD.",
+    "year": "2025",
+    "category": "Hố đen nuốt vật thể",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn điều khiển một hố đen di chuyển trên bàn đầy đồ vật, nuốt dần đồ nhỏ để lớn lên rồi nuốt được đồ lớn hơn. Mục tiêu là thu đủ các món được yêu cầu trước khi hết giờ. Qua màn để mở bối cảnh mới.",
+    "icon_url": "https://hitask.io/uploads/2176a8ed-a815-49c3-9a52-994375d6bf51.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=and.brainworks.holeemall",
+      "app_store": "https://apps.apple.com/us/app/id6739246483",
+      "youtube": "https://www.youtube.com/watch?v=vMeqIG2Cge8",
+      "apkpure": "https://apkpure.com/hole-em-all-black-hole-games/and.brainworks.holeemall"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Hole Em All: Black Hole Games + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Hole Em All: Black Hole Games + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Hole Em All: Black Hole Games + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Rent Please! Landlord Sim",
+    "key": "com.shimmergames.tenants.gp",
+    "publisher": "ShimmerGames",
+    "year": "2022",
+    "category": "Mô phỏng quản lý chủ nhà",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn làm chủ nhà cho thuê: xây và trang trí căn hộ, chọn người thuê, thu tiền nhà và xử lý yêu cầu sửa chữa. Mỗi khách thuê có nhu cầu riêng, đáp ứng tốt thì tiền thuê tăng. Mở rộng thành khu phố với tiện ích và bối cảnh mới.",
+    "icon_url": "https://hitask.io/uploads/693e4a89-adce-4b40-8e5a-9b57b9eb9b43.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.shimmergames.tenants.gp",
+      "app_store": "https://apps.apple.com/us/app/id1645842987",
+      "youtube": "https://www.youtube.com/watch?v=0B2N1CNB58E",
+      "apkpure": "https://apkpure.com/rent-please-landlord-sim/com.shimmergames.tenants.gp"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Rent Please! Landlord Sim + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Rent Please! Landlord Sim + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Rent Please! Landlord Sim + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "name": "Real Car Driving Midnight Club",
+    "key": "com.real.car.racing.stunt.master.driving.game",
+    "publisher": "Zendios",
+    "year": "2024",
+    "category": "Lái xe thế giới mở",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn lái siêu xe tự do trong thành phố mở, drift, làm trick và tham gia các nhiệm vụ đua, đỗ xe, vượt xe cộ. Kiếm tiền để mua xe mới và độ động cơ, ngoại hình. Góc nhìn thứ ba hoặc trong buồng lái.",
+    "icon_url": "https://hitask.io/uploads/ac6d78d2-of13-4059-a02a-85e62d849b6e.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.real.car.racing.stunt.master.driving.game",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=OjNG2z4GsTQ",
+      "apkpure": "https://apkpure.com/real-car-driving-midnight-club/com.real.car.racing.stunt.master.driving.game"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Real Car Driving Midnight Club + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Real Car Driving Midnight Club + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Real Car Driving Midnight Club + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "name": "Space shooter - Galaxy attack",
+    "key": "com.game.space.shooter2",
+    "publisher": "Unicorn Studio Official",
+    "year": "2017",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay dọc màn hình: phi thuyền tự bắn, bạn kéo để né đạn và hạ các đợt quái ngoài hành tinh, cuối màn đánh boss. Nhặt vật phẩm tăng hỏa lực trong màn. Ngoài màn mở và nâng cấp nhiều phi thuyền, có chế độ PvP và đánh boss.",
+    "icon_url": "https://hitask.io/uploads/7d129f89-ec45-4bc0-bab8-8cc575350157.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.game.space.shooter2",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=TEv7Xb7nn-4",
+      "apkpure": "https://apkpure.com/space-shooter-galaxy-attack/com.game.space.shooter2"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Space shooter - Galaxy attack + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Space shooter - Galaxy attack + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Space shooter - Galaxy attack + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Dragon Village 3",
+    "key": "com.highbrow.games.dvo",
+    "publisher": "highbrow",
+    "year": "2026",
+    "category": "Lai tạo sưu tập rồng",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn nuôi rồng pixel: ấp trứng, cho ăn, tiến hóa và lai hai con rồng để ra loài mới hiếm hơn. Xếp đội rồng đi đánh màn phiêu lưu và đấu trường, trận đấu theo lượt tự động. Mục tiêu là hoàn thành bộ sưu tập hàng nghìn loài rồng.",
+    "icon_url": "https://hitask.io/uploads/48b9336b-ec3d-442b-9ee0-55b7606b3a0e.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.highbrow.games.dvo",
+      "app_store": "https://apps.apple.com/us/app/id6499562253",
+      "youtube": "https://www.youtube.com/watch?v=saX2IkSbk6U",
+      "apkpure": "https://apkpure.com/dragon-village-3/com.highbrow.games.dvo"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Dragon Village 3 + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Dragon Village 3 + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Dragon Village 3 + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "name": "Pooking - Billiards City",
+    "key": "com.billiards.city.pool.nation.club",
+    "publisher": "AIM TOP GAME TECHNOLOGY LIMITED - pool",
+    "year": "2017",
+    "category": "Bi-a 8 bóng",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bi-a 8 bóng góc nhìn từ trên: bạn kéo để ngắm, chỉnh lực và độ xoáy, đưa bóng vào lỗ theo luật bi-a. Chế độ chính là chuỗi màn chơi đơn với số cơ thả giới hạn. Thắng để mở bàn và cơ mới.",
+    "icon_url": "https://hitask.io/uploads/8bc35f6c-d18c-47b8-89f7-a3d68ab3039f.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.billiards.city.pool.nation.club",
+      "app_store": "https://apps.apple.com/us/app/id1299421779",
+      "youtube": "https://www.youtube.com/watch?v=_vDAKeOTXqc",
+      "apkpure": "https://apkpure.com/pooking-billiards-city/com.billiards.city.pool.nation.club"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Pooking - Billiards City + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Pooking - Billiards City + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Pooking - Billiards City + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "name": "Triple Match 3D",
+    "key": "com.master.triple3d.find",
+    "publisher": "Boombox Games LTD",
+    "year": "2022",
+    "category": "Ghép 3 vật thể 3D",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Một đống vật thể 3D lẫn lộn trên bàn; bạn chạm chọn món để đưa vào thanh 7 ô, đủ 3 món giống nhau thì biến mất. Dọn sạch bàn trước khi hết giờ và tránh để thanh đầy. Có vật phẩm trợ giúp như gợi ý, xáo trộn.",
+    "icon_url": "https://hitask.io/uploads/ce91ee77-2953-43c1-b53b-cc111904716f.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.master.triple3d.find",
+      "app_store": "https://apps.apple.com/us/app/id1607122287",
+      "youtube": "https://www.youtube.com/watch?v=Mu6MZTMRj68",
+      "apkpure": "https://apkpure.com/triple-match-3d/com.master.triple3d.find"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Triple Match 3D + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Triple Match 3D + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Triple Match 3D + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "name": "Galaxiga: Galaxy Arcade Game",
+    "key": "com.os.space.force.galaxy.alien",
+    "publisher": "1SOFT",
+    "year": "2020",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay phong cách arcade cổ điển: phi thuyền tự bắn, bạn kéo để né và hạ các đội hình quái ngoài hành tinh bay lượn như Galaga. Nhặt vật phẩm để nâng hỏa lực, cuối màn đánh boss. Ngoài màn mở và nâng cấp phi thuyền.",
+    "icon_url": "https://hitask.io/uploads/d1928999-bcb8-4cdd-92c5-084ba2dcf338.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.os.space.force.galaxy.alien",
+      "app_store": "https://apps.apple.com/us/app/id1519367184",
+      "youtube": "https://www.youtube.com/watch?v=H0FCyr6huSo",
+      "apkpure": "https://apkpure.com/galaxiga-galaxy-arcade-game/com.os.space.force.galaxy.alien"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Galaxiga: Galaxy Arcade Game + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Galaxiga: Galaxy Arcade Game + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Galaxiga: Galaxy Arcade Game + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Shadow Fight 3 - RPG fighting",
+    "key": "com.nekki.shadowfight3",
+    "publisher": "NEKKI",
+    "year": "2017",
+    "category": "Đối kháng 3D nhập vai",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Game đối kháng 1v1 góc nhìn ngang: dùng nút đấm, đá, vũ khí và kỹ năng bóng tối để hạ đối thủ trong các hiệp đấu. Chế độ cốt truyện qua nhiều chương, sưu tập vũ khí, giáp và nâng cấp. Có đấu PvP với người chơi khác và chiến tranh clan.",
+    "icon_url": "https://hitask.io/uploads/364cb534-ff55-4abf-9c22-594da2ed8850.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.nekki.shadowfight3",
+      "app_store": "https://apps.apple.com/us/app/id964827011",
+      "youtube": "https://www.youtube.com/watch?v=zSOwl2voALQ",
+      "apkpure": "https://apkpure.com/shadow-fight-3-rpg-fighting/com.nekki.shadowfight3"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Shadow Fight 3 - RPG fighting + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Shadow Fight 3 - RPG fighting + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Shadow Fight 3 - RPG fighting + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "name": "Hero Survival IO 2",
+    "key": "com.game.hero.survival.io2",
+    "publisher": "Zetylios Legend",
+    "year": "2024",
+    "category": "Survivor-like bắn tự động",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Bạn điều khiển anh hùng di chuyển trên bản đồ, nhân vật tự tấn công các đợt quái tràn đến. Lên cấp chọn kỹ năng ngẫu nhiên để ghép combo, sống sót đến hết thời gian và hạ boss. Ngoài màn nâng cấp anh hùng, trang bị.",
+    "icon_url": "https://hitask.io/uploads/50e702b4-225d-4352-b6bb-0b074d64f1b3.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.game.hero.survival.io2",
+      "app_store": "https://apps.apple.com/us/app/id6480162404",
+      "youtube": "https://www.youtube.com/watch?v=RYb2nugAteU",
+      "apkpure": "https://apkpure.com/hero-survival-io-2/com.game.hero.survival.io2"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Hero Survival IO 2 + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Hero Survival IO 2 + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Hero Survival IO 2 + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "name": "Cơ Giáp Vô Hạn - Gamota",
+    "key": "com.and.monstergo.vn",
+    "publisher": "4GAMOTA",
+    "year": "2026",
+    "category": "Survivor-like bắn tự động",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Bắn súng roguelike 3D: bạn điều khiển cơ giáp di chuyển trên bản đồ, vũ khí tự bắn vào đàn quái. Lên cấp chọn kỹ năng ngẫu nhiên để xây combo, cuối màn đánh boss. Ngoài màn lắp ráp cơ giáp từ nhiều bộ phận, vũ khí.",
+    "icon_url": "https://hitask.io/uploads/d31b67f2-b86c-416c-a362-d920c76c3855.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.and.monstergo.vn&gl=VN",
+      "app_store": "https://apps.apple.com/vn/app/id6762171648",
+      "youtube": "https://www.youtube.com/watch?v=476aPMl6ymU",
+      "apkpure": "https://apkpure.com/c-gi-p-v-h-n-gamota/com.and.monstergo.vn"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Cơ Giáp Vô Hạn - Gamota + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Cơ Giáp Vô Hạn - Gamota + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Cơ Giáp Vô Hạn - Gamota + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "name": "ZA War: Survival VN",
+    "key": "com.zalogame.zwar",
+    "publisher": "ZIE COMPANY LIMITED",
+    "year": "2026",
+    "category": "Xếp đồ trong balo",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Chiến binh đứng giữ pháo đài cuối màn hình, vũ khí tự bắn vào zombie và quái máy tràn xuống. Giữa các đợt bạn xếp vũ khí vào balo dạng lưới, ghép đồ giống nhau để lên cấp và kích hoạt combo. Ngoài màn quay trang bị, nâng cấp nhân vật.",
+    "icon_url": "https://hitask.io/uploads/a4c78629-2617-4803-a614-da7ae26c4087.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.zalogame.zwar&gl=VN",
+      "app_store": "https://apps.apple.com/vn/app/id6760102204",
+      "youtube": "https://www.youtube.com/watch?v=2CkvywXSA0o",
+      "apkpure": "https://apkpure.com/za-war-survival-vn/com.zalogame.zwar"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "ZA War: Survival VN + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "ZA War: Survival VN + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "ZA War: Survival VN + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Zombie War : Finding shelter",
+    "key": "com.mybo.doomstd",
+    "publisher": "MYBO",
+    "year": "2025",
+    "category": "Đẩy quân qua cổng nhân",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Nhân vật chạy dọc con đường, tự bắn zombie phía trước. Bạn di chuyển trái phải để bắn vào các cổng tăng hỏa lực, thêm đồng đội và tránh cổng bất lợi. Sống sót đến cuối đường; ngoài màn nâng cấp vũ khí, tài năng nhân vật.",
+    "icon_url": "https://hitask.io/uploads/777053cf-8cc1-49c3-9c0c-69e0ee85bd2e.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.mybo.doomstd",
+      "app_store": "https://apps.apple.com/us/app/id6642699473",
+      "youtube": "https://www.youtube.com/watch?v=6Sm9g033fp8",
+      "apkpure": "https://apkpure.com/zombie-war-finding-shelter/com.mybo.doomstd"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Zombie War : Finding shelter + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Zombie War : Finding shelter + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Zombie War : Finding shelter + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "name": "Red Hunt: Space Shooter Game",
+    "key": "com.playstorm.redhuntroyal.reloaded",
+    "publisher": "Pulse8 L.L.C-FZ",
+    "year": "2023",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay dọc màn hình kiểu bullet hell: máy bay tự bắn, bạn kéo để né làn đạn và hạ quân địch trên mặt đất, trên không. Cuối màn đánh boss. Ngoài màn nâng cấp máy bay, vũ khí phụ và mở máy bay mới.",
+    "icon_url": "https://hitask.io/uploads/ef1f9b1f-3dd0-4d2c-9029-070d79c979bc.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.playstorm.redhuntroyal.reloaded",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=EY1ne1C2tK0",
+      "apkpure": "https://apkpure.com/red-hunt-space-shooter-game/com.playstorm.redhuntroyal.reloaded"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Red Hunt: Space Shooter Game + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Red Hunt: Space Shooter Game + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Red Hunt: Space Shooter Game + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "name": "Transmute 2: Space Survivor",
+    "key": "com.Gcenter.Transmute.space.shooter.survivor.V2",
+    "publisher": "GCenter",
+    "year": "2024",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay dọc màn hình: phi thuyền tự bắn và có thể biến hình để đổi kiểu bắn theo tình huống. Đầu màn chọn thẻ tăng sức mạnh, trong màn né đạn và hạ boss. Ngoài màn nâng cấp và mở phi thuyền mới.",
+    "icon_url": "https://hitask.io/uploads/559abc0d-8b8d-4c8d-ab08-df838355cce2.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.Gcenter.Transmute.space.shooter.survivor.V2",
+      "app_store": "https://apps.apple.com/us/app/id6451290606",
+      "youtube": "https://www.youtube.com/watch?v=CvPnvXfOHP8",
+      "apkpure": "https://apkpure.com/transmute-2-space-survivor/com.Gcenter.Transmute.space.shooter.survivor.V2"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Transmute 2: Space Survivor + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Transmute 2: Space Survivor + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Transmute 2: Space Survivor + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "name": "Transmute: Galaxy Battle",
+    "key": "com.gcenter.transmute.galaxybattle",
+    "publisher": "GCenter",
+    "year": "2020",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay dọc màn hình: phi thuyền tự bắn, có thể biến hình để đổi kiểu tấn công. Bạn kéo để né đạn, hạ các đợt quái và boss cuối màn. Ngoài màn nâng cấp, mở phi thuyền và drone hỗ trợ.",
+    "icon_url": "https://hitask.io/uploads/0eefd1c1-7843-45d2-afe0-531ef5dc5e61.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.gcenter.transmute.galaxybattle",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=-yq3NFm7nWs",
+      "apkpure": "https://apkpure.com/transmute-galaxy-battle/com.gcenter.transmute.galaxybattle"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Transmute: Galaxy Battle + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Transmute: Galaxy Battle + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Transmute: Galaxy Battle + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "name": "Star Force",
+    "key": "com.tbg.nova.gp",
+    "publisher": "TBG LIMITED",
+    "year": "2024",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay dọc màn hình đồ họa 3D: phi thuyền tự bắn, bạn kéo để né và hạ quái, boss khổng lồ. Ngoài màn nâng cấp phi thuyền, vũ khí, phi công và khám phá các hành tinh.",
+    "icon_url": "https://hitask.io/uploads/23996c73-81e4-4aa0-9448-d1b3e543138e.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.tbg.nova.gp",
+      "app_store": "https://apps.apple.com/us/app/id6476490224",
+      "youtube": "https://www.youtube.com/watch?v=vJQotkzkqec",
+      "apkpure": "https://apkpure.com/star-force/com.tbg.nova.gp"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Star Force + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Star Force + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Star Force + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "name": "Mecha Fortress: Tower Defense",
+    "key": "mech.fortress.tower.defense.hero.war",
+    "publisher": "NOXGAMES",
+    "year": "2025",
+    "category": "Thủ thành roguelike",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Cỗ máy chiến đấu đứng cố định cuối đường, tự bắn vào các đợt robot tràn xuống. Giữa các đợt chọn 1 trong 3 thẻ để thêm vũ khí hoặc nâng cấp, ghép combo. Mỗi màn 20 đợt có boss; ngoài màn nâng cấp mech và vũ khí.",
+    "icon_url": "https://hitask.io/uploads/ff16b094-79b4-4fd4-b3ef-b8677307e0dc.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=mech.fortress.tower.defense.hero.war",
+      "app_store": "https://apps.apple.com/us/app/id6743624932",
+      "youtube": "https://www.youtube.com/watch?v=eUrPocHEIJQ",
+      "apkpure": "https://apkpure.com/mecha-fortress-tower-defense/mech.fortress.tower.defense.hero.war"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Mecha Fortress: Tower Defense + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Mecha Fortress: Tower Defense + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Mecha Fortress: Tower Defense + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Modern Command Mayhem TD",
+    "key": "net.blastbit.mcm",
+    "publisher": "Blast Bit Enterprises AB",
+    "year": "2024",
+    "category": "Thủ thành roguelike",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Căn cứ cuối màn hình có các tháp pháo tự bắn vào lính, xe tăng địch tràn xuống. Giữa các đợt chọn thẻ nâng cấp vũ khí ngẫu nhiên. Ngoài màn mở và nâng cấp vũ khí; có PvP, liên minh và bảng xếp hạng mùa.",
+    "icon_url": "https://hitask.io/uploads/91810a14-ce6c-42c8-b1a5-35a3ff66c3b3.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=net.blastbit.mcm",
+      "app_store": "https://apps.apple.com/us/app/id6479870909",
+      "youtube": "https://www.youtube.com/watch?v=xWdOOx1Cdd8",
+      "apkpure": "https://apkpure.com/modern-command-mayhem-td/net.blastbit.mcm"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Modern Command Mayhem TD + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Modern Command Mayhem TD + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Modern Command Mayhem TD + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "name": "Red Command - War Alert RTS",
+    "key": "command.art.of.war.generals.rts",
+    "publisher": "TINYSOFT - slots, slot machines & casino games",
+    "year": "2026",
+    "category": "Thủ thành roguelike",
+    "genre_group": "Casual Strategy & TD",
+    "description": "Căn cứ của bạn có các tháp pháo, bệ tên lửa tự bắn vào đoàn bộ binh, xe tăng địch kéo tới. Giữa các đợt chọn 1 trong 3 thẻ công nghệ để thêm tháp hoặc nâng cấp vũ khí, ghép combo. Ngoài màn nâng cấp tướng, tháp và đánh tiếp chiến dịch.",
+    "icon_url": "https://hitask.io/uploads/27abab48-aa4d-43d4-8dac-f473eec5f652.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=command.art.of.war.generals.rts",
+      "app_store": "https://apps.apple.com/us/app/id6784681868",
+      "youtube": "https://www.youtube.com/watch?v=n6G3HoYTJTE",
+      "apkpure": "https://apkpure.com/red-command-war-alert-rts/command.art.of.war.generals.rts"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Red Command - War Alert RTS + Roguelite Wave Skill Draft (Tháp Chọn Chiêu 3-Trong-1)",
+        "core_kept": "Căn cứ/Tháp đứng phòng thủ ngăn chặn quái vật đi theo đường.",
+        "hybrid_added": "Cứ mỗi 5 wave quái, xuất hiện bảng chọn 1 trong 3 kỹ năng đột biến ngẫu nhiên (Mưa thiên thạch, Băng lan tỏa, Đạn nảy đa mục tiêu).",
+        "theme_hook": "Xóa bỏ sự đơn điệu của TD truyền thống; mỗi ván chơi là một trải nghiệm build kỹ năng hoàn toàn mới.",
+        "market_proof": "BangBang Survivor ($50M+ global), Capybara Go!, Lucky Defense.",
+        "solo_advice": "Tạo enum SkillType và gắn ScriptableObject cho từng thẻ skill."
+      },
+      {
+        "title": "Red Command - War Alert RTS + Slot Machine / Pachinko Spawner (Vòng Quay Sinh Quân)",
+        "core_kept": "Cơ chế kéo thả hoặc vị trí đặt quân giữ nguyên.",
+        "hybrid_added": "Thay vì mua quân bằng vàng cố định, nhấn quay máy gạt hoặc thả bi để quyết định độ hiếm và chủng loại quân xuất trận.",
+        "theme_hook": "Cảm giác hồi hộp may rủi (Gacha-lite) cực kỳ gây nghiện.",
+        "market_proof": "Coin Master, Clash of Critters ($53M lifetime), Spin Squad.",
+        "solo_advice": "Dùng thuật toán Weighted Random cơ bản trong C#."
+      },
+      {
+        "title": "Red Command - War Alert RTS + Minimalist Day/Night Action (Ngày Xây Dựng - Đêm Thủ Thành)",
+        "core_kept": "Bản đồ thủ thành và tháp phòng thủ nguyên bản.",
+        "hybrid_added": "Ban ngày di chuyển tự do nhặt tài nguyên xây tường/tháp; ban đêm nhân vật tự cầm vũ khí chiến đấu cùng hệ thống phòng thủ.",
+        "theme_hook": "Tăng tính chủ động cho người chơi, chuyển từ thụ động xem sang trực tiếp can thiệp.",
+        "market_proof": "Thronefall (Indie GOTY candidate), Whiteout Survival night raids.",
+        "solo_advice": "Dùng NavMesh cho quái ban đêm và 1 Controller di chuyển cơ bản ban ngày."
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "name": "Timeline Up",
+    "key": "com.MojoGames.EraEvolution",
+    "publisher": "Rollic Games",
+    "year": "2024",
+    "category": "Đẩy quân qua cổng nhân",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn vuốt trái phải để dẫn đoàn quân chạy dọc đường, vừa chạy vừa bắn phá gạch và chướng ngại. Đi qua cổng có lợi để thêm người và tiến hóa đội lên thời đại mới, từ người tiền sử đến lính hiện đại. Cuối đường đánh boss; ngoài màn nâng cấp sức bắn và số quân khởi đầu.",
+    "icon_url": "https://hitask.io/uploads/c1d9aaf6-0d41-4a3f-baa3-6990f59959a6.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.MojoGames.EraEvolution",
+      "app_store": "https://apps.apple.com/us/app/id6475592923",
+      "youtube": "https://www.youtube.com/watch?v=yyCd9FrBo7c",
+      "apkpure": "https://apkpure.com/timeline-up/com.MojoGames.EraEvolution"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Timeline Up + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Timeline Up + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Timeline Up + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "name": "Crab Life: RPG Survival",
+    "key": "studio.tg.crab.life",
+    "publisher": "Supercent, Inc.",
+    "year": "2024",
+    "category": "Săn mồi lớn dần",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn điều khiển một con cua trên bãi biển, đánh người và sinh vật khác để lấy thịt. Mang thịt về tổ để nâng chỉ số, mở kỹ năng và tiến hóa cua mạnh hơn. Mở dần các khu bãi biển mới với đối thủ lớn hơn và boss.",
+    "icon_url": "https://hitask.io/uploads/1f547b75-3d92-4c86-8f07-a4b81248b7c7.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=studio.tg.crab.life",
+      "app_store": "https://apps.apple.com/us/app/id6605932603",
+      "youtube": "https://www.youtube.com/watch?v=R3xduMrs8WQ",
+      "apkpure": "https://apkpure.com/crab-life-rpg-survival/studio.tg.crab.life"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Crab Life: RPG Survival + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Crab Life: RPG Survival + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Crab Life: RPG Survival + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "name": "Desert Worm: Idle Survival RPG",
+    "key": "com.multicastgames.snake",
+    "publisher": "MULTICAST GAMES",
+    "year": "2025",
+    "category": "Săn mồi lớn dần",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bạn điều khiển con giun cát khổng lồ chui dưới sa mạc, trồi lên nuốt người, động vật và phá xe máy móc. Ăn càng nhiều càng dài và mạnh, lên cấp chọn kỹ năng. Ngoài màn nâng cấp sức mạnh, mở vùng săn mới và kiếm tiền cả khi offline.",
+    "icon_url": "https://hitask.io/uploads/63eb589d-cb4c-4434-9f82-5c3ec0690233.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.multicastgames.snake",
+      "app_store": "https://apps.apple.com/us/app/id6764547879",
+      "youtube": "https://www.youtube.com/watch?v=jcEwB9wVXZ4",
+      "apkpure": "https://apkpure.com/desert-worm-idle-survival-rpg/com.multicastgames.snake"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Desert Worm: Idle Survival RPG + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Desert Worm: Idle Survival RPG + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Desert Worm: Idle Survival RPG + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "name": "1941 Air Attack: Plane Shooter",
+    "key": "com.onegame.airattack.planegames",
+    "publisher": "Onegame Global Limited",
+    "year": "2024",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay dọc màn hình bối cảnh Thế chiến 2: máy bay tự bắn, bạn kéo để né đạn và hạ phi đội, tàu chiến, pháo đài địch. Cứ 10 màn có một boss lớn. Ngoài màn nâng cấp và mở các mẫu máy bay như P-51, Spitfire; chơi offline được.",
+    "icon_url": "https://hitask.io/uploads/69058431-1431-40b2-bd37-1bb031d1a5ed.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.onegame.airattack.planegames",
+      "app_store": "https://apps.apple.com/us/app/id6736933580",
+      "youtube": "https://www.youtube.com/watch?v=d0JpL876yPo",
+      "apkpure": "https://apkpure.com/1941-air-attack-plane-shooter/com.onegame.airattack.planegames"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "1941 Air Attack: Plane Shooter + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "1941 Air Attack: Plane Shooter + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "1941 Air Attack: Plane Shooter + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "name": "AirAttack 2 - Airplane Shooter",
+    "key": "com.ArtInGames.AirAttack2f",
+    "publisher": "Colya Games",
+    "year": "2015",
+    "category": "Bắn máy bay (shmup)",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bắn máy bay dọc màn hình đồ họa 3D bối cảnh Thế chiến 2: máy bay tự bắn, bạn kéo để né đạn, phá xe tăng, đoàn tàu, cầu và căn cứ có thể bị phá hủy. Mỗi chiến dịch có boss cuối màn. Ngoài màn nâng cấp máy bay, vũ khí phụ như súng phun lửa, bom.",
+    "icon_url": "https://hitask.io/uploads/164adcf6-31d1-4aa8-9504-67160064babd.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.ArtInGames.AirAttack2f",
+      "app_store": "https://apps.apple.com/us/app/id842617644",
+      "youtube": "https://www.youtube.com/watch?v=eqmXRMdm47A",
+      "apkpure": "https://apkpure.com/airattack-2-airplane-shooter/com.ArtInGames.AirAttack2f"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "AirAttack 2 - Airplane Shooter + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "AirAttack 2 - Airplane Shooter + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "AirAttack 2 - Airplane Shooter + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "name": "Deer Hunter Wild Hunting Games",
+    "key": "com.datagames.island.survivor",
+    "publisher": "Data Games",
+    "year": "2020",
+    "category": "Săn thú bắn tỉa",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Săn thú góc nhìn thứ nhất: bạn tìm hươu, nai, đại bàng và thú hoang trên nhiều bản đồ, ngắm qua ống ngắm và bắn hạ theo yêu cầu nhiệm vụ. Có chế độ quay chậm khi trúng đích. Hoàn thành nhiệm vụ để kiếm tiền mua và nâng cấp súng.",
+    "icon_url": "https://hitask.io/uploads/9a6cc5dc-0cce-4922-897e-6183e55dade8.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.datagames.island.survivor",
+      "app_store": "https://apps.apple.com/us/app/id1529162575",
+      "youtube": "https://www.youtube.com/watch?v=8__7x_QAzxM",
+      "apkpure": "https://apkpure.com/deer-hunter-2026-hunting-games/com.datagames.island.survivor"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Deer Hunter Wild Hunting Games + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Deer Hunter Wild Hunting Games + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Deer Hunter Wild Hunting Games + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "name": "Z Survivor: Backpack Shooter",
+    "key": "com.tapped.zsurvivor",
+    "publisher": "Tapped Ltd",
+    "year": "2024",
+    "category": "Xếp đồ trong balo",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Bạn dẫn nhóm người sống sót đi dọc đường phố, đội tự bắn vào đàn zombie và quái đột biến khổng lồ. Vũ khí được xếp và ghép trong balo dạng lưới để tăng hỏa lực. Thu tiếp tế trên đường, qua màn để mở bản đồ và nâng cấp.",
+    "icon_url": "https://hitask.io/uploads/dd6948e7-1f0d-4d69-940b-de7dec6d7490.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.tapped.zsurvivor",
+      "app_store": "https://apps.apple.com/us/app/id6557072922",
+      "youtube": "https://www.youtube.com/watch?v=ojmLJ8hOrKs",
+      "apkpure": "https://apkpure.com/z-survivor-backpack-shooter/com.tapped.zsurvivor"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Z Survivor: Backpack Shooter + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Z Survivor: Backpack Shooter + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Z Survivor: Backpack Shooter + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "name": "Deer Hunting: FPS Sniper Games",
+    "key": "com.bgs.deer.hunting.sniper.shooting.games",
+    "publisher": "BIGBEN Gaming Studio",
+    "year": "2020",
+    "category": "Săn thú bắn tỉa",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Săn thú bắn tỉa góc nhìn thứ nhất: bạn ngắm qua ống ngắm để hạ hươu, gấu, báo theo nhiệm vụ trong thời gian giới hạn, thú được viền đỏ để dễ tìm. Hoàn thành màn để nhận tiền và mở súng, bản đồ mới.",
+    "icon_url": "https://hitask.io/uploads/b05a8553-5ff5-4ee6-90bb-b8105f7ba34c.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.bgs.deer.hunting.sniper.shooting.games",
+      "app_store": "",
+      "youtube": "https://www.youtube.com/watch?v=bzUtfij_Jqo",
+      "apkpure": "https://apkpure.com/deer-hunting-fps-sniper-games/com.bgs.deer.hunting.sniper.shooting.games"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Deer Hunting: FPS Sniper Games + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Deer Hunting: FPS Sniper Games + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Deer Hunting: FPS Sniper Games + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "name": "Merge Cooking®",
+    "key": "com.merge.cooking.theme.restaurant.food",
+    "publisher": "Happibits Game",
+    "year": "2022",
+    "category": "Merge-2 có cốt truyện",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bảng merge chứa máy tạo nguyên liệu; bạn bấm để ra nguyên liệu và ghép hai món giống nhau thành món cấp cao hơn. Đem món hoàn chỉnh phục vụ đơn của khách xếp hàng phía trên để kiếm tiền. Dùng tiền trang trí nhà hàng và mở nhà hàng ở các nước khác.",
+    "icon_url": "https://hitask.io/uploads/6bc3dfd0-78fb-4194-b756-6bf3dac94b9d.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.merge.cooking.theme.restaurant.food",
+      "app_store": "https://apps.apple.com/us/app/id1643509748",
+      "youtube": "https://www.youtube.com/watch?v=YCke1icPTKU",
+      "apkpure": "https://apkpure.com/merge-cooking/com.merge.cooking.theme.restaurant.food"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Merge Cooking® + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Merge Cooking® + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Merge Cooking® + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Screwdom 3D",
+    "key": "com.ig.screwdom",
+    "publisher": "iKame Games - Zego Studio",
+    "year": "2025",
+    "category": "Tháo ốc vít 3D",
+    "genre_group": "Smart Puzzle",
+    "description": "Khối đồ vật 3D được ghép bằng nhiều ốc vít nhiều màu; bạn xoay khối, chạm để tháo ốc và đưa vào hộp cùng màu phía trên. Hộp đầy thì được thay hộp mới, các mảnh rơi dần khi hết ốc giữ. Tháo hết ốc để qua màn; ô chờ có giới hạn nên phải chọn thứ tự.",
+    "icon_url": "https://hitask.io/uploads/538c7225-e872-4827-b766-682dd7d2636a.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.ig.screwdom",
+      "app_store": "https://apps.apple.com/us/app/id6740043080",
+      "youtube": "https://www.youtube.com/watch?v=KknMiwMXMaY",
+      "apkpure": "https://apkpure.com/screwdom-3d/com.ig.screwdom"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Screwdom 3D + Falling Trap Defense (Bẫy Diệt Quái Đè Bẹp)",
+        "core_kept": "Giữ nguyên 100% cơ chế giải đố/tháo gỡ/sắp xếp của Screwdom 3D.",
+        "hybrid_added": "Gắn bẫy vật lý hoặc chướng ngại đè bẹp đàn quái vật/dung nham bên dưới mỗi khi hoàn thành chuỗi gỡ đồ.",
+        "theme_hook": "Creative UA 'Save the Hero/Doge' hạ CPI cực sâu; thỏa mãn cảm giác giải cứu sinh tồn.",
+        "market_proof": "Hero Wars, Save the Doge, Screw Puzzle trends trên AppMagic top charts.",
+        "solo_advice": "Dùng Unity 2D/3D Rigidbody đơn giản kích hoạt OnCollisionEnter, không cần code AI phức tạp."
+      },
+      {
+        "title": "Screwdom 3D + Roguelite Artifact Draft (Rút Cổ Vật Tăng Điểm)",
+        "core_kept": "Luật chơi giải đố cơ bản không đổi.",
+        "hybrid_added": "Sau mỗi 3 màn hoặc khi đạt mốc combo, chọn 1 trong 3 cổ vật ngẫu nhiên (Nhân đôi điểm màu, Nam châm hút tự động, Đóng băng thời gian).",
+        "theme_hook": "Tạo meta builds đa dạng, kích thích replay liên tục vượt ải.",
+        "market_proof": "Capybara Go!, Balatro, Dice Dreams - mô hình synergy gia tăng session length.",
+        "solo_advice": "Hệ thống Modifier dạng ScriptableObject trong Unity, cực kỳ sạch và dễ mở rộng."
+      },
+      {
+        "title": "Screwdom 3D + ASMR Room Renovation (Tân Trang Phòng Trưng Bày)",
+        "core_kept": "Vòng lặp giải đố 30-60 giây nguyên bản.",
+        "hybrid_added": "Thu thập chìa khóa/sơn sau mỗi màn để mở khóa và trang trí phòng triển lãm theo chủ đề.",
+        "theme_hook": "Đánh mạnh vào tâm lý sở hữu và cảm xúc thư giãn (Cozy/ASMR).",
+        "market_proof": "Royal Match, Wood Nuts & Bolts, Hexa Sort (Meta Room Decor).",
+        "solo_advice": "Mua asset pack 3D low-poly modular trên Unity Asset Store, chỉ cần set active gameobject khi đủ tiền."
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Kungpow Granny's Revenge",
+    "key": "com.kungpowgranny.rogue",
+    "publisher": "MOBIBRAIN TECHNOLOGY PTE. LTD.",
+    "year": "2026",
+    "category": "Survivor-like bắn tự động",
+    "genre_group": "Inventory & Roguelite",
+    "description": "Bà cụ võ sư đứng trong hầm ngục, tự tấn công các đợt quái kéo tới; bạn di chuyển một tay để né đòn. Lên cấp chọn kỹ năng ngẫu nhiên, kết hợp thú cưng để ghép combo, cuối màn đánh boss. Ngoài màn nâng cấp vũ khí, trang bị và thú cưng.",
+    "icon_url": "https://hitask.io/uploads/810c2fd4-3e45-40ce-843a-882c3580548f.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.kungpowgranny.rogue",
+      "app_store": "https://apps.apple.com/us/app/id6763002100",
+      "youtube": "https://www.youtube.com/watch?v=ibfIBOunIF0",
+      "apkpure": "https://apkpure.com/kungpow-granny-s-revenge/com.kungpowgranny.rogue"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Thấp",
+      "content": "Thấp",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Kungpow Granny's Revenge + Pachinko / Peggle Physics (Balo Bắn Bi Nảy Sát Thương)",
+        "core_kept": "Xếp sắp trang bị vào ô lưới kho đồ trước trận.",
+        "hybrid_added": "Vật phẩm trong balo trở thành các chốt nảy; viên bi ma thuật rơi qua kích hoạt liên hoàn kỹ năng theo vật lý nảy.",
+        "theme_hook": "Dopamine hit cực lớn từ âm thanh bi nảy và hiệu ứng combo nổ màn hình.",
+        "market_proof": "Peglin ($2M+ Steam/Mobile), Roundguard, Capybara Go! (cơ chế nảy bóng).",
+        "solo_advice": "Dùng 2D Physics Material với Bounciness = 1.0, cực kỳ nhẹ máy và dễ làm."
+      },
+      {
+        "title": "Kungpow Granny's Revenge + Merge-2 Alchemy Forge (Bàn Rèn Hợp Nhất Vũ Khí)",
+        "core_kept": "Lưới chứa đồ và cơ chế auto-combat giữ nguyên.",
+        "hybrid_added": "Kéo 2 món cùng cấp trong hòm đồ để hợp nhất ngay trong trận thành vũ khí cấp cao với hiệu ứng đột biến.",
+        "theme_hook": "Loại bỏ thời gian chết, biến việc sắp xếp thành mini-game ghép đồ giải trí.",
+        "market_proof": "Merge Mansion, Gossip Harbor, Backpack Hero Merge RPG.",
+        "solo_advice": "Code hàm CheckMerge(itemA, itemB) trả về itemID mới từ Data Table."
+      },
+      {
+        "title": "Kungpow Granny's Revenge + Survivor Wave Rush (Balo Tự Động Diệt Đàn Quái)",
+        "core_kept": "Logic tính toán synergy giữa các ô đồ kề cận.",
+        "hybrid_added": "Đưa nhân vật ra bản đồ arena di chuyển tránh né; balo tự động xả đạn theo nhịp độ các món đồ được kích hoạt.",
+        "theme_hook": "Cảm giác 'God Mode' khi build đồ hoàn chỉnh quét sạch hàng ngàn quái.",
+        "market_proof": "God of Weapons (Top Trending Steam 2024), Survivor.io, BangBang Survivor.",
+        "solo_advice": "Dùng Object Pooling cho đạn và quái để giữ 60 FPS trên mobile."
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Truck Star",
+    "key": "com.vm3.global",
+    "publisher": "Century Games PTE. LTD.",
+    "year": "2024",
+    "category": "Match-3 cổ điển",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Match-3 cổ điển: ghép 3 ô cùng màu để đạt mục tiêu màn trong số lượt giới hạn. Thắng màn nhận cờ lê để sửa chữa và độ xe tải trong gara, từ động cơ đến đèn, cản, còi. Sưu tập nhiều mẫu xe tải.",
+    "icon_url": "https://hitask.io/uploads/45eb35ce-a195-4284-8b3f-30ed64742c4f.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.vm3.global",
+      "app_store": "https://apps.apple.com/us/app/id6476976929",
+      "youtube": "https://www.youtube.com/watch?v=13LvpyfEzGI",
+      "apkpure": "https://apkpure.com/truck-star/com.vm3.global"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Truck Star + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Truck Star + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Truck Star + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Idle Mafia - Tycoon Manager",
+    "key": "com.gamemaker5.idlemafia",
+    "publisher": "Century Games PTE. LTD.",
+    "year": "2020",
+    "category": "Idle tycoon kinh doanh",
+    "genre_group": "Idle Arcade & Simulation",
+    "description": "Bạn làm ông trùm mafia trên bản đồ thành phố: mở và nâng cấp các cơ sở kinh doanh để kiếm tiền, kể cả khi offline. Chiêu mộ Capo có kỹ năng riêng để quản lý và đi đánh băng nhóm khác chiếm địa bàn. Có liên minh gia đình và sự kiện PvP.",
+    "icon_url": "https://hitask.io/uploads/31d5ecd1-0c1a-42db-a9e8-a57f3048bd3e.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.gamemaker5.idlemafia",
+      "app_store": "https://apps.apple.com/us/app/id1483009687",
+      "youtube": "https://www.youtube.com/watch?v=0s8AA-ABOKM",
+      "apkpure": "https://apkpure.com/idle-mafia-tycoon-manager/com.gamemaker5.idlemafia"
+    },
+    "difficulty": {
+      "code": "Thấp",
+      "art": "Thấp",
+      "content": "Trung bình",
+      "solo_rating": "RẤT CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Idle Mafia - Tycoon Manager + Zombie Siege Supply Run (Hậu Cần Tiếp Tế Sinh Tồn)",
+        "core_kept": "Joystick 1 ngón di chuyển nhặt và xếp chồng tài nguyên (Stacking).",
+        "hybrid_added": "Thay vì phục vụ đồ ăn thông thường, bạn là người tiếp tế đạn dược và thuốc men cho các tháp súng đang bắn chặn đàn zombie ngoài hàng rào.",
+        "theme_hook": "Biến thể loại thư giãn thành nhịp điệu sinh tồn gay cấn, giảm CPI quảng cáo đến 40%.",
+        "market_proof": "Zombie Raft, Doomsday: Last Survivors, Last War mini-games.",
+        "solo_advice": "Chỉ cần thay đổi model 3D (bánh pizza -> hòm đạn) và gắn trigger bắn súng khi có đạn."
+      },
+      {
+        "title": "Idle Mafia - Tycoon Manager + Merge Kitchen Workshop (Bàn Bếp Hợp Nhất Món VIP)",
+        "core_kept": "Vòng lặp chạy quanh quản lý quầy và phục vụ khách.",
+        "hybrid_added": "Thêm một bàn chế tác trung tâm: kéo thả 2 nguyên liệu giống nhau để tạo ra món ăn huyền thoại bán giá gấp 10 lần cho khách VIP.",
+        "theme_hook": "Đa dạng hóa gameplay, tạo mục tiêu dài hạn cho người chơi.",
+        "market_proof": "Merge Cooking, Burger Please! (VIP expansion).",
+        "solo_advice": "1 Panel UI dạng 4x4 ô đặt tại khu vực bếp, giao tiếp với GameManager qua Event C#."
+      },
+      {
+        "title": "Idle Mafia - Tycoon Manager + Hero RPG Tavern Equipment (Quán Trọ Trang Bị Hiệp Sĩ)",
+        "core_kept": "Thu tiền, mở rộng ô đất, thuê nhân viên tự động.",
+        "hybrid_added": "Khách hàng là các hiệp sĩ chuẩn bị đi raid ngục tối; bạn rèn kiếm, giáp, potion bán cho họ và nhận phần thưởng khi họ thắng boss.",
+        "theme_hook": "Kết nối cảm xúc RPG vào dòng game Casual thư giãn.",
+        "market_proof": "Hero Making Tycoon, Idle Weapon Shop, XP Hero.",
+        "solo_advice": "Mô phỏng trận đánh bằng text/kết quả toán học ngầm, không cần render cảnh chiến trường 3D."
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Family Farm Match",
+    "key": "com.ffm.global",
+    "publisher": "Century Games PTE. LTD.",
+    "year": "2025",
+    "category": "Match-3 cổ điển",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Match-3 cổ điển: ghép 3 nông sản cùng loại để đạt mục tiêu màn trong số lượt giới hạn, phá thùng gỗ và chướng ngại. Thắng màn để giúp gia đình Bill xây và trang trí nông trại, mở khu vực mới theo cốt truyện.",
+    "icon_url": "https://hitask.io/uploads/90fdfc81-5210-4360-9c3d-2a3f90735c24.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.ffm.global",
+      "app_store": "https://apps.apple.com/us/app/id6740556800",
+      "youtube": "https://www.youtube.com/watch?v=wifETRnz3zY",
+      "apkpure": "https://apkpure.com/family-farm-match/com.ffm.global"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Family Farm Match + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Family Farm Match + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Family Farm Match + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Family Farm Merge",
+    "key": "com.roomperfect.global",
+    "publisher": "Century Games Innovation Pte. Ltd.",
+    "year": "2026",
+    "category": "Merge-2 có cốt truyện",
+    "genre_group": "Action, .io & Shmup",
+    "description": "Bảng merge chứa máy tạo vật phẩm; bạn ghép hai món giống nhau thành món cấp cao hơn để làm đơn hàng của dân làng phía trên. Hoàn thành đơn để sửa sang nông trại, mở khu đất mới theo cốt truyện của Ella ở thung lũng Breeze.",
+    "icon_url": "https://hitask.io/uploads/2136c179-4942-4c78-9e30-f52641d9f5b0.webp",
+    "links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.roomperfect.global",
+      "app_store": "https://apps.apple.com/us/app/id6760998152",
+      "youtube": "https://www.youtube.com/watch?v=Z0gh14v9av4",
+      "apkpure": "https://apkpure.com/family-farm-merge/com.roomperfect.global"
+    },
+    "difficulty": {
+      "code": "Trung bình",
+      "art": "Trung bình",
+      "content": "Trung bình",
+      "solo_rating": "CAO"
+    },
+    "hybrid_scenarios": [
+      {
+        "title": "Family Farm Merge + Roguelite Bullet Evolution (Tiến Hóa Đạn Đạo Ma Thuật)",
+        "core_kept": "Di chuyển 1 ngón né tránh và bắn tự động theo cơ chế gốc.",
+        "hybrid_added": "Hạ gục boss hoặc elite rơi ra viên ngọc tiến hóa; ghép 2 thuộc tính (Lửa + Gió = Lốc xoáy lửa, Sét + Băng = Bão tuyết điện từ).",
+        "theme_hook": "Thỏa mãn thị giác cực độ với hiệu ứng đạn đạo biến ảo.",
+        "market_proof": "Archero 2, 1945 Air Force (Division evolve), Survivor.io.",
+        "solo_advice": "Dùng Particle System kết hợp Shader Graph của URP để tối ưu drawcall."
+      },
+      {
+        "title": "Family Farm Merge + Territory Conquest Building (Khoanh Đất Tự Mọc Trụ Phòng Thủ)",
+        "core_kept": "Di chuyển vẽ đường bao đất hoặc hố đen nuốt vật thể.",
+        "hybrid_added": "Mỗi khi khoanh trọn một vùng đất, các công trình tháp pháo mini tự động mọc lên bắn chặn đối thủ cố tình xâm nhập.",
+        "theme_hook": "Tạo chiều sâu chiến thuật phòng thủ lãnh thổ cho game đối kháng casual.",
+        "market_proof": "State.io, Paper.io 2, Hexanaut.io.",
+        "solo_advice": "Sử dụng thuật toán kiểm tra điểm nằm trong đa giác (Point-in-polygon) để spawn prefab trụ."
+      },
+      {
+        "title": "Family Farm Merge + Pinball Bouncing Arena (Vũ Trụ Đạn Nảy Phản Xạ)",
+        "core_kept": "Góc nhìn top-down hoặc màn hình ngang quen thuộc.",
+        "hybrid_added": "Toàn bộ tường và chướng ngại vật có tính đàn hồi cực cao; đạn của người chơi nảy liên tục 5-10 lần tăng sát thương sau mỗi lần va chạm.",
+        "theme_hook": "Khuyến khích người chơi căn góc bắn hiểm hóc thay vì chỉ bắn thẳng.",
+        "market_proof": "PunBall (Habby), Tank Busters, Mr Bullet.",
+        "solo_advice": "Unity Physics 2D/3D xử lý sẵn tính năng Bounce phản xạ vector."
+      }
+    ]
+  }
+];
