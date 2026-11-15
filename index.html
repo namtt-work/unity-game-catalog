@@ -23,6 +23,9 @@
 </header>
 <main class="max-w-7xl mx-auto p-3 space-y-4">
   <div id="warn" class="text-xs bg-amber-950/60 border border-amber-800 text-amber-200 rounded p-3 leading-relaxed"></div>
+  <section class="bg-slate-900 rounded-lg p-3"><h2 class="font-bold">Đang trending mobile — xếp theo mức độ nóng (năm ra mắt · doanh thu ước tính)</h2>
+    <p class="text-xs text-slate-400 mt-1">Độ tin cậy: <b class="text-emerald-300">A</b> số công bố · <b class="text-sky-300">B</b> suy từ tỷ lệ công bố · <b class="text-amber-300">C</b> ước tính của tôi (lượt tải × $0,05–0,15, không phải số đo) · <b class="text-slate-400">D</b> không có số liệu.</p>
+    <div id="tp" class="mt-2 overflow-x-auto"></div></section>
   <div id="grid" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3"></div>
   <details class="bg-slate-900 rounded p-3"><summary class="cursor-pointer font-semibold">Đã loại / cần APK (<span id="nx"></span>)</summary><div id="ex" class="mt-2 text-xs space-y-1"></div></details>
   <details class="bg-slate-900 rounded p-3"><summary class="cursor-pointer font-semibold">Thư viện trend (ID dùng trong các hướng)</summary><div id="tr" class="mt-2 flex flex-wrap gap-2 text-xs"></div></details>
@@ -46,6 +49,8 @@ function card(g,i){
     <div class="text-xs text-slate-300 mt-1 line-clamp-2">${esc(g.desc)}</div>
     <div class="mt-1 flex flex-wrap gap-1 text-[10px]">${g.tags.slice(0,4).map(t=>`<span class="bg-slate-800 rounded px-1.5 py-0.5">${esc(t)}</span>`).join('')}${g.dirs.length?'<span class="bg-emerald-900 text-emerald-200 rounded px-1.5 py-0.5">3 hướng</span>':''}</div></div></div>`;
 }
+const CF={A:'text-emerald-300',B:'text-sky-300',C:'text-amber-300',D:'text-slate-400'};
+$('tp').innerHTML='<table class="w-full text-xs"><thead class="text-slate-400 text-left"><tr><th class="p-1">#</th><th>Game</th><th>Năm</th><th>Doanh thu ước tính</th><th>Tin cậy</th><th>Bằng chứng trending</th></tr></thead><tbody>'+G.filter(g=>g.rank).sort((a,b)=>a.rank-b.rank).map(g=>`<tr class="border-t border-slate-800 hover:bg-slate-800 cursor-pointer align-top" onclick="openG(G[${G.indexOf(g)}])"><td class="p-1">${g.rank}</td><td class="font-medium whitespace-nowrap p-1"><img src="${esc(g.icon)}=s48" referrerpolicy="no-referrer" class="w-6 h-6 rounded inline mr-1">${esc(g.name)}</td><td class="p-1">${esc(g.year||'?')}</td><td class="p-1">${esc(g.rev.text)}</td><td class="p-1 font-bold ${CF[g.rev.conf]}">${g.rev.conf}</td><td class="p-1 text-slate-400">${esc(g.trend)}</td></tr>`).join('')+'</tbody></table>';
 let view=[];
 function render(){
   const q=$('q').value.toLowerCase(),f=$('f').value,s=$('s').value;
@@ -54,20 +59,22 @@ function render(){
   $('cnt').textContent=view.length+'/'+G.length+' game';
   $('grid').innerHTML=view.map(card).join('');
 }
-function openM(i){
-  const g=view[i];
+function openM(i){openG(view[i])}
+const dirHtml=(d,j)=>`<div class="mt-2 bg-slate-800 rounded p-3 text-sm"><div class="font-medium">${j+1}. ${esc(d.title)} <span class="text-xs text-slate-400">· bão hòa ước lượng: ${esc(d.sat)}</span></div><p class="mt-1">${esc(d.pitch)}</p>`+(d.change?['change:Thay đổi cốt lõi','loop:Vòng lặp mới','retention:Giữ chân','monet:Kiếm tiền','diff:Vì sao ít người làm','risk:Rủi ro','mvp:MVP kiểm chứng'].map(x=>{const[k,l]=x.split(':');return `<p class="mt-1"><b class="text-indigo-300">${l}:</b> ${esc(d[k])}</p>`}).join(''):'')+`<div class="mt-1 flex gap-1 text-[10px]">${d.trends.map(tl).join('')}</div></div>`;
+const loopHtml=g=>{const l=g.loopFull;if(!l)return `<p class="text-sm ${g.loop?'':'text-slate-500'}">${g.loop?esc(g.loop):'Chưa viết — cần một lượt thiết kế riêng.'}</p>`;return `<div class="text-sm space-y-1"><p><b>Micro (từng thao tác):</b> ${esc(l.micro)}</p><p><b>Session:</b> ${esc(l.session)}</p><p><b>Meta (dài hạn):</b> ${esc(l.meta)}</p><p><b>Giữ chân:</b></p><ul class="list-disc ml-5">${l.retention.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p><b>Kiếm tiền:</b> ${esc(l.monet)}</p><p class="text-xs text-slate-400">${esc(l.note)}</p></div>`};
+function openG(g){
   $('mb').innerHTML=`<div class="flex gap-3"><img referrerpolicy="no-referrer" src="${esc(g.icon)}=s128" class="w-20 h-20 rounded-2xl"><div class="flex-1"><h2 class="text-xl font-bold">${esc(g.name)}</h2>
     <div class="text-xs text-slate-400">${esc(g.dev)} · ${esc(g.year||'')} · ${esc(g.genre||'')} · ${esc(g.installs||'?')} · ★${g.rating??'?'}</div>
-    <div class="text-xs text-amber-300 mt-1">Engine: ${esc(g.engine)}</div>
+    <div class="text-xs text-amber-300 mt-1">Engine: ${esc(g.engine)}</div>${g.rev?`<div class="text-xs mt-1">Doanh thu: <b>${esc(g.rev.text)}</b> <span class="font-bold ${CF[g.rev.conf]}">[${g.rev.conf}]</span> <span class="text-slate-400">${esc(g.rev.basis)}</span></div><div class="text-xs text-slate-400">Trending: ${esc(g.trend)}</div>`:''}
     <a class="text-xs text-sky-400 underline" target="_blank" rel="noopener" href="${esc(g.store)}">Google Play</a></div>
     <button onclick="$('md').classList.add('hidden')" class="text-2xl leading-none self-start px-2">×</button></div>
     <div class="flex gap-2 overflow-x-auto mt-3 pb-2">${g.shots.map(u=>`<img loading="lazy" referrerpolicy="no-referrer" src="${esc(u)}=w360" class="h-56 rounded shrink-0">`).join('')}</div>
     <p class="mt-3 text-sm">${esc(g.desc)}</p>
     <div class="mt-2 flex flex-wrap gap-1 text-xs">${g.tags.map(t=>`<span class="bg-slate-800 rounded px-2 py-0.5">${esc(t)}</span>`).join('')}</div>
     <h3 class="mt-4 font-semibold">Core game loop</h3>
-    <p class="text-sm ${g.loop?'':'text-slate-500'}">${g.loop?esc(g.loop):'Chưa viết — cần một lượt thiết kế riêng.'}</p>
+    ${loopHtml(g)}
     <h3 class="mt-4 font-semibold">3 hướng phát triển</h3>
-    ${g.dirs.length?g.dirs.map((d,j)=>`<div class="mt-2 bg-slate-800 rounded p-3"><div class="font-medium">${j+1}. ${esc(d.title)} <span class="text-xs text-slate-400">· bão hòa ước lượng: ${esc(d.sat)}</span></div><p class="text-sm mt-1">${esc(d.pitch)}</p><div class="mt-1 flex gap-1 text-[10px]">${d.trends.map(tl).join('')}</div></div>`).join(''):'<p class="text-sm text-slate-500">Chưa viết — game này mới có metadata từ Play, chưa qua bước thiết kế.</p>'}`;
+    ${g.dirs.length?g.dirs.map(dirHtml).join(''):'<p class="text-sm text-slate-500">Chưa viết — game này mới có metadata từ Play, chưa qua bước thiết kế.</p>'}`;
   $('md').classList.remove('hidden');
 }
 $('md').onclick=e=>{if(e.target.id==='md')$('md').classList.add('hidden')};
