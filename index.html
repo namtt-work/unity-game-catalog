@@ -8,29 +8,28 @@
 <script src="games_data.js"></script>
 </head>
 <body class="bg-slate-950 text-slate-200">
-<header class="sticky top-0 z-10 bg-slate-900/95 backdrop-blur border-b border-slate-800 p-3">
-  <div class="max-w-7xl mx-auto flex flex-wrap gap-2 items-center">
-    <h1 class="font-bold text-lg mr-2">Unity Game Catalog</h1>
-    <input id="q" placeholder="Tìm tên / tag / mô tả…" class="bg-slate-800 rounded px-3 py-1.5 text-sm flex-1 min-w-[200px]">
-    <select id="f" class="bg-slate-800 rounded px-2 py-1.5 text-sm">
-      <option value="all">Tất cả</option><option value="dirs">Có 3 hướng phát triển</option><option value="nodirs">Chưa có hướng</option>
+<header class="sticky top-0 z-10 bg-slate-900/95 backdrop-blur border-b border-slate-800 px-3 py-2">
+  <div class="max-w-7xl mx-auto grid grid-cols-2 sm:flex sm:flex-wrap gap-2 items-center">
+    <h1 class="font-bold text-lg col-span-2 sm:mr-2">Unity Game Catalog <span id="cnt" class="text-xs font-normal text-slate-400"></span></h1>
+    <input id="q" type="search" placeholder="Tìm tên / tag / mô tả…" class="col-span-2 bg-slate-800 rounded px-3 py-2 text-base sm:text-sm sm:flex-1 sm:min-w-[200px]">
+    <select id="f" class="bg-slate-800 rounded px-2 py-2 text-base sm:text-sm">
+      <option value="all">Tất cả</option><option value="trend">Đang trending</option><option value="detail">Hướng chi tiết</option><option value="thin">Hướng ngắn (theo thể loại)</option>
     </select>
-    <select id="s" class="bg-slate-800 rounded px-2 py-1.5 text-sm">
-      <option value="inst">Sắp theo lượt cài</option><option value="rate">Sắp theo rating</option><option value="name">Sắp theo tên</option>
+    <select id="s" class="bg-slate-800 rounded px-2 py-2 text-base sm:text-sm">
+      <option value="inst">Theo lượt cài</option><option value="rate">Theo rating</option><option value="name">Theo tên</option><option value="year">Theo năm (mới nhất)</option>
     </select>
-    <span id="cnt" class="text-xs text-slate-400"></span>
   </div>
 </header>
-<main class="max-w-7xl mx-auto p-3 space-y-4">
+<main class="max-w-7xl mx-auto p-3 space-y-4 break-words">
   <div id="warn" class="text-xs bg-amber-950/60 border border-amber-800 text-amber-200 rounded p-3 leading-relaxed"></div>
   <section class="bg-slate-900 rounded-lg p-3"><h2 class="font-bold">Đang trending mobile — xếp theo mức độ nóng (năm ra mắt · doanh thu ước tính)</h2>
     <p class="text-xs text-slate-400 mt-1">Độ tin cậy: <b class="text-emerald-300">A</b> số công bố · <b class="text-sky-300">B</b> suy từ tỷ lệ công bố · <b class="text-amber-300">C</b> ước tính của tôi (lượt tải × $0,05–0,15, không phải số đo) · <b class="text-slate-400">D</b> không có số liệu.</p>
-    <div id="tp" class="mt-2 overflow-x-auto"></div></section>
-  <div id="grid" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3"></div>
+    <div id="tp" class="mt-2"></div></section>
+  <div id="grid" class="grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"></div>
   <details class="bg-slate-900 rounded p-3"><summary class="cursor-pointer font-semibold">Đã loại / cần APK (<span id="nx"></span>)</summary><div id="ex" class="mt-2 text-xs space-y-1"></div></details>
   <details class="bg-slate-900 rounded p-3"><summary class="cursor-pointer font-semibold">Thư viện trend (ID dùng trong các hướng)</summary><div id="tr" class="mt-2 flex flex-wrap gap-2 text-xs"></div></details>
 </main>
-<div id="md" class="hidden fixed inset-0 z-20 bg-black/80 overflow-y-auto p-3"><div id="mb" class="max-w-3xl mx-auto bg-slate-900 rounded-lg p-4"></div></div>
+<div id="md" class="hidden fixed inset-0 z-20 bg-black/80 overflow-y-auto sm:p-4"><div id="mb" class="max-w-3xl mx-auto min-h-full sm:min-h-0 bg-slate-900 sm:rounded-lg p-4 pb-16"></div></div>
 <script>
 const C=window.CATALOG,G=C.games,$=i=>document.getElementById(i);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -45,39 +44,43 @@ function card(g,i){
   return `<div class="bg-slate-900 rounded-lg p-3 flex gap-3 cursor-pointer hover:bg-slate-800" onclick="openM(${i})">
     <img loading="lazy" referrerpolicy="no-referrer" src="${esc(g.icon)}=s96" class="w-16 h-16 rounded-xl shrink-0 bg-slate-800">
     <div class="min-w-0"><div class="font-semibold truncate">${esc(g.name)}</div>
-    <div class="text-xs text-slate-400 truncate">${esc(g.dev)} · ${esc(g.installs||'?')} · ★${g.rating??'?'}</div>
+    <div class="text-xs text-slate-400 truncate">${esc(g.dev)} · ${esc(g.year||'?')} · ${esc(g.installs||'?')} · ★${g.rating??'?'}</div>
     <div class="text-xs text-slate-300 mt-1 line-clamp-2">${esc(g.desc)}</div>
-    <div class="mt-1 flex flex-wrap gap-1 text-[10px]">${g.tags.slice(0,4).map(t=>`<span class="bg-slate-800 rounded px-1.5 py-0.5">${esc(t)}</span>`).join('')}${g.dirs.length?'<span class="bg-emerald-900 text-emerald-200 rounded px-1.5 py-0.5">3 hướng</span>':''}</div></div></div>`;
+    <div class="mt-1 flex flex-wrap gap-1 text-[10px]">${g.tags.slice(0,4).map(t=>`<span class="bg-slate-800 rounded px-1.5 py-0.5">${esc(t)}</span>`).join('')}${g.rank?'<span class="bg-amber-900 text-amber-200 rounded px-1.5 py-0.5">trending #'+g.rank+'</span>':''}${g.dirs.length?'<span class="'+(g.detailed?'bg-emerald-900 text-emerald-200':'bg-slate-700 text-slate-300')+' rounded px-1.5 py-0.5">'+(g.detailed?'3 hướng chi tiết':'3 hướng ngắn')+'</span>':''}</div></div></div>`;
 }
 const CF={A:'text-emerald-300',B:'text-sky-300',C:'text-amber-300',D:'text-slate-400'};
-$('tp').innerHTML='<table class="w-full text-xs"><thead class="text-slate-400 text-left"><tr><th class="p-1">#</th><th>Game</th><th>Năm</th><th>Doanh thu ước tính</th><th>Tin cậy</th><th>Bằng chứng trending</th></tr></thead><tbody>'+G.filter(g=>g.rank).sort((a,b)=>a.rank-b.rank).map(g=>`<tr class="border-t border-slate-800 hover:bg-slate-800 cursor-pointer align-top" onclick="openG(G[${G.indexOf(g)}])"><td class="p-1">${g.rank}</td><td class="font-medium whitespace-nowrap p-1"><img src="${esc(g.icon)}=s48" referrerpolicy="no-referrer" class="w-6 h-6 rounded inline mr-1">${esc(g.name)}</td><td class="p-1">${esc(g.year||'?')}</td><td class="p-1">${esc(g.rev.text)}</td><td class="p-1 font-bold ${CF[g.rev.conf]}">${g.rev.conf}</td><td class="p-1 text-slate-400">${esc(g.trend)}</td></tr>`).join('')+'</tbody></table>';
+const TR=G.filter(g=>g.rank).sort((a,b)=>a.rank-b.rank);
+$('tp').innerHTML='<div class="hidden sm:block overflow-x-auto"><table class="w-full text-xs"><thead class="text-slate-400 text-left"><tr><th class="p-1">#</th><th>Game</th><th>Năm</th><th>Doanh thu ước tính</th><th>Tin cậy</th><th>Bằng chứng trending</th></tr></thead><tbody>'+TR.map(g=>`<tr class="border-t border-slate-800 hover:bg-slate-800 cursor-pointer align-top" onclick="openG(G[${G.indexOf(g)}])"><td class="p-1">${g.rank}</td><td class="font-medium whitespace-nowrap p-1"><img src="${esc(g.icon)}=s48" referrerpolicy="no-referrer" class="w-6 h-6 rounded inline mr-1">${esc(g.name)}</td><td class="p-1">${esc(g.year||'?')}</td><td class="p-1">${esc(g.rev.text)}</td><td class="p-1 font-bold ${CF[g.rev.conf]}">${g.rev.conf}</td><td class="p-1 text-slate-400">${esc(g.trend)}</td></tr>`).join('')+'</tbody></table></div><div class="sm:hidden space-y-2">'+TR.map(g=>`<div class="bg-slate-800 rounded-lg p-3 active:bg-slate-700" onclick="openG(G[${G.indexOf(g)}])"><div class="flex items-center gap-2"><span class="text-slate-400 w-5">${g.rank}</span><img src="${esc(g.icon)}=s64" referrerpolicy="no-referrer" class="w-10 h-10 rounded-lg"><div class="min-w-0 flex-1"><div class="font-semibold truncate">${esc(g.name)}</div><div class="text-xs text-slate-400">${esc(g.year||'?')} · ${esc(g.installs||'?')}</div></div><span class="font-bold ${CF[g.rev.conf]}">${g.rev.conf}</span></div><div class="text-sm mt-1">${esc(g.rev.text)}</div><div class="text-xs text-slate-400 mt-1 line-clamp-2">${esc(g.trend)}</div></div>`).join('')+'</div>';
 let view=[];
 function render(){
   const q=$('q').value.toLowerCase(),f=$('f').value,s=$('s').value;
-  view=G.filter(g=>(!q||(g.name+g.tags.join(' ')+g.desc+g.dev).toLowerCase().includes(q))&&(f==='all'||(f==='dirs')===!!g.dirs.length));
-  view.sort(s==='name'?(a,b)=>a.name.localeCompare(b.name):s==='rate'?(a,b)=>(b.rating||0)-(a.rating||0):(a,b)=>num(b.installs)-num(a.installs));
+  view=G.filter(g=>(!q||(g.name+g.tags.join(' ')+g.desc+g.dev).toLowerCase().includes(q))&&(f==='all'||(f==='trend'&&g.rank)||(f==='detail'&&g.detailed)||(f==='thin'&&g.dirs.length&&!g.detailed)));
+  view.sort(s==='year'?(a,b)=>(parseInt(b.year)||0)-(parseInt(a.year)||0):s==='name'?(a,b)=>a.name.localeCompare(b.name):s==='rate'?(a,b)=>(b.rating||0)-(a.rating||0):(a,b)=>num(b.installs)-num(a.installs));
   $('cnt').textContent=view.length+'/'+G.length+' game';
   $('grid').innerHTML=view.map(card).join('');
 }
 function openM(i){openG(view[i])}
-const dirHtml=(d,j)=>`<div class="mt-2 bg-slate-800 rounded p-3 text-sm"><div class="font-medium">${j+1}. ${esc(d.title)} <span class="text-xs text-slate-400">· bão hòa ước lượng: ${esc(d.sat)}</span></div><p class="mt-1">${esc(d.pitch)}</p>`+(d.change?['change:Thay đổi cốt lõi','loop:Vòng lặp mới','retention:Giữ chân','monet:Kiếm tiền','diff:Vì sao ít người làm','risk:Rủi ro','mvp:MVP kiểm chứng'].map(x=>{const[k,l]=x.split(':');return `<p class="mt-1"><b class="text-indigo-300">${l}:</b> ${esc(d[k])}</p>`}).join(''):'')+`<div class="mt-1 flex gap-1 text-[10px]">${d.trends.map(tl).join('')}</div></div>`;
+const dirHtml=(d,j)=>`<div class="mt-2 bg-slate-800 rounded p-3 text-sm"><div class="font-medium">${j+1}. ${esc(d.title)} <span class="text-xs text-slate-400">· bão hòa ước lượng: ${esc(d.sat)}</span></div><p class="mt-1">${esc(d.pitch)}</p>`+(d.change?['change:Thay đổi cốt lõi','loop:Vòng lặp mới','retention:Giữ chân','monet:Kiếm tiền','diff:Vì sao ít người làm','risk:Rủi ro','mvp:MVP kiểm chứng'].map(x=>{const[k,l]=x.split(':');return `<p class="mt-1"><b class="text-indigo-300">${l}:</b> ${esc(d[k])}</p>`}).join(''):'')+`${d.thin?'<p class="text-xs text-slate-400 mt-1">Mô tả ngắn — chưa viết sâu (thay đổi cốt lõi, vòng lặp, giữ chân, kiếm tiền, rủi ro).</p>':''}<div class="mt-1 flex gap-1 text-[10px]">${d.trends.map(tl).join('')}</div></div>`;
 const loopHtml=g=>{const l=g.loopFull;if(!l)return `<p class="text-sm ${g.loop?'':'text-slate-500'}">${g.loop?esc(g.loop):'Chưa viết — cần một lượt thiết kế riêng.'}</p>`;return `<div class="text-sm space-y-1"><p><b>Micro (từng thao tác):</b> ${esc(l.micro)}</p><p><b>Session:</b> ${esc(l.session)}</p><p><b>Meta (dài hạn):</b> ${esc(l.meta)}</p><p><b>Giữ chân:</b></p><ul class="list-disc ml-5">${l.retention.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p><b>Kiếm tiền:</b> ${esc(l.monet)}</p><p class="text-xs text-slate-400">${esc(l.note)}</p></div>`};
 function openG(g){
   $('mb').innerHTML=`<div class="flex gap-3"><img referrerpolicy="no-referrer" src="${esc(g.icon)}=s128" class="w-20 h-20 rounded-2xl"><div class="flex-1"><h2 class="text-xl font-bold">${esc(g.name)}</h2>
     <div class="text-xs text-slate-400">${esc(g.dev)} · ${esc(g.year||'')} · ${esc(g.genre||'')} · ${esc(g.installs||'?')} · ★${g.rating??'?'}</div>
     <div class="text-xs text-amber-300 mt-1">Engine: ${esc(g.engine)}</div>${g.rev?`<div class="text-xs mt-1">Doanh thu: <b>${esc(g.rev.text)}</b> <span class="font-bold ${CF[g.rev.conf]}">[${g.rev.conf}]</span> <span class="text-slate-400">${esc(g.rev.basis)}</span></div><div class="text-xs text-slate-400">Trending: ${esc(g.trend)}</div>`:''}
     <a class="text-xs text-sky-400 underline" target="_blank" rel="noopener" href="${esc(g.store)}">Google Play</a></div>
-    <button onclick="$('md').classList.add('hidden')" class="text-2xl leading-none self-start px-2">×</button></div>
-    <div class="flex gap-2 overflow-x-auto mt-3 pb-2">${g.shots.map(u=>`<img loading="lazy" referrerpolicy="no-referrer" src="${esc(u)}=w360" class="h-56 rounded shrink-0">`).join('')}</div>
+    <button onclick="closeM()" aria-label="Đóng" class="fixed top-2 right-2 sm:static z-30 bg-slate-700 sm:bg-transparent rounded-full w-11 h-11 sm:w-auto sm:h-auto text-2xl leading-none self-start">×</button></div>
+    <div class="flex gap-2 overflow-x-auto snap-x mt-3 pb-2">${g.shots.map(u=>`<img loading="lazy" referrerpolicy="no-referrer" src="${esc(u)}=w360" class="h-56 rounded shrink-0 snap-start">`).join('')}</div>
     <p class="mt-3 text-sm">${esc(g.desc)}</p>
     <div class="mt-2 flex flex-wrap gap-1 text-xs">${g.tags.map(t=>`<span class="bg-slate-800 rounded px-2 py-0.5">${esc(t)}</span>`).join('')}</div>
     <h3 class="mt-4 font-semibold">Core game loop</h3>
     ${loopHtml(g)}
-    <h3 class="mt-4 font-semibold">3 hướng phát triển</h3>
+    <h3 class="mt-4 font-semibold">3 hướng phát triển</h3>${g.dirsBy?'<p class="text-xs text-amber-300">Hướng viết theo thể loại, chưa tinh chỉnh riêng cho game này; tên game chỉ được gắn vào tiêu đề.</p>':''}
     ${g.dirs.length?g.dirs.map(dirHtml).join(''):'<p class="text-sm text-slate-500">Chưa viết — game này mới có metadata từ Play, chưa qua bước thiết kế.</p>'}`;
-  $('md').classList.remove('hidden');
+  $('md').classList.remove('hidden');document.body.style.overflow='hidden';$('md').scrollTop=0;if(history.state!=='m')history.pushState('m','');
 }
-$('md').onclick=e=>{if(e.target.id==='md')$('md').classList.add('hidden')};
+function closeM(){$('md').classList.add('hidden');document.body.style.overflow='';if(history.state==='m')history.back()}
+window.addEventListener('popstate',()=>{$('md').classList.add('hidden');document.body.style.overflow=''});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeM()});
+$('md').onclick=e=>{if(e.target.id==='md')closeM()};
 ['q','f','s'].forEach(i=>$(i).oninput=render);render();
 </script>
 </body>
